@@ -1,0 +1,10 @@
+raw/
+__pycache__/
+*.pyc
+.DS_Store
+data/price_debug/
+data/prices_live.csv
+data/prices_history.csv
+.streamlit/secrets.toml
+*.tmp
+.ipynb_checkpoints/

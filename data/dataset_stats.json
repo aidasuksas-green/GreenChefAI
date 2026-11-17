@@ -1,0 +1,26 @@
+{
+  "recipes_total": 13496,
+  "lines_total": 148312,
+  "lines_unique": 75129,
+  "label_counts": {
+    "PLANT": 59639,
+    "DAIRY": 7032,
+    "MEAT": 5120,
+    "FISH": 2038,
+    "EGG": 977,
+    "HONEY": 323
+  },
+  "recipes_with": {
+    "MEAT": 4298,
+    "FISH": 1990,
+    "DAIRY": 7477,
+    "EGG": 3795,
+    "HONEY": 920
+  },
+  "recipes_vegan_already": 2403,
+  "recipes_vegetarian_already": 7804,
+  "lines_per_recipe_mean": 10.990071132187314,
+  "kb_coverage_mean": 0.9006113235158543,
+  "demo_candidates": 2558,
+  "demo_recipes": 120
+}

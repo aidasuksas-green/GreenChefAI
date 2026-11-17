@@ -1,0 +1,6 @@
+# Tik instrukcijų vertimo skriptui code/translate_instructions.py (programėlei NEREIKIA).
+# CPU versija (Windows / Linux):  pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.1
+transformers>=4.40
+sentencepiece>=0.1.99
+sacremoses>=0.1.1

@@ -1,0 +1,96 @@
+key,name_en,name_lt,name_de,category,kcal,protein,fat,carbs,price_eur_kg,density_g_ml,piece_g,patterns,vegan_sub,vegetarian_sub,sub_ratio
+chicken_breast,Chicken breast,Vištienos krūtinėlė,Hähnchenbrust,MEAT,120,22.5,2.6,0,7.5,1.0,200,chicken breast|chicken breasts|chicken cutlet|chicken cutlets|chicken tenders,tofu_firm,tofu_firm,1.0
+chicken,Chicken,Vištiena,Hähnchen,MEAT,190,19,12,0,5.5,1.0,150,chicken|chicken thighs|chicken legs|chicken wings|drumsticks|poussin|cornish hen,tofu_firm,tofu_firm,1.0
+ground_beef,Ground meat,Faršas,Hackfleisch,MEAT,254,17.2,20,0,9.0,1.0,0,ground beef|ground chuck|ground meat|ground lamb|ground pork|ground turkey|ground veal|meatballs,lentils,lentils,1.0
+beef,Beef,Jautiena,Rindfleisch,MEAT,200,20,13,0,15.0,1.0,250,beef|steak|steaks|brisket|chuck|sirloin|rib-eye|ribeye|short ribs|flank steak|skirt steak|hanger steak|oxtail|veal|filet mignon|bison,seitan,seitan,1.0
+pork,Pork,Kiauliena,Schweinefleisch,MEAT,200,19,13,0,7.0,1.0,200,pork|pork shoulder|pork loin|pork chops|spareribs|baby back ribs|pork tenderloin|pork belly,jackfruit,jackfruit,1.0
+bacon,Bacon,Šoninė,Speck,MEAT,417,13,40,1.4,12.0,1.0,25,bacon|pancetta|guanciale|salt pork|lardons,tempeh,tempeh,0.8
+sausage,Sausage,Dešrelės,Wurst,MEAT,300,13,27,2,8.0,1.0,75,sausage|sausages|chorizo|kielbasa|andouille|bratwurst|salami|pepperoni|hot dogs,plant_sausage,plant_sausage,1.0
+cured_ham,Ham / prosciutto,Kumpis / vytintas kumpis,Schinken,MEAT,200,25,11,1,18.0,1.0,15,ham|prosciutto|serrano ham|speck|mortadella|bresaola|coppa,smoked_tofu,smoked_tofu,1.0
+lamb,Lamb,Ėriena,Lammfleisch,MEAT,282,16.6,23.4,0,30.9,1.0,250,lamb|lamb chops|leg of lamb|lamb shoulder|rack of lamb|mutton,seitan,seitan,1.0
+turkey,Turkey,Kalakutiena,Pute,MEAT,150,20,7,0,8.0,1.0,200,turkey|turkey breast,seitan,seitan,1.0
+duck,Duck,Antiena,Ente,MEAT,337,11.5,28,0,12.0,1.0,200,duck|duck breast|duck breasts|duck legs|goose|duck fat,seitan,seitan,1.0
+meat_broth,Meat broth / stock,Mėsos sultinys,Fleischbrühe,MEAT,7,1,0.2,0.5,2.0,1.0,0,chicken broth|chicken stock|beef broth|beef stock|veal stock|bone broth|stock|broth|bouillon,veg_broth,veg_broth,1.0
+gelatin,Gelatin,Želatina,Gelatine,MEAT,335,85,0,0,40.0,0.7,7,gelatin|gelatine|unflavored gelatin,agar,agar,0.33
+salmon,Salmon / trout,Lašiša / upėtakis,Lachs / Forelle,FISH,208,20,13,0,22.0,1.0,170,salmon|smoked salmon|lox|arctic char|trout,tofu_firm,tofu_firm,1.0
+white_fish,"White fish (cod, halibut)","Balta žuvis (menkė, otas)",Weißfisch (Kabeljau),FISH,82,18,0.7,0,16.0,1.0,170,cod|halibut|haddock|sole|flounder|tilapia|snapper|sea bass|striped bass|bass|branzino|monkfish|catfish|pollock|grouper|mahi-mahi|fish|fish fillets,tofu_firm,tofu_firm,1.0
+tuna,Tuna / mackerel,Tunas / skumbrė,Thunfisch / Makrele,FISH,120,25,1.5,0,15.0,1.0,0,tuna|swordfish|mackerel|sardines|herring,chickpeas,chickpeas,1.0
+shrimp,Shrimp,Krevetės,Garnelen,FISH,85,20,0.5,0.2,18.0,1.0,15,shrimp|prawns|prawn|langoustines|crawfish|crayfish,king_oyster,king_oyster,1.0
+scallops,Scallops,Šukutės,Jakobsmuscheln,FISH,69,12,0.5,3,45.0,1.0,25,scallops|sea scallops,king_oyster,king_oyster,1.0
+mussels,Mussels / clams / squid,Midijos / moliuskai / kalmarai,Muscheln / Tintenfisch,FISH,86,12,2.2,3.7,8.0,1.0,15,mussels|clams|oysters|squid|calamari|octopus|shellfish|seafood,king_oyster,king_oyster,1.0
+crab,Crab / lobster,Krabai / omaras,Krabbe / Hummer,FISH,89,19,1,0,40.0,1.0,0,crab|crabmeat|lump crabmeat|lobster|lobster tails,hearts_of_palm,hearts_of_palm,1.0
+anchovy,Anchovies,Ančiuviai,Sardellen,FISH,210,29,10,0,30.0,1.0,4,anchovy|anchovies|anchovy fillets,capers,capers,1.0
+fish_sauce,Fish sauce,Žuvų padažas,Fischsauce,FISH,35,5,0,3.6,8.0,1.2,0,fish sauce|shrimp paste|clam juice,soy_sauce,soy_sauce,1.0
+oyster_sauce,Oyster sauce,Austrių padažas,Austernsauce,FISH,51,1.4,0.3,11,8.0,1.2,0,oyster sauce,mushroom_sauce,mushroom_sauce,1.0
+worcestershire,Worcestershire sauce,Vorčesterio padažas,Worcestershiresauce,FISH,78,0,0,19.5,10.0,1.1,0,worcestershire|worcestershire sauce,soy_sauce,soy_sauce,1.0
+milk,Milk,Pienas,Milch,DAIRY,61,3.2,3.3,4.8,1.2,1.03,0,milk|whole milk|low-fat milk|2% milk|skim milk|evaporated milk,oat_milk,milk,1.0
+cream,Cream,Grietinėlė,Sahne,DAIRY,340,2.8,36,2.8,6.0,1.0,0,cream|heavy cream|whipping cream|heavy whipping cream|half-and-half|double cream|whipped cream,coconut_cream,cream,1.0
+butter,Butter,Sviestas,Butter,DAIRY,717,0.9,81,0.1,10.0,0.96,113,butter|unsalted butter|salted butter|ghee|clarified butter,plant_butter,butter,1.0
+parmesan,Parmesan / pecorino,Parmezanas / pekorinas,Parmesan / Pecorino,DAIRY,431,38,29,4,25.0,0.4,0,parmesan|parmigiano|parmigiano-reggiano|pecorino|pecorino romano|grana padano|asiago,nutritional_yeast,parmesan,0.5
+cheese,Cheese,Sūris,Käse,DAIRY,350,25,27,2,12.0,0.45,0,cheese|cheddar|mozzarella|gruyère|gruyere|fontina|gouda|manchego|provolone|monterey jack|swiss cheese|brie|camembert|gorgonzola|blue cheese|taleggio|comté|emmental|halloumi|burrata|cotija|queso fresco,vegan_cheese,cheese,1.0
+feta,Feta / goat cheese,Feta / ožkos sūris,Feta / Ziegenkäse,DAIRY,265,14,21,4,12.0,0.5,0,feta|goat cheese|fresh goat cheese|chèvre|labneh|paneer,tofu_firm,feta,1.0
+ricotta,Ricotta / cottage cheese,Rikota / varškė,Ricotta / Hüttenkäse,DAIRY,174,11,13,3,7.0,1.0,0,ricotta|cottage cheese|quark,cashew_ricotta,ricotta,1.0
+cream_cheese,Cream cheese / mascarpone,Kreminis sūris / maskarponė,Frischkäse / Mascarpone,DAIRY,350,6,34,4,9.0,1.0,0,cream cheese|mascarpone,cashew_ricotta,cream_cheese,1.0
+yogurt,Yogurt,Jogurtas,Joghurt,DAIRY,80,7,4,4.5,3.0,1.05,0,yogurt|greek yogurt|plain yogurt|whole-milk yogurt|plain whole-milk yogurt|yoghurt|kefir|skyr,soy_yogurt,yogurt,1.0
+sour_cream,Sour cream / crème fraîche,Grietinė / kreminė grietinė,Saure Sahne / Crème fraîche,DAIRY,198,2.4,19,4.6,5.0,1.0,0,sour cream|crème fraîche|creme fraiche|crème fraiche,soy_yogurt,sour_cream,1.0
+buttermilk,Buttermilk,Pasukos,Buttermilch,DAIRY,40,3.3,0.9,4.8,1.5,1.03,0,buttermilk,oat_milk,buttermilk,1.0
+ice_cream,Ice cream,Ledai,Eiscreme,DAIRY,207,3.5,11,24,6.0,0.55,0,ice cream|vanilla ice cream|gelato,plant_ice_cream,ice_cream,1.0
+egg,Egg,Kiaušinis,Ei,EGG,143,12.6,9.5,0.7,5.0,1.0,50,egg|eggs|large eggs|large egg|whole eggs,flax_egg,egg,1.0
+egg_yolk,Egg yolk,Kiaušinio trynys,Eigelb,EGG,322,16,27,3.6,7.0,1.0,17,egg yolk|egg yolks|yolks|yolk,flax_egg,egg_yolk,1.0
+egg_white,Egg white,Kiaušinio baltymas,Eiweiß,EGG,52,11,0.2,0.7,4.0,1.0,33,egg white|egg whites,aquafaba,egg_white,1.0
+mayonnaise,Mayonnaise,Majonezas,Mayonnaise,EGG,680,1,75,0.6,6.0,0.91,0,mayonnaise|mayo|aioli,vegan_mayo,mayonnaise,1.0
+honey,Honey,Medus,Honig,HONEY,304,0.3,0,82,12.0,1.42,0,honey|mild honey|clover honey,maple_syrup,honey,1.0
+tofu_firm,Firm tofu,Kietas tofu,Fester Tofu,PLANT,144,17.3,8.7,2.8,8.0,1.0,0,tofu|firm tofu|extra-firm tofu,,,1.0
+smoked_tofu,Smoked tofu,Rūkytas tofu,Räuchertofu,PLANT,170,18,10,2,11.0,1.0,0,smoked tofu,,,1.0
+tempeh,Smoked tempeh,Rūkytas tempeh,Geräucherter Tempeh,PLANT,192,20,11,7.6,14.0,1.0,0,tempeh,,,1.0
+seitan,Seitan,Seitanas,Seitan,PLANT,140,25,2,6,14.0,1.0,0,seitan,,,1.0
+lentils,Cooked lentils,Virti lęšiai,Gekochte Linsen,PLANT,116,9,0.4,20,1.5,0.85,0,lentils|green lentils|red lentils|black lentils|french green lentils,,,1.0
+jackfruit,Young jackfruit,Jaunas džekfrutas,Junge Jackfrucht,PLANT,40,1,0.3,9,7.0,1.0,0,jackfruit,,,1.0
+plant_sausage,Plant-based sausage,Augalinės dešrelės,Pflanzliche Wurst,PLANT,250,18,16,8,13.0,1.0,75,plant-based sausage|vegan sausage,,,1.0
+chickpeas,Chickpeas,Avinžirniai,Kichererbsen,PLANT,164,8.9,2.6,27,2.5,0.65,0,chickpeas|garbanzo beans|garbanzos,,,1.0
+king_oyster,King oyster mushrooms,Karališkosios gluosnabudės,Kräuterseitlinge,PLANT,35,3.3,0.4,6,12.0,0.35,0,king oyster mushrooms|oyster mushrooms,,,1.0
+hearts_of_palm,Hearts of palm,Palmių šerdys,Palmherzen,PLANT,28,2.5,0.6,4.6,12.0,0.6,0,hearts of palm,,,1.0
+capers,Capers,Kaparėliai,Kapern,PLANT,23,2.4,0.9,4.9,25.0,0.6,0,capers,,,1.0
+soy_sauce,Soy sauce,Sojų padažas,Sojasauce,PLANT,53,8,0.6,4.9,6.0,1.2,0,soy sauce|tamari|low-sodium soy sauce|shoyu,,,1.0
+mushroom_sauce,Mushroom (vegan oyster) sauce,Grybų padažas,Pilzsauce,PLANT,60,1,0,13,10.0,1.2,0,mushroom sauce|vegetarian oyster sauce|hoisin|hoisin sauce,,,1.0
+veg_broth,Vegetable broth,Daržovių sultinys,Gemüsebrühe,PLANT,5,0.2,0.1,1,1.5,1.0,0,vegetable broth|vegetable stock|mushroom broth|vegetable bouillon,,,1.0
+agar,Agar-agar,Agaras,Agar-Agar,PLANT,306,6,0.3,81,60.0,0.7,0,agar|agar-agar,,,1.0
+maple_syrup,Maple syrup / agave,Klevų sirupas / agavų sirupas,Ahornsirup / Agavendicksaft,PLANT,260,0,0.1,67,18.0,1.32,0,maple syrup|pure maple syrup|agave|agave nectar|agave syrup,,,1.0
+oat_milk,Oat milk,Avižų gėrimas,Haferdrink,PLANT,46,1,1.5,7,2.3,1.03,0,oat milk|almond milk|soy milk|rice milk|non-dairy milk,,,1.0
+coconut_cream,Coconut cream,Kokosų grietinėlė,Kokoscreme,PLANT,330,3.6,35,6.6,7.0,1.0,0,coconut cream|cream of coconut,,,1.0
+plant_butter,Plant-based butter,Augalinis sviestas,Pflanzliche Butter,PLANT,717,0,80,0,9.0,0.96,113,vegan butter|plant-based butter|margarine,,,1.0
+nutritional_yeast,Nutritional yeast,Maistinės mielės,Hefeflocken,PLANT,360,45,5,35,40.0,0.2,0,nutritional yeast,,,1.0
+vegan_cheese,Plant-based cheese,Augalinis sūris,Pflanzlicher Käse,PLANT,280,1,22,20,18.0,0.45,0,vegan cheese|plant-based cheese,,,1.0
+cashew_ricotta,Cashew cream cheese,Anakardžių kreminis „sūris“,Cashew-Frischkäse,PLANT,280,9,22,15,15.0,1.0,0,cashew cream|cashew ricotta,,,1.0
+soy_yogurt,Soy yogurt,Sojų jogurtas,Sojajoghurt,PLANT,60,4,2.5,5,4.0,1.05,0,soy yogurt|coconut yogurt|vegan yogurt,,,1.0
+plant_ice_cream,Plant-based ice cream,Augaliniai ledai,Pflanzliches Eis,PLANT,230,2,13,26,9.0,0.55,0,vegan ice cream|dairy-free ice cream,,,1.0
+flax_egg,Flax egg (flaxseed + water),Linų sėmenų „kiaušinis“,Leinsamen-Ei,PLANT,72,2.5,5.7,3.9,0.6,1.0,52,flax egg|ground flaxseed|flaxseed meal,,,1.0
+aquafaba,Aquafaba (chickpea water),Akvafaba (avinžirnių skystis),Aquafaba,PLANT,18,1,0.1,3,0.5,1.0,30,aquafaba,,,1.0
+vegan_mayo,Vegan mayonnaise,Veganiškas majonezas,Vegane Mayonnaise,PLANT,600,0.5,65,2,7.0,0.91,0,vegan mayonnaise|vegan mayo,,,1.0
+flour,Flour,Miltai,Mehl,PLANT,364,10,1,76,1.0,0.53,0,flour|all-purpose flour|bread flour|whole wheat flour|cake flour|self-rising flour|semolina|cornmeal|polenta,,,1.0
+sugar,Sugar,Cukrus,Zucker,PLANT,387,0,0,100,1.2,0.85,0,sugar|granulated sugar|brown sugar|light brown sugar|dark brown sugar|golden brown sugar|powdered sugar|confectioners' sugar|superfine sugar|molasses|corn syrup,,,1.0
+olive_oil,Olive oil,Alyvuogių aliejus,Olivenöl,PLANT,884,0,100,0,10.0,0.91,0,olive oil|extra-virgin olive oil|extra virgin olive oil,,,1.0
+veg_oil,Vegetable oil,Augalinis aliejus,Pflanzenöl,PLANT,884,0,100,0,3.0,0.92,0,vegetable oil|canola oil|sunflower oil|grapeseed oil|neutral oil|peanut oil|oil|sesame oil|coconut oil|toasted sesame oil|vegetable oil spray|nonstick vegetable oil spray,,,1.0
+salt,Salt,Druska,Salz,PLANT,0,0,0,0,0.8,1.1,0,salt|kosher salt|sea salt|flaky sea salt|fine sea salt|table salt,,,1.0
+spices,"Spices (pepper, paprika...)","Prieskoniai (pipirai, paprika...)",Gewürze,PLANT,280,11,9,55,25.0,0.5,0,black pepper|pepper|freshly ground black pepper|ground black pepper|freshly ground pepper|white pepper|paprika|smoked paprika|cumin|ground cumin|cumin seeds|cinnamon|ground cinnamon|nutmeg|ground nutmeg|cayenne|cayenne pepper|chili powder|coriander|ground coriander|coriander seeds|turmeric|ground turmeric|red pepper flakes|crushed red pepper flakes|crushed red pepper|oregano|dried oregano|cloves|ground cloves|allspice|ground ginger|curry powder|garam masala|bay leaf|bay leaves|cardamom|fennel seeds|mustard seeds|saffron|star anise|vanilla|vanilla extract|pure vanilla extract|vanilla bean|baking powder|baking soda|cream of tartar|yeast|active dry yeast|instant yeast|sumac|za'atar|five-spice powder|aleppo pepper|peppercorns|black peppercorns,,,1.0
+garlic,Garlic,Česnakai,Knoblauch,PLANT,149,6.4,0.5,33,6.0,0.6,5,garlic|garlic cloves|garlic clove|cloves garlic|clove garlic|head of garlic,,,1.0
+onion,Onions / shallots / leeks,Svogūnai / askaloniai / porai,Zwiebeln / Schalotten / Lauch,PLANT,40,1.1,0.1,9,1.0,0.6,150,onion|onions|yellow onion|red onion|white onion|sweet onion|shallot|shallots|leek|leeks,,,1.0
+scallion,Scallions / fresh herbs,Svogūnų laiškai / žolelės,Frühlingszwiebeln / Kräuter,PLANT,33,2.5,0.5,6,15.0,0.25,15,scallions|scallion|green onions|chives|parsley|flat-leaf parsley|parsley leaves|cilantro|cilantro leaves|basil|basil leaves|mint|mint leaves|dill|thyme|thyme sprigs|thyme leaves|rosemary|sage|sage leaves|tarragon|fresh herbs|herbs,,,1.0
+tomato,Tomatoes,Pomidorai,Tomaten,PLANT,18,0.9,0.2,3.9,3.0,1.0,120,tomato|tomatoes|cherry tomatoes|plum tomatoes|crushed tomatoes|diced tomatoes|whole peeled tomatoes|canned tomatoes|tomato sauce|passata,,,1.0
+tomato_paste,Tomato paste,Pomidorų pasta,Tomatenmark,PLANT,82,4.3,0.5,19,5.0,1.1,0,tomato paste,,,1.0
+potato,Potatoes,Bulvės,Kartoffeln,PLANT,77,2,0.1,17,0.9,0.7,170,potato|potatoes|russet potatoes|yukon gold potatoes|sweet potatoes|sweet potato,,,1.0
+vegetables,"Vegetables (carrot, celery...)","Daržovės (morkos, salierai...)","Gemüse (Karotten, Sellerie...)",PLANT,30,1.3,0.3,6,2.5,0.5,100,carrot|carrots|celery|celery stalks|celery ribs|bell pepper|red bell pepper|bell peppers|zucchini|eggplant|eggplants|cucumber|cabbage|broccoli|cauliflower|fennel|fennel bulb|kale|spinach|baby spinach|arugula|lettuce|mushrooms|cremini mushrooms|shiitake mushrooms|button mushrooms|green beans|peas|frozen peas|corn|corn kernels|squash|butternut squash|beets|radishes|asparagus|brussels sprouts|jalapeño|jalapeños|chiles|chile|chili|serrano chile|poblano|ginger|fresh ginger|celery root|parsnips|turnips|bok choy|watercress|endive|radicchio|okra|artichokes|tomatillos,,,1.0
+fruit,Fruit / citrus,Vaisiai / citrusai,Obst / Zitrusfrüchte,PLANT,45,0.6,0.2,11,3.0,1.0,120,lemon|lemons|lime|limes|orange|oranges|lemon juice|fresh lemon juice|lime juice|fresh lime juice|orange juice|fresh orange juice|apple|apples|pear|pears|banana|bananas|berries|strawberries|blueberries|raspberries|blackberries|mango|peaches|cherries|lemon zest|orange zest|lime zest|raisins|dried cranberries|dates|dried apricots|figs|pomegranate seeds|grapefruit|plums|cranberries|rhubarb|pineapple|watermelon|grapes,,,1.0
+avocado,Avocado,Avokadas,Avocado,PLANT,160,2,14.7,8.5,8.0,1.0,150,avocado|avocados,,,1.0
+rice,Rice / grains,Ryžiai / kruopos,Reis / Getreide,PLANT,365,7,0.7,80,2.5,0.85,0,rice|white rice|long-grain white rice|arborio rice|basmati rice|jasmine rice|brown rice|short-grain rice|sushi rice|quinoa|farro|barley|pearl barley|bulgur|couscous|freekeh|millet,,,1.0
+pasta,Pasta / noodles,Makaronai,Nudeln,PLANT,371,13,1.5,75,2.5,0.45,20,pasta|spaghetti|linguine|penne|rigatoni|fettuccine|orzo|noodles|rice noodles|soba noodles|udon noodles|macaroni|lasagna noodles|bucatini|orecchiette|fusilli|pappardelle|tagliatelle|gnocchi,,,1.0
+bread,Bread / breadcrumbs,Duona / džiūvėsėliai,Brot / Paniermehl,PLANT,265,9,3.2,49,3.5,0.45,30,bread|breadcrumbs|panko|panko breadcrumbs|fresh breadcrumbs|baguette|tortillas|corn tortillas|flour tortillas|pita|pitas|sourdough bread|country bread|buns|crusty bread|ciabatta|croutons,,,1.0
+beans,Beans (cooked),Pupelės (virtos),Bohnen (gekocht),PLANT,127,8.7,0.5,22.8,2.0,0.7,0,beans|black beans|white beans|cannellini beans|kidney beans|pinto beans|butter beans|edamame|fava beans|navy beans,,,1.0
+nuts,Nuts / seeds,Riešutai / sėklos,Nüsse / Samen,PLANT,600,18,53,20,18.0,0.55,0,almonds|walnuts|pecans|pine nuts|pistachios|hazelnuts|cashews|peanuts|sesame seeds|pumpkin seeds|sunflower seeds|chia seeds|sliced almonds|slivered almonds|tahini|peanut butter|almond butter|almond flour|flaxseed|pepitas|macadamia nuts,,,1.0
+chocolate,Dark chocolate / cocoa,Juodasis šokoladas / kakava,Zartbitterschokolade / Kakao,PLANT,546,4.9,31,61,15.0,0.6,0,chocolate|bittersweet chocolate|semisweet chocolate|dark chocolate|chocolate chips|semisweet chocolate chips|cocoa powder|unsweetened cocoa powder|cocoa|dutch-process cocoa powder,,,1.0
+coconut_milk,Coconut milk,Kokosų pienas,Kokosmilch,PLANT,230,2.3,24,6,4.0,1.0,0,coconut milk|unsweetened coconut milk|coconut|unsweetened shredded coconut|shredded coconut,,,1.0
+oats,Oats,Avižiniai dribsniai,Haferflocken,PLANT,389,17,7,66,2.0,0.35,0,oats|rolled oats|old-fashioned oats|old-fashioned rolled oats,,,1.0
+cornstarch,Cornstarch,Kukurūzų krakmolas,Speisestärke,PLANT,381,0.3,0.1,91,3.0,0.5,0,cornstarch|potato starch|tapioca starch,,,1.0
+vinegar_wine,Vinegar / wine,Actas / vynas,Essig / Wein,PLANT,60,0.1,0,3,6.0,1.0,0,vinegar|red wine vinegar|white wine vinegar|apple cider vinegar|cider vinegar|balsamic vinegar|rice vinegar|unseasoned rice vinegar|sherry vinegar|distilled white vinegar|wine|dry white wine|dry red wine|red wine|white wine|beer|sake|mirin|brandy|bourbon|rum|vodka|tequila|gin|cognac|dry vermouth|vermouth|campari|champagne|prosecco|whiskey|sherry,,,1.0
+condiments,Mustard / miso / sauces,Garstyčios / miso / padažai,Senf / Miso / Saucen,PLANT,90,4,3,10,7.0,1.05,0,mustard|dijon mustard|whole-grain mustard|miso|white miso|sriracha|hot sauce|ketchup|harissa|gochujang|chili paste|olives|kalamata olives|pickles|chili oil|salsa|pesto,,,1.0
+water,Water / ice / tea,Vanduo / ledas / arbata,Wasser / Eis / Tee,PLANT,0,0,0,0,0.0,1.0,0,water|ice|ice cubes|boiling water|warm water|cold water|sparkling water|club soda|tea|coffee|espresso|bitters|angostura bitters|soda water|ginger beer|tonic water,,,1.0

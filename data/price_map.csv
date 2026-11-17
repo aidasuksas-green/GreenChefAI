@@ -1,0 +1,96 @@
+key,source,ref,must,exclude,factor,unit,note
+chicken_breast,barbora,viščiukų broilerių filė,visciuku|broileriu file,marinuot|skonio|rukyt|virt|kepta,1,,
+chicken,barbora,viščiukų broilerių šlaunelės,slaunel,marinuot|skonio|rukyt|kepta,1,,
+ground_beef,barbora,malta mėsa,malt,kotlet|augalin|vegan,1,,
+beef,barbora,jautiena,jautien,malt|faršas|farsas|konserv|troskin|sultin|desr,1,,
+pork,barbora,kiaulienos sprandinė,kiaulien,marinuot|skonio|rukyt|virt,1,,
+bacon,barbora,šoninė,sonin,,1,,
+sausage,barbora,dešrelės,desrel,augalin|vegan|veget,1,,
+cured_ham,barbora,vytintas kumpis,kump,virt|konserv,1,,
+lamb,skip,,,,1,,Barboroje tik gyvūnų ėdalas (2026-11-17); KB kaina iš dzukukrautuvele.lt / mesosbroliai.lt
+turkey,barbora,kalakutienos filė,kalakut,marinuot|skonio|rukyt|virt|desr,1,,
+duck,barbora,ančių krūtinėlės,anciu|anties|antis|antien,kepen|sirdel|skranduk|pastet|burbul|idaryt,1,,
+meat_broth,barbora,sultinys,sultin vistien|jautien|kalakut,kubel|drebuc|milt|sriub|virtin,1,l,"tik skystas sultinys (€/l), ne koncentratas"
+gelatin,barbora,želatina,zelatin,,1,,
+salmon,barbora,lašišos filė,lasis,rukyt|konserv|salot|surimi,1,,
+white_fish,barbora,menkės filė,menk,rukyt|konserv|kepen|lazdel,1,,
+tuna,barbora,tunas,tun,salot|pastet,1,,konservuotas tunas (receptuose dažniausiai toks)
+shrimp,barbora,krevetės,krevet,traskuc|salot|lazdel,1,,
+scallops,barbora,šukučių mėsa,sukuciu|sukutes,tesl|kump|pyrag|marcipan|sukutis,1,,Barboroje vadinama „šukučių mėsa“ (pvz. NOWACO)
+mussels,barbora,midijos,midij,,1,,
+crab,barbora,krabai,krab,lazdel|surimi,1,,
+anchovy,barbora,ančiuviai,anciuv,alyvuoges|tesl|idaryt,1,,
+fish_sauce,barbora,žuvų padažas,zuv padaz,,1,,
+oyster_sauce,barbora,austrių padažas,austr,,1,,
+worcestershire,barbora,worcestershire padažas,worcester|vorcester,,1,,
+milk,barbora,pienas,pien,kokos|aviz|soj|migdol|ryziu|sokolad|kondens|sutirst|milt|gerim|kav|desert,1,,
+cream,barbora,grietinėlė,grietinel,augalin|kokos|ledai|sokolad|kav,1,,
+butter,barbora,sviestas,sviest,augalin|riesut|kakav|mis,1,,
+parmesan,barbora,parmezanas,parmez|parmigian|grana|pecorin,,1,,
+cheese,barbora,fermentinis sūris,suris|surio,lydyt|varsk|kremin|augalin|vegan|grietinel|lazdel,1,,
+feta,barbora,feta,feta|fetos,,1,,
+ricotta,barbora,rikota,rikot|ricott,,1,,
+cream_cheese,barbora,maskarponė,maskarpon|mascarpon,,1,,
+yogurt,barbora,graikiškas jogurtas,jogurt,soj|kokos|augalin|geriam,1,,
+sour_cream,barbora,grietinė,grietin,grietinel|padaz|augalin,1,,
+buttermilk,barbora,pasukos,pasuk,,1,,
+ice_cream,barbora,ledai vaniliniai,ledai|ledu,augalin|vegan,1,,
+egg,barbora,kiaušiniai,kiausin,sokolad|staigmen|putpel|makaron,1,,
+egg_yolk,derive,egg,,,1.4,,iš kiaušinio kainos (KB santykis 7/5)
+egg_white,derive,egg,,,0.8,,iš kiaušinio kainos (KB santykis 4/5)
+mayonnaise,barbora,majonezas,majonez,vegan|augalin,1,,
+honey,barbora,medus,medus,sausain|tort|pyrag,1,,
+tofu_firm,barbora,sojų varškė,soj|tofu varsk|tofu,rukyt|marin|uztepel|omlet|pastet|paprik|bazilik|zolel|kraik|desert|jogurt,1,,
+smoked_tofu,barbora,rūkyta sojų varškė,rukyt soj|tofu,uztepel,1,,
+tempeh,barbora,tempeh,tempe,,1,,
+seitan,barbora,seitanas,seitan,,1,,
+lentils,barbora,lęšiai,lesi,sriub|konserv,0.4,,KB kaina virtiems; sausi lęšiai virdami pasunkėja ~2.5 karto
+jackfruit,skip,,,,1,,Barboroje neparduodamas (2026-11-17); lieka KB kaina
+plant_sausage,barbora,augalinės dešrelės,desrel augalin|vegan|veget,,1,,
+chickpeas,barbora,avinžirniai,avinzirn,humus|traskuc|milt,1,,
+king_oyster,barbora,kreivabudės,kreivabud|gluosnabud|pleurot,,1,,patikrinti: Barboroje gali nebūti
+hearts_of_palm,barbora,palmių šerdys,palmi serd,,1,,
+capers,barbora,kaparėliai,kaparel,,1,,
+soy_sauce,barbora,sojų padažas,soj padaz,,1,,
+mushroom_sauce,skip,,,,1,,per specifiška prekė; lieka KB kaina
+veg_broth,barbora,daržovių sultinys,darzov sultin,kubel|drebuc,1,l,"tik skystas sultinys (€/l), ne koncentratas"
+agar,barbora,agaras,agar,,1,,
+maple_syrup,barbora,klevų sirupas,klev sirup,,1,,
+oat_milk,barbora,avižų gėrimas,aviz gerim,,1,,
+coconut_cream,barbora,kokosų kremas,kokos krem|grietinel,drozl|kubel|traskuc|aliej|fermentuot|gerim,1,,
+plant_butter,barbora,margarinas,margarin,,1,,
+nutritional_yeast,barbora,maistinės mielės,miel maistin|neaktyv,,1,,
+vegan_cheese,barbora,veganiškas sūris,vegan|augalin sur,,1,,
+cashew_ricotta,skip,,,,1,,gaminama virtuvėje; lieka KB kaina
+soy_yogurt,barbora,sojų jogurtas,soj jogurt|desert,,1,,
+plant_ice_cream,barbora,augaliniai ledai,ledai|ledu augalin|vegan,,1,,
+flax_egg,skip,,,,1,,gaminama virtuvėje; lieka KB kaina
+aquafaba,skip,,,,1,,šalutinis produktas; lieka KB kaina
+vegan_mayo,barbora,veganiškas majonezas,majonez vegan|augalin,,1,,
+flour,barbora,kvietiniai miltai,milt,kukuruz|rugi|ryziu|migdol|avinz|griki|kokos|mieli,1,,
+sugar,barbora,cukrus,cukr,pudr|vanil|kokos|saldikl|be cukraus,1,,
+olive_oil,barbora,alyvuogių aliejus,alyvuog aliej,,1,,
+veg_oil,barbora,saulėgrąžų aliejus,aliej saulegraz|rapsu,,1,,
+salt,barbora,valgomoji druska,drusk,himalaj|vonios|vonia|indaplov,1,,
+spices,barbora,malti juodieji pipirai,pipir,,1,,
+garlic,barbora,česnakai,cesnak,milteliai|granul|marin|skonio|dziov|padaz|duona,1,,
+onion,barbora,svogūnai,svogun,laisk|keptu|milteliai|dziov|traskuc,1,,
+scallion,barbora,svogūnų laiškai,laisk,,1,,
+tomato,barbora,pomidorai,pomidor,konserv|pasta|padaz|sult|dziov|trint|kecup,1,,
+tomato_paste,barbora,pomidorų pasta,pomidor pasta|koncentrat,,1,,
+potato,barbora,bulvės,bulv,traskuc|keptu|frit|kosel|salot|lazdel,1,,
+vegetables,barbora,morkos,mork,sult|tarkuot|salot,1,,reprezentuojama morkomis
+fruit,barbora,obuoliai,obuol,sult|dziov|traskuc|piure|act|pyrag,1,,reprezentuojama obuoliais
+avocado,barbora,avokadai,avokad,aliej|pasta|guakam,1,,
+rice,barbora,ryžiai,ryz,traskuc|milt|gerim|pyrag|plokst|dribsn,1,,
+pasta,barbora,spagečiai,makaron|spagec|penne|fusilli,,1,,
+bread,barbora,duona,duon,traskuc|dziuves|skrebuc,1,,
+beans,barbora,konservuotos pupelės,pupel,kav|sparag|zaliosios,1,,
+nuts,barbora,graikiniai riešutai,riesut,sviest|sokolad|mis|batonel,1,,
+chocolate,barbora,juodasis šokoladas,sokolad juod|tams|kartus,,1,,
+coconut_milk,barbora,kokosų pienas,kokos pien|gerim,,1,,
+oats,barbora,avižiniai dribsniai,aviz dribsn,batonel|sausain|kos,1,,
+cornstarch,barbora,kukurūzų krakmolas,krakmol,,1,,
+vinegar_wine,barbora,vyno actas,actas|acto,,1,,
+condiments,barbora,garstyčios,garstyc,,1,,
+water,skip,,,,1,,vanduo nekainuoja
