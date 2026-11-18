@@ -18,7 +18,7 @@
 
 **9. Jūsų teisės.** Kadangi asmens duomenų netvarkome, BDAR (Bendrasis duomenų apsaugos reglamentas) numatytų prašymų vykdyti nereikia. Jei programėlė būtų diegiama restorane su vartotojų paskyromis, prieš tai būtų parengta atskira BDAR atitiktį užtikrinanti politika.
 
-**10. Kontaktai.** Klausimus siųskite projekto komandai: [el. pašto adresas].
+**10. Kontaktai.** Klausimus projekto komandai užduokite per GitHub: https://github.com/aidasuksas-green/GreenChefAI/issues
 
 *Atnaujinta: 2026 m. lapkritis.*
 
@@ -44,7 +44,7 @@
 
 **9. Your rights.** As no personal data is processed, no GDPR requests are applicable. If the app were deployed in a restaurant with user accounts, a separate GDPR-compliant policy would be prepared first.
 
-**10. Contact.** Please send questions to the project team: [e-mail address].
+**10. Contact.** Please send questions to the project team via GitHub Issues: https://github.com/aidasuksas-green/GreenChefAI/issues
 
 *Last updated: November 2026.*
 
@@ -70,6 +70,6 @@
 
 **9. Ihre Rechte.** Da keine personenbezogenen Daten verarbeitet werden, entfallen DSGVO-Anfragen. Würde die App in einem Restaurant mit Benutzerkonten eingesetzt, würde vorher eine eigene DSGVO-konforme Erklärung erstellt.
 
-**10. Kontakt.** Fragen bitte an das Projektteam: [E-Mail-Adresse].
+**10. Kontakt.** Fragen bitte über GitHub Issues an das Projektteam: https://github.com/aidasuksas-green/GreenChefAI/issues
 
 *Stand: November 2026.*

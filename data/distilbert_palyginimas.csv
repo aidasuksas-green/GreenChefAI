@@ -1,0 +1,24 @@
+rinkinys,metodas,tikslumas,F1 (macro)
+test,Raktažodžiai (atskaitos),0.9225,0.8063
+test,Bazinis: TF-IDF + LogReg,0.9962,0.9896
+test,Patobulintas: DistilBERT,0.9952,0.9852
+test,Hibridinis: taisyklės + TF-IDF,0.9987,0.9971
+test,Hibridinis: taisyklės + DistilBERT,0.9978,0.9937
+typo,Raktažodžiai (atskaitos),0.8969,0.7223
+typo,Bazinis: TF-IDF + LogReg,0.9811,0.9509
+typo,Patobulintas: DistilBERT,0.9703,0.919
+typo,Hibridinis: taisyklės + TF-IDF,0.98,0.9505
+typo,Hibridinis: taisyklės + DistilBERT,0.9722,0.9298
+typo,Ekspertinės taisyklės,0.9667,0.9137
+hard,Raktažodžiai (atskaitos),0.3478,0.4131
+hard,Bazinis: TF-IDF + LogReg,0.7935,0.824
+hard,Patobulintas: DistilBERT,0.8261,0.8604
+hard,Hibridinis: taisyklės + TF-IDF,0.837,0.8572
+hard,Hibridinis: taisyklės + DistilBERT,0.8913,0.9106
+hard,Ekspertinės taisyklės,0.8152,0.8366
+multilingual,Raktažodžiai (atskaitos),0.25,0.1056
+multilingual,Bazinis: TF-IDF + LogReg,0.25,0.1056
+multilingual,Patobulintas: DistilBERT,0.3,0.1749
+multilingual,Hibridinis: taisyklės + TF-IDF,0.25,0.1056
+multilingual,Hibridinis: taisyklės + DistilBERT,0.3,0.1749
+multilingual,Ekspertinės taisyklės,0.25,0.1056

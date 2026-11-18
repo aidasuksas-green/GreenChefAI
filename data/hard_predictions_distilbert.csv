@@ -1,0 +1,93 @@
+line,label,note,tfidf,distilbert,distilbert_conf,hybrid_bert
+1 medium eggplant cubed,PLANT,apgaulingas žodis egg,PLANT,PLANT,1.0,PLANT
+2 tablespoons peanut butter,PLANT,apgaulingas žodis butter,PLANT,PLANT,0.999,PLANT
+1 can (400 ml) coconut milk,PLANT,apgaulingas žodis milk,PLANT,PLANT,0.999,PLANT
+1/2 teaspoon cream of tartar,PLANT,apgaulingas žodis cream,PLANT,PLANT,1.0,PLANT
+1 head butter lettuce,PLANT,apgaulingas žodis butter,PLANT,PLANT,1.0,PLANT
+2 cups butternut squash cubed,PLANT,apgaulingas žodis butter,PLANT,PLANT,0.999,PLANT
+1 cup oat milk,PLANT,augalinis gėrimas,DAIRY,DAIRY,1.0,DAIRY
+4 cups vegetable broth,PLANT,augalinis sultinys,PLANT,PLANT,0.99,PLANT
+8 ounces oyster mushrooms,PLANT,apgaulingas žodis oyster,PLANT,PLANT,0.999,PLANT
+2 beefsteak tomatoes sliced,PLANT,apgaulingas žodis beef,PLANT,PLANT,1.0,PLANT
+1 can kidney beans drained,PLANT,apgaulingas žodis kidney,PLANT,PLANT,1.0,PLANT
+Cheesecloth for straining,PLANT,ne maistas,PLANT,PLANT,0.999,PLANT
+2 cups cooked chickpeas,PLANT,augalinis,PLANT,PLANT,0.999,PLANT
+1 cup cashew cream,PLANT,augalinis pakaitalas,DAIRY,DAIRY,0.986,DAIRY
+2 tablespoons nutritional yeast,PLANT,augalinis pakaitalas,PLANT,PLANT,0.999,PLANT
+1 package firm tofu pressed,PLANT,augalinis pakaitalas,PLANT,PLANT,0.999,PLANT
+1/2 cup vegan mayonnaise,PLANT,augalinis pakaitalas,EGG,EGG,0.993,EGG
+1 cup unsweetened almond milk,PLANT,augalinis gėrimas,PLANT,PLANT,0.999,PLANT
+2 tablespoons cocoa butter,PLANT,apgaulingas žodis butter,DAIRY,PLANT,0.996,PLANT
+1 small honeydew melon,PLANT,apgaulingas žodis honey,PLANT,PLANT,0.999,PLANT
+2 Honeycrisp apples,PLANT,apgaulingas žodis honey,PLANT,PLANT,1.0,PLANT
+Easter Egg radishes trimmed,PLANT,apgaulingas žodis egg,EGG,EGG,1.0,EGG
+3 celery ribs chopped,PLANT,apgaulingas žodis ribs,PLANT,PLANT,1.0,PLANT
+1 cup plain soy yogurt,PLANT,augalinis pakaitalas,DAIRY,DAIRY,1.0,DAIRY
+3 tablespoons vegan butter,PLANT,augalinis pakaitalas,PLANT,PLANT,0.999,PLANT
+1 pound king oyster mushrooms,PLANT,apgaulingas žodis oyster,FISH,PLANT,0.999,PLANT
+1 pound seitan sliced,PLANT,augalinis pakaitalas,PLANT,PLANT,0.999,PLANT
+2 tablespoons white miso,PLANT,augalinis,PLANT,PLANT,0.999,PLANT
+1 cup coconut cream,PLANT,apgaulingas žodis cream,DAIRY,PLANT,0.999,PLANT
+1 tablespoon agave nectar,PLANT,augalinis,PLANT,PLANT,0.999,PLANT
+1/2 cup tahini,PLANT,augalinis,PLANT,PLANT,0.999,PLANT
+8 ounces tempeh,PLANT,augalinis pakaitalas,PLANT,PLANT,0.998,PLANT
+6 ounces 'nduja,MEAT,retas žodis,PLANT,PLANT,0.998,PLANT
+4 ounces lardo thinly sliced,MEAT,retas žodis,PLANT,MEAT,1.0,MEAT
+1 pound kalbi short ribs,MEAT,mėsa,MEAT,MEAT,1.0,MEAT
+2 pounds pork shoulder,MEAT,mėsa,MEAT,MEAT,1.0,MEAT
+1 cup pan drippings,MEAT,netiesioginis,MEAT,PLANT,0.749,MEAT
+1 bouillon cube,MEAT,netiesioginis,MEAT,MEAT,0.999,MEAT
+4 cups homemade stock,MEAT,netiesioginis,PLANT,MEAT,0.937,MEAT
+1 envelope unflavored gelatin,MEAT,netiesioginis,MEAT,MEAT,1.0,MEAT
+3 ounces culatello,MEAT,retas žodis,PLANT,PLANT,0.999,PLANT
+1 pound merguez,MEAT,retas žodis,PLANT,PLANT,0.993,PLANT
+2 pounds osso buco veal shanks,MEAT,mėsa,MEAT,MEAT,1.0,MEAT
+8 slices capicola,MEAT,mėsa,MEAT,MEAT,1.0,MEAT
+1 rack of lamb,MEAT,mėsa,MEAT,MEAT,1.0,MEAT
+1 pound ground chuk,MEAT,rašybos klaida,MEAT,MEAT,1.0,MEAT
+4 chiken thighs,MEAT,rašybos klaida,MEAT,PLANT,0.998,MEAT
+2 pounds pork bely,MEAT,rašybos klaida,MEAT,MEAT,1.0,MEAT
+3 slices of bacn,MEAT,rašybos klaida,PLANT,MEAT,0.973,MEAT
+2 cups dashi,FISH,netiesioginis,FISH,FISH,0.999,FISH
+1 teaspoon anchovy paste,FISH,žuvis,FISH,FISH,1.0,FISH
+8 ounces smoked mackerel,FISH,žuvis,FISH,PLANT,0.999,FISH
+1 pound branzino fillets,FISH,žuvis,FISH,FISH,0.997,FISH
+2 tablespoons nam pla,FISH,retas žodis (žuvų padažas),PLANT,PLANT,0.999,PLANT
+1/2 pound calamari,FISH,jūros gėrybės,FISH,FISH,0.999,FISH
+1 tablespoon grated bottarga,FISH,retas žodis,PLANT,PLANT,0.995,FISH
+6 ounces lump crab,FISH,jūros gėrybės,FISH,FISH,1.0,FISH
+1 pound halibut,FISH,žuvis,FISH,FISH,0.999,FISH
+1 can sardines in oil,FISH,žuvis,FISH,FISH,0.999,FISH
+2 tablespoons salmon roe,FISH,žuvis,FISH,FISH,1.0,FISH
+1 pound shrimps peeled,FISH,jūros gėrybės,FISH,FISH,1.0,FISH
+4 ounces smoked salmon,FISH,žuvis,FISH,FISH,1.0,FISH
+1 pound salomn fillet,FISH,rašybos klaida,FISH,FISH,0.999,FISH
+2 tablespoons worcestershire sauce,FISH,netiesioginis (ančiuviai),FISH,PLANT,0.996,FISH
+1 cup heavy cream,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+2 tablespoons ghee,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+4 ounces burrata,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+1/2 cup crème fraîche,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+1 cup kefir,DAIRY,pienas,PLANT,PLANT,0.999,DAIRY
+8 ounces halloumi,DAIRY,pienas,DAIRY,DAIRY,0.995,DAIRY
+1/2 cup grated pecorino,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+2 cups whole milk,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+1 stick unsalted buter,DAIRY,rašybos klaida,DAIRY,DAIRY,0.999,DAIRY
+1 cup grated parmesean,DAIRY,rašybos klaida,DAIRY,DAIRY,0.813,DAIRY
+1/2 cup shredded mozarella,DAIRY,rašybos klaida,DAIRY,DAIRY,0.997,DAIRY
+1 cup ricota,DAIRY,rašybos klaida,PLANT,DAIRY,1.0,DAIRY
+1 cup buttermilk,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+2 scoops vanilla ice cream,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+1/2 cup labneh,DAIRY,pienas,DAIRY,DAIRY,1.0,DAIRY
+3 large eggs,EGG,kiaušiniai,EGG,EGG,1.0,EGG
+2 egg yolks,EGG,kiaušiniai,EGG,EGG,1.0,EGG
+1/2 cup mayonnaise,EGG,kiaušiniai,EGG,EGG,0.999,EGG
+4 egg whites,EGG,kiaušiniai,EGG,EGG,1.0,EGG
+1 cup aioli,EGG,kiaušiniai,EGG,EGG,0.998,EGG
+2 eggs beaten,EGG,kiaušiniai,EGG,EGG,1.0,EGG
+3 large egs,EGG,rašybos klaida,EGG,PLANT,0.999,PLANT
+1 tablespoon mayo,EGG,kiaušiniai,EGG,EGG,0.999,EGG
+12 ounces fresh egg pasta,EGG,kiaušiniai,EGG,EGG,1.0,EGG
+2 tablespoons honey,HONEY,medus,HONEY,HONEY,1.0,HONEY
+1/4 cup clover honey,HONEY,medus,HONEY,HONEY,1.0,HONEY
+1 tablespoon hony,HONEY,rašybos klaida,PLANT,HONEY,0.999,HONEY
+2 tablespoons honey mustard,HONEY,medus,HONEY,HONEY,1.0,HONEY

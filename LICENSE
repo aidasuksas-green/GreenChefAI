@@ -1,0 +1,19 @@
+GreenChef AI — licencijų informacija
+
+1. Receptų duomenys, nuotraukos ir jų vertimai
+   Šaltinis: „Food Ingredients and Recipes Dataset with Images“ (Epicurious), Kaggle:
+   https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images
+   Licencija: Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0),
+   https://creativecommons.org/licenses/by-sa/3.0/
+   Receptų pavadinimų ir gaminimo instrukcijų vertimai (lietuvių, vokiečių k.) yra išvestinis kūrinys
+   ir platinami pagal tą pačią CC BY-SA 3.0 licenciją, nurodant šaltinį.
+
+2. Maistinė vertė
+   Apytikslės reikšmės pagal USDA FoodData Central (https://fdc.nal.usda.gov/), viešasis domenas.
+
+3. Vertimo modeliai (tik offline skriptui code/translate_instructions.py)
+   Helsinki-NLP OPUS-MT – CC-BY-4.0.
+
+4. Programinis kodas
+   © 2026 GreenChef AI komanda: Indrė Rumšienė, Andrėja Mickevičiūtė, Irma Pilkienė, Greta Sutkė, Aidas Uksas.
+   Studijų projektas (Dirbtinio intelekto metodai). Kontaktai: https://github.com/aidasuksas-green/GreenChefAI/issues

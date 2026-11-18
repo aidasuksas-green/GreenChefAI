@@ -10,9 +10,9 @@ Komanda: Indrė Rumšienė, Andrėja Mickevičiūtė, Irma Pilkienė, Greta Sutk
 
 ## Kaip paleisti (žingsnis po žingsnio, programavimo patirties nereikia)
 
-1. **Įdiekite Python 3.10–3.12** iš https://www.python.org/downloads/
+1. **Įdiekite Python 3.11 ar naujesnį** iš https://www.python.org/downloads/ (scikit-learn 1.9.1, su kuriuo išsaugotas modelis, veikia tik su Python 3.11+)
    (Windows: diegimo lange **būtinai** pažymėkite „Add Python to PATH“).
-2. **Išarchyvuokite** šį aplanką, pvz. į `C:\greenchef` arba `Darbalaukis/greenchef`.
+2. **Atsisiųskite kodą** iš GitHub: https://github.com/aidasuksas-green/GreenChefAI/archive/refs/heads/main.zip ir išarchyvuokite. Atsiras aplankas `GreenChefAI-main` (jei Windows sukuria dvigubą aplanką, eikite į vidinį, kuriame matosi `app.py`).
 3. **Atidarykite komandų eilutę tame aplanke:**
    - Windows: aplanke spustelėkite adreso juostą, įrašykite `cmd` ir paspauskite Enter.
    - Mac: dešinys pelės klavišas ant aplanko → „New Terminal at Folder“.
@@ -159,3 +159,29 @@ bazinis 35 % → hibridinis 84 %. Ribotumai aprašyti ataskaitoje (VIII skyrius)
 
 Visi skaičiavimai yra **apytiksliai ir rekomendacinio pobūdžio**. Galutinį sprendimą priima virtuvės šefas.
 Daugiau – `PRIVATUMO_POLITIKA.md`.
+
+## Patobulintas modelis: DistilBERT (Google Colab)
+
+Pagal metodikos 3–4 skyrius palyginti du modeliai:
+**bazinis** – TF-IDF + LogisticRegression ir **patobulintas** – `distilbert-base-multilingual-cased`
+(3 epochos, 41 398 mokymo eilutės, mokymas ≈ 11 min. su T4 GPU; užrašinė su paleidimo rezultatais – `code/GreenChef_DistilBERT.ipynb`).
+
+| Rinkinys | TF-IDF + LogReg (F1) | DistilBERT (F1) | Taisyklės + TF-IDF (F1, programėlėje) | Taisyklės + DistilBERT (F1) |
+|---|---|---|---|---|
+| Testavimo imtis (12 177 eil.) | 0,990 | 0,985 | 0,997 | 0,994 |
+| Su rašybos klaidomis | 0,951 | 0,919 | 0,950 | 0,930 |
+| 92 sunkūs pavyzdžiai (pažymėti rankiniu būdu) | 0,824 | 0,860 | 0,857 | **0,911** |
+| LT / DE eilutės | 0,106 | 0,175 | 0,106 | 0,175 |
+
+Greitis vienai eilutei procesoriumi (tame pačiame Colab kompiuteryje): TF-IDF ≈ 3 ms, DistilBERT ≈ 93 ms (135 mln. parametrų, ≈ 540 MB). Testavimo imtyje hibridas „taisyklės + TF-IDF“ nenusileidžia DistilBERT hibridui; DistilBERT pranašesnis tik sunkiuose pavyzdžiuose.
+Programėlėje paliktas lengvasis TF-IDF hibridas: jis atsparesnis rašybos klaidoms, ≈ 35 kartus greitesnis
+ir ≈ 200 kartų mažesnis (≈ 2,6 MB prieš ≈ 540 MB); DistilBERT naudingas retiems ir „apgaulingiems“ pavadinimams (žr. ataskaitą).
+
+Failai: `code/GreenChef_DistilBERT.ipynb` (mokymas Colab), `data/results_distilbert.json`,
+`data/distilbert_palyginimas.csv`, `data/*_predictions_distilbert.csv`,
+`figures/fig10_baseline_vs_distilbert.png`, `figures/fig11_distilbert_training.png`
+(grafikas perkuriamas: `python code/make_distilbert_figures.py`).
+
+## Licencija
+
+Receptų tekstai, jų vertimai ir nuotraukos – iš Epicurious rinkinio (Kaggle), platinami pagal CC BY-SA 3.0. Daugiau – faile `LICENSE`.

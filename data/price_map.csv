@@ -11,7 +11,7 @@ sausage,barbora,dešrelės,desrel,augalin|vegan|veget,1,,
 cured_ham,barbora,vytintas kumpis,kump,virt|konserv,1,,
 lamb,skip,,,,1,,Barboroje tik gyvūnų ėdalas (2026-11-17); KB kaina iš dzukukrautuvele.lt / mesosbroliai.lt
 turkey,barbora,kalakutienos filė,kalakut,marinuot|skonio|rukyt|virt|desr|garuose|ruosta|sumustin|kump|kepen|pastet,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
-duck,barbora,ančių krūtinėlės,anciu|anties|antis|antien,kepen|sirdel|skranduk|pastet|burbul|idaryt|marinuot,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
+duck,barbora,ančių krūtinėlės,anciu|anties|antis|antien,kepen|sirdel|skranduk|pastet|burbul|idaryt|marinuot|anciuv,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 meat_broth,barbora,sultinys,sultin vistien|jautien|kalakut,kubel|drebuc|milt|sriub|virtin,1,l,"tik skystas sultinys (€/l), ne koncentratas"
 gelatin,barbora,želatina,zelatin,,1,,
 salmon,barbora,lašišos filė,lasis,rukyt|konserv|salot|surimi,1,,
@@ -20,7 +20,7 @@ tuna,barbora,tunas,tun,salot|pastet,1,,konservuotas tunas (receptuose dažniausi
 shrimp,barbora,krevetės,krevet,traskuc|salot|lazdel,1,,
 scallops,barbora,šukučių mėsa,sukuciu|sukutes,tesl|kump|pyrag|marcipan|sukutis,1,,Barboroje vadinama „šukučių mėsa“ (pvz. NOWACO)
 mussels,barbora,midijos,midij,,1,,
-crab,barbora,krabai,krab,lazdel|surimi|trask|skonio|uzkand|chips,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
+crab,barbora,krabai,krab,lazdel|surimi|trask|skonio|uzkand|chips|kramtuk|silikon,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 anchovy,barbora,ančiuviai,anciuv,alyvuoges|tesl|idaryt,1,,
 fish_sauce,barbora,žuvų padažas,zuvu|zuvies padaz,kukul|tyrel|pomidor|darzov|seko,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 oyster_sauce,barbora,austrių padažas,austr,,1,,
@@ -31,7 +31,7 @@ butter,barbora,sviestas,sviest,augalin|riesut|kakav|mis,1,,
 parmesan,barbora,parmezanas,parmez|parmigian|grana|pecorin,,1,,
 cheese,barbora,fermentinis sūris,suris|surio,lydyt|varsk|kremin|augalin|vegan|grietinel|lazdel,1,,
 feta,barbora,feta,feta|fetos,,1,,
-ricotta,barbora,rikota,rikot|ricott,raviol|pesto|padaz|lakst|su rikot,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
+ricotta,barbora,rikota,rikot|ricott,raviol|pesto|padaz|lakst|su rikot|uztepel,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 cream_cheese,barbora,maskarponė,maskarpon|mascarpon,,1,,
 yogurt,barbora,graikiškas jogurtas,jogurt,soj|kokos|augalin|geriam,1,,
 sour_cream,barbora,grietinė,grietin,grietinel|padaz|augalin,1,,
@@ -42,7 +42,7 @@ egg_yolk,derive,egg,,,1.4,,iš kiaušinio kainos (KB santykis 7/5)
 egg_white,derive,egg,,,0.8,,iš kiaušinio kainos (KB santykis 4/5)
 mayonnaise,barbora,majonezas,majonez,vegan|augalin,1,,
 honey,barbora,medus,medus,sausain|tort|pyrag,1,,
-tofu_firm,barbora,sojų varškė,soj|tofu varsk|tofu,rukyt|marin|uztepel|omlet|pastet|paprik|bazilik|zolel|kraik|desert|jogurt|padaz|bolonij,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
+tofu_firm,barbora,sojų varškė,soj|tofu varsk|tofu,rukyt|marin|uztepel|omlet|pastet|paprik|bazilik|zolel|kraik|desert|jogurt|padaz|bolonij|desrel,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 smoked_tofu,barbora,rūkyta sojų varškė,rukyt soj|tofu,uztepel,1,,
 tempeh,barbora,tempeh,tempe,,1,,
 seitan,barbora,seitanas,seitan,,1,,
