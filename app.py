@@ -102,6 +102,13 @@ def image_b64(path):
         return base64.b64encode(f.read()).decode("ascii")
 
 
+@st.cache_data
+def load_ingredient_names(mtime):
+    # konkretūs ingredientų pavadinimai LT / DE kiekvienai receptų eilutei (vertė Claude, Anthropic)
+    p = os.path.join(g.DATA_DIR, "ingredient_names.json")
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+
+
 def instructions_mtime():
     p = os.path.join(g.DATA_DIR, "recipe_instructions.json")
     return os.path.getmtime(p) if os.path.exists(p) else 0.0
@@ -115,6 +122,8 @@ ENGINE_NAME = {"opus": "OPUS-MT, Helsinki-NLP", "nllb": "NLLB-200, Meta",
 
 kb, model, demo, TITLES = load_kb(prices_mtime()), load_model(), load_demo(), load_titles()
 INSTR = load_instructions(instructions_mtime())
+_names_p = os.path.join(g.DATA_DIR, "ingredient_names.json")
+ING_NAMES = load_ingredient_names(os.path.getmtime(_names_p) if os.path.exists(_names_p) else 0.0)
 
 # ---------------------------------------------------------------- šoninis meniu
 with st.sidebar:
@@ -150,16 +159,27 @@ def tr_title(en):
     return TITLES[en][0 if lang == "lt" else 1]
 
 
-def display_name(it):
-    """Ingrediento pavadinimas pasirinkta kalba (iš žinių bazės); originalas anglų k. – pagal pasirinkimą."""
-    if lang == "en" or it.get("custom"):
+def display_name(it, calc_as=False):
+    """Konkretus ingrediento pavadinimas pasirinkta kalba (data/ingredient_names.json, pvz. „Stambiai malti
+    juodieji pipirai“). calc_as=True po juo pilka spalva parodo žinių bazės grupę, pagal kurią skaičiuojama
+    maistinė vertė ir kaina („Prieskoniai“). Originalas anglų k. – pagal pasirinkimą."""
+    if it.get("custom"):
         return html.escape(it["line"])
+    grey = "color:#8A968E;font-size:.82rem"
+    specific = ING_NAMES.get(it["line"], {}).get(lang) if lang != "en" else it["line"]
+    if specific:
+        name = f"<b>{html.escape(specific)}</b>"
+        if calc_as and it.get("key") and kb.name(it["key"], lang).lower() != specific.lower():
+            name += f"<br><span style='{grey}'>{html.escape(t['calc_as'])}: {html.escape(kb.name(it['key'], lang))}</span>"
+        if show_orig and lang != "en":
+            name += f"<br><span style='{grey}'>{html.escape(it['line'])}</span>"
+        return name
     if it.get("key"):
         name = f"<b>{html.escape(kb.name(it['key'], lang))}</b>"
         if show_orig:
-            name += f"<br><span style='color:#8A968E;font-size:.82rem'>{html.escape(it['line'])}</span>"
+            name += f"<br><span style='{grey}'>{html.escape(it['line'])}</span>"
         return name
-    return f"{html.escape(it['line'])} <span style='color:#8A968E;font-size:.8rem'>(EN)</span>"
+    return f"{html.escape(it['line'])} <span style='{grey}'>(EN)</span>"
 
 
 def fmt_g(it):
@@ -174,7 +194,7 @@ def render_ingredients(items, sources):
         c = it["category"]
         ai = f"<span class='gc-ai'>🤖 DI</span>" if src == "ai" else ""
         rows.append(f"<div class='gc-row'><span class='gc-pill' style='background:{g.CATEGORY_COLORS[c]}'>"
-                    f"{t['cat'][c]}</span><span class='gc-line'>{display_name(it)} {ai}</span>"
+                    f"{t['cat'][c]}</span><span class='gc-line'>{display_name(it, calc_as=True)} {ai}</span>"
                     f"<span class='gc-g'>{fmt_g(it)}</span></div>")
     st.markdown("".join(rows), unsafe_allow_html=True)
 
@@ -263,7 +283,7 @@ with tab1:
                          index=titles.index(DEFAULT_RECIPE) if DEFAULT_RECIPE in titles else 0,
                          label_visibility="collapsed")
     rec = demo[demo.Title == title].iloc[0]
-    lines = json.loads(rec.ingredients)
+    lines, equipment = g.normalize_lines(json.loads(rec.ingredients), kb)
     cls = g.classify_lines(lines, model)
     items = [g.analyse_line(l, kb, c) for l, (c, _, _) in zip(lines, cls)]
 
@@ -292,6 +312,9 @@ with tab1:
     with c_ing:
         st.markdown(f"<div class='gc-h3'>{html.escape(t['ingredients'])}</div>", unsafe_allow_html=True)
         render_ingredients(items, [s for _, _, s in cls])
+        if equipment:
+            eq = [ING_NAMES.get(e, {}).get(lang, e) if lang != "en" else e for e in equipment]
+            st.caption(f"🍳 {t['equipment']}: " + "; ".join(eq))
     st.markdown("---")
     render_results(items)
 

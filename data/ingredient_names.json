@@ -1,0 +1,4458 @@
+{
+ "Kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1 pound snipped green beans, preferably haricots verts": {
+  "lt": "Plonosios šparaginės pupelės",
+  "de": "Feine grüne Bohnen (Haricots verts)"
+ },
+ "1 1/2 pounds large shrimp, preferably wild, peeled, deveined": {
+  "lt": "Didelės krevetės (nuluptos, be žarnelės)",
+  "de": "Große Garnelen (geschält, ohne Darm)"
+ },
+ "1/2 cup Greek yogurt": {
+  "lt": "Graikiškas jogurtas",
+  "de": "Griechischer Joghurt"
+ },
+ "1/2 cup mayonnaise": {
+  "lt": "Majonezas",
+  "de": "Mayonnaise"
+ },
+ "1/4 cup fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "2 tablespoons finely chopped dill (optional)": {
+  "lt": "Smulkinti krapai (nebūtina)",
+  "de": "Gehackter Dill (optional)"
+ },
+ "2 teaspoons Dijon mustard": {
+  "lt": "Dižono garstyčios",
+  "de": "Dijonsenf"
+ },
+ "1/4 teaspoon freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "1/2 pound romaine heart leaves": {
+  "lt": "Romaninių salotų lapai",
+  "de": "Romanasalatherzen-Blätter"
+ },
+ "1 avocado, pitted, peeled, cut into 12 wedges": {
+  "lt": "Avokadas (skiltelėmis)",
+  "de": "Avocado (in Spalten)"
+ },
+ "Lemon wedges (for serving; optional)": {
+  "lt": "Citrinos skiltelės patiekti (nebūtina)",
+  "de": "Zitronenspalten zum Servieren (optional)"
+ },
+ "3 tablespoons olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "2 tablespoons maple syrup": {
+  "lt": "Klevų sirupas",
+  "de": "Ahornsirup"
+ },
+ "1 teaspoon ground cardamom": {
+  "lt": "Malti kardamonai",
+  "de": "Gemahlener Kardamom"
+ },
+ "1 (1 1/2-pound) skin-on salmon fillet": {
+  "lt": "Lašišos filė su oda",
+  "de": "Lachsfilet mit Haut"
+ },
+ "2 teaspoons kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "Dill sprigs (for serving; optional)": {
+  "lt": "Krapų šakelės patiekti (nebūtina)",
+  "de": "Dillzweige zum Servieren (optional)"
+ },
+ "3 tablespoons achiote paste, divided": {
+  "lt": "Achiote pasta",
+  "de": "Achiote-Paste"
+ },
+ "3 tablespoons vegetable oil, divided": {
+  "lt": "Augalinis aliejus",
+  "de": "Pflanzenöl"
+ },
+ "1 tablespoon water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "1 4 1/2-to 5-pound whole turkey breast": {
+  "lt": "Visa kalakuto krūtinėlė",
+  "de": "Ganze Putenbrust"
+ },
+ "1/4 cup (scant) loosely packed stemmed dried chiles de árbol or chiles japones (about 12 to 16 chiles)": {
+  "lt": "Džiovinti aštrūs čili pipirai (de árbol arba japones)",
+  "de": "Getrocknete scharfe Chilis (de árbol oder japones)"
+ },
+ "3 cups low-salt chicken broth, divided": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "3 garlic cloves, peeled": {
+  "lt": "Česnako skiltelės (nuluptos)",
+  "de": "Knoblauchzehen (geschält)"
+ },
+ "1 1/2 pounds tomatoes": {
+  "lt": "Pomidorai",
+  "de": "Tomaten"
+ },
+ "1 medium onion, quartered through core end": {
+  "lt": "Svogūnas (ketvirčiais)",
+  "de": "Zwiebel (geviertelt)"
+ },
+ "8 mint leaves, coarsely chopped, plus sprigs for garnish": {
+  "lt": "Mėtų lapeliai (+ šakelės papuošti)",
+  "de": "Minzblätter (+ Zweige zum Garnieren)"
+ },
+ "3 tablespoons masa (corn tortilla mix)": {
+  "lt": "Masa – kukurūzų tortilijų miltai",
+  "de": "Masa (Mehl für Maistortillas)"
+ },
+ "Coarse kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1 stick (1/2 cup) unsalted butter plus additional for buttering pan": {
+  "lt": "Nesūdytas sviestas (+ formai patepti)",
+  "de": "Ungesalzene Butter (+ zum Einfetten)"
+ },
+ "1 (24-inch) baguette, cut into 3/4-inch cubes (8 cups)": {
+  "lt": "Batonas (kubeliais)",
+  "de": "Baguette (gewürfelt)"
+ },
+ "3 medium onions, coarsely chopped": {
+  "lt": "Svogūnai (stambiai pjaustyti)",
+  "de": "Zwiebeln (grob gehackt)"
+ },
+ "3 medium carrots, cut into 1/4-inch dice": {
+  "lt": "Morkos (smulkiais kubeliais)",
+  "de": "Karotten (fein gewürfelt)"
+ },
+ "3 celery ribs, cut into 1/4-inch dice": {
+  "lt": "Salierų stiebai (smulkiais kubeliais)",
+  "de": "Staudensellerie (fein gewürfelt)"
+ },
+ "1 1/2 lb russet (baking) potatoes, peeled and cut into 1/2-inch dice": {
+  "lt": "Miltingos bulvės (nuluptos, kubeliais)",
+  "de": "Mehligkochende Kartoffeln (geschält, gewürfelt)"
+ },
+ "1 (2-lb) head cauliflower, trimmed and cut into 1/2-inch-wide florets and stem pieces": {
+  "lt": "Žiedinis kopūstas (žiedynais)",
+  "de": "Blumenkohl (in Röschen)"
+ },
+ "2 1/2 teaspoons curry powder (preferably Madras)": {
+  "lt": "Kario prieskoniai (geriausia Madras)",
+  "de": "Currypulver (am besten Madras)"
+ },
+ "1 1/2 teaspoons sea salt": {
+  "lt": "Jūros druska",
+  "de": "Meersalz"
+ },
+ "1 teaspoon black pepper": {
+  "lt": "Juodieji pipirai",
+  "de": "Schwarzer Pfeffer"
+ },
+ "1 teaspoon cumin seeds": {
+  "lt": "Kmynų sėklos (kuminas)",
+  "de": "Kreuzkümmelsamen"
+ },
+ "1/4 teaspoon cayenne": {
+  "lt": "Kajeno pipirai",
+  "de": "Cayennepfeffer"
+ },
+ "1 1/2 cups reduced-sodium chicken broth (12 fl oz)": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1 1/2 cups unsalted roasted cashews (7 oz)": {
+  "lt": "Nesūdyti skrudinti anakardžiai",
+  "de": "Ungesalzene geröstete Cashewkerne"
+ },
+ "1 dried ancho chile, stemmed, seeded, coarsely torn*": {
+  "lt": "Džiovintas ancho čili pipiras",
+  "de": "Getrocknete Ancho-Chili"
+ },
+ "2 tablespoons vegetable oil": {
+  "lt": "Augalinis aliejus",
+  "de": "Pflanzenöl"
+ },
+ "1 cup chopped onion": {
+  "lt": "Smulkintas svogūnas",
+  "de": "Gehackte Zwiebel"
+ },
+ "1 tablespoon tomato paste": {
+  "lt": "Pomidorų pasta",
+  "de": "Tomatenmark"
+ },
+ "3 garlic cloves, minced": {
+  "lt": "Česnako skiltelės (smulkintos)",
+  "de": "Knoblauchzehen (fein gehackt)"
+ },
+ "1/2 cup dry red wine": {
+  "lt": "Sausas raudonasis vynas",
+  "de": "Trockener Rotwein"
+ },
+ "1/2 cup ketchup": {
+  "lt": "Kečupas",
+  "de": "Ketchup"
+ },
+ "1 tablespoon apple cider vinegar": {
+  "lt": "Obuolių sidro actas",
+  "de": "Apfelessig"
+ },
+ "1 tablespoon (packed) dark brown sugar": {
+  "lt": "Tamsusis rudasis cukrus",
+  "de": "Dunkler brauner Zucker"
+ },
+ "2 teaspoons Worcestershire sauce": {
+  "lt": "Vorčesterio padažas",
+  "de": "Worcestershiresoße"
+ },
+ "1/4 teaspoon ground cumin": {
+  "lt": "Malti kmynai (kuminas)",
+  "de": "Gemahlener Kreuzkümmel"
+ },
+ "5 cups sifted all-purpose flour (preferably a fine southern flour; see headnote)": {
+  "lt": "Persijoti kvietiniai miltai",
+  "de": "Gesiebtes Weizenmehl"
+ },
+ "1 tablespoon baking powder": {
+  "lt": "Kepimo milteliai",
+  "de": "Backpulver"
+ },
+ "1 teaspoon baking soda": {
+  "lt": "Kepimo soda",
+  "de": "Natron"
+ },
+ "1/4 cup sugar": {
+  "lt": "Cukrus",
+  "de": "Zucker"
+ },
+ "2 teaspoons salt": {
+  "lt": "Druska",
+  "de": "Salz"
+ },
+ "1 cup firmly packed vegetable shortening or lard or a half-and-half mixture of the two": {
+  "lt": "Kepinių riebalai arba kiaulės taukai",
+  "de": "Backfett oder Schmalz"
+ },
+ "2 cups buttermilk": {
+  "lt": "Pasukos",
+  "de": "Buttermilch"
+ },
+ "One 1/4-ounce package active dry yeast dissolved in 1/4 cup very warm water (105° to 115° F.)": {
+  "lt": "Sausos mielės, ištirpintos šiltame vandenyje",
+  "de": "Trockenhefe, in warmem Wasser aufgelöst"
+ },
+ "2 cups dried navy or cannellini beans, soaked overnight": {
+  "lt": "Džiovintos baltosios pupelės (išmirkytos)",
+  "de": "Getrocknete weiße Bohnen (eingeweicht)"
+ },
+ "2 medium onions, 1 halved, 1 thinly sliced": {
+  "lt": "Svogūnai (1 perpjautas, 1 griežinėliais)",
+  "de": "Zwiebeln (1 halbiert, 1 in Scheiben)"
+ },
+ "1 Parmesan rind (optional), plus": {
+  "lt": "Parmezano pluta (nebūtina)",
+  "de": "Parmesanrinde (optional)"
+ },
+ "1/2 cup finely grated Parmesan": {
+  "lt": "Smulkiai tarkuotas parmezanas",
+  "de": "Fein geriebener Parmesan"
+ },
+ "1 head garlic, halved crosswise, plus 4 cloves, finely chopped, divided": {
+  "lt": "Česnako galva (+ 4 smulkintos skiltelės)",
+  "de": "Knoblauchknolle (+ 4 gehackte Zehen)"
+ },
+ "2 bay leaves": {
+  "lt": "Lauro lapai",
+  "de": "Lorbeerblätter"
+ },
+ "2 teaspoons kosher salt, plus more": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "8 ounce slab bacon, cut into 2x1/4\" pieces": {
+  "lt": "Šoninė gabalu",
+  "de": "Speck am Stück"
+ },
+ "1 large shallot, thinly sliced": {
+  "lt": "Didelis askaloninis česnakas (griežinėliais)",
+  "de": "Große Schalotte (in Scheiben)"
+ },
+ "4 sprigs thyme plus 1 tablespoon leaves": {
+  "lt": "Čiobrelių šakelės ir lapeliai",
+  "de": "Thymianzweige und -blätter"
+ },
+ "Freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "1/4 cup dry white wine": {
+  "lt": "Sausas baltasis vynas",
+  "de": "Trockener Weißwein"
+ },
+ "1 1/2 cups coarsely torn fresh breadcrumbs": {
+  "lt": "Švieži džiūvėsėliai (stambiai plėšyti)",
+  "de": "Frische Semmelbrösel (grob gezupft)"
+ },
+ "2 tablespoons olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "2 (9-ounce) bags spinach leaves": {
+  "lt": "Špinatų lapai",
+  "de": "Spinatblätter"
+ },
+ "2 tablespoons olive oil, divided": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "2 (5-ounce) salmon fillets with skin": {
+  "lt": "Lašišos filė su oda",
+  "de": "Lachsfilets mit Haut"
+ },
+ "1/3 cup chopped shallot (1 very large)": {
+  "lt": "Smulkintas askaloninis česnakas",
+  "de": "Gehackte Schalotte"
+ },
+ "1/3 cup halved pitted Kalamata olives": {
+  "lt": "Kalamata alyvuogės be kauliukų (perpjautos)",
+  "de": "Entsteinte Kalamata-Oliven (halbiert)"
+ },
+ "1/3 cup golden raisins": {
+  "lt": "Šviesiosios razinos",
+  "de": "Goldene Rosinen"
+ },
+ "3 tablespoons balsamic vinegar": {
+  "lt": "Balzamiko actas",
+  "de": "Balsamico-Essig"
+ },
+ "1 tablespoon honey": {
+  "lt": "Medus",
+  "de": "Honig"
+ },
+ "2 large garlic cloves": {
+  "lt": "Didelės česnako skiltelės",
+  "de": "Große Knoblauchzehen"
+ },
+ "1 teaspoon smoked paprika": {
+  "lt": "Rūkyta paprika",
+  "de": "Geräuchertes Paprikapulver"
+ },
+ "1 teaspoon ground cumin": {
+  "lt": "Malti kmynai (kuminas)",
+  "de": "Gemahlener Kreuzkümmel"
+ },
+ "1 tablespoon olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "1 (3 1/2- to 4-pound) trimmed beef tenderloin roast, tied": {
+  "lt": "Jautienos išpjova (apipjaustyta, surišta)",
+  "de": "Rinderfilet (pariert, gebunden)"
+ },
+ "1 cup mayonnaise": {
+  "lt": "Majonezas",
+  "de": "Mayonnaise"
+ },
+ "1/2 teaspoon ground cumin": {
+  "lt": "Malti kmynai (kuminas)",
+  "de": "Gemahlener Kreuzkümmel"
+ },
+ "2 tablespoons meat juices from beef, or to taste": {
+  "lt": "Jautienos kepimo sultys (pagal skonį)",
+  "de": "Bratensaft vom Rind (nach Geschmack)"
+ },
+ "1 qt water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "2 tablespoons salt": {
+  "lt": "Druska",
+  "de": "Salz"
+ },
+ "2 teaspoons cayenne": {
+  "lt": "Kajeno pipirai",
+  "de": "Cayennepfeffer"
+ },
+ "2 teaspoons garlic powder": {
+  "lt": "Česnako milteliai",
+  "de": "Knoblauchpulver"
+ },
+ "1 1/2 teaspoons white pepper": {
+  "lt": "Baltieji pipirai",
+  "de": "Weißer Pfeffer"
+ },
+ "1 tablespoon soy sauce": {
+  "lt": "Sojų padažas",
+  "de": "Sojasoße"
+ },
+ "4 chicken breast halves, 4 thighs, and 4 drumsticks (all with skin and bones; 4 to 4 1/2 pounds total)": {
+  "lt": "Vištienos krūtinėlės, šlaunelės ir blauzdelės su oda ir kaulais",
+  "de": "Hähnchenbrust, -schenkel und -unterschenkel mit Haut und Knochen"
+ },
+ "About 12 cups vegetable oil": {
+  "lt": "Augalinis aliejus (gruzdinti)",
+  "de": "Pflanzenöl (zum Frittieren)"
+ },
+ "3 cups all-purpose flour": {
+  "lt": "Kvietiniai miltai",
+  "de": "Weizenmehl"
+ },
+ "1 tablespoon salt": {
+  "lt": "Druska",
+  "de": "Salz"
+ },
+ "1 teaspoon garlic powder": {
+  "lt": "Česnako milteliai",
+  "de": "Knoblauchpulver"
+ },
+ "1 teaspoon cayenne": {
+  "lt": "Kajeno pipirai",
+  "de": "Cayennepfeffer"
+ },
+ "1 teaspoon white pepper": {
+  "lt": "Baltieji pipirai",
+  "de": "Weißer Pfeffer"
+ },
+ "4 1/2 pounds 3-inch-long beef short ribs": {
+  "lt": "Jautienos šonkauliai",
+  "de": "Rinderrippen (Short Ribs)"
+ },
+ "2 cups dry red wine": {
+  "lt": "Sausas raudonasis vynas",
+  "de": "Trockener Rotwein"
+ },
+ "1 14.5-ounce can diced tomatoes in juice": {
+  "lt": "Konservuoti pomidorai kubeliais su sultimis",
+  "de": "Gewürfelte Dosentomaten im Saft"
+ },
+ "1 6-ounce package sliced button mushrooms": {
+  "lt": "Pjaustyti pievagrybiai",
+  "de": "Geschnittene Champignons"
+ },
+ "1/2 cup finely chopped onion": {
+  "lt": "Smulkintas svogūnas",
+  "de": "Fein gehackte Zwiebel"
+ },
+ "6 garlic cloves, peeled": {
+  "lt": "Česnako skiltelės (nuluptos)",
+  "de": "Knoblauchzehen (geschält)"
+ },
+ "6 fresh Italian parsley sprigs": {
+  "lt": "Šviežios lapinių petražolių šakelės",
+  "de": "Frische glatte Petersilienzweige"
+ },
+ "Crusty bread": {
+  "lt": "Traški duona",
+  "de": "Knuspriges Brot"
+ },
+ "1 large boiling potato (8 ounces), peeled and cut into 1/3-inch dice": {
+  "lt": "Bulvė virti (nulupta, kubeliais)",
+  "de": "Festkochende Kartoffel (geschält, gewürfelt)"
+ },
+ "4 (9-to 11-inch) flour tortillas": {
+  "lt": "Kvietinės tortilijos",
+  "de": "Weizentortillas"
+ },
+ "7 to 8 ounces Mexican chorizo (see cooks note, below), casings removed": {
+  "lt": "Meksikietiška čoriso dešra (be apvalkalo)",
+  "de": "Mexikanische Chorizo (ohne Darm)"
+ },
+ "4 large eggs": {
+  "lt": "Dideli kiaušiniai",
+  "de": "Große Eier"
+ },
+ "1 teaspoon water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "1 tablespoons olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "1 cup coarsely grated Monterey Jack (about 4 ounces)": {
+  "lt": "Tarkuotas Monterey Jack sūris",
+  "de": "Geriebener Monterey-Jack-Käse"
+ },
+ "1 avocado, sliced": {
+  "lt": "Avokadas (griežinėliais)",
+  "de": "Avocado (in Scheiben)"
+ },
+ "About 1/4 cup fresh or bottled salsa": {
+  "lt": "Šviežias arba pirktinis salsos padažas",
+  "de": "Frische oder fertige Salsa"
+ },
+ "2 bunches broccoli (about 2 pounds), cut into florets, with stems peeled and cut into uniform pieces": {
+  "lt": "Brokoliai (žiedynais, su stiebais)",
+  "de": "Brokkoli (Röschen und Stiele)"
+ },
+ "2 tablespoons macadamia nut oil or fat of choice Kosher salt": {
+  "lt": "Makadamijų riešutų aliejus ir rupi druska",
+  "de": "Macadamiaöl und grobes Salz"
+ },
+ "6 anchovy fillets packed in olive oil (about half of a 2 ounce can), drained and minced": {
+  "lt": "Ančiuvių filė alyvuogių aliejuje (smulkinta)",
+  "de": "Sardellenfilets in Olivenöl (gehackt)"
+ },
+ "1/4 cup extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "2 garlic cloves, minced": {
+  "lt": "Česnako skiltelės (smulkintos)",
+  "de": "Knoblauchzehen (fein gehackt)"
+ },
+ "1/2 teaspoon red pepper flakes": {
+  "lt": "Aitriųjų pipirų dribsniai",
+  "de": "Chiliflocken"
+ },
+ "Finely grated zest and juice from 1 medium lemon": {
+  "lt": "Citrinos žievelė ir sultys",
+  "de": "Zitronenschale und -saft"
+ },
+ "1 cup fresh coarse brioche or challah breadcrumbs": {
+  "lt": "Švieži brioche arba chala džiūvėsėliai",
+  "de": "Frische Brioche- oder Challa-Brösel"
+ },
+ "2 tablespoons chopped thyme": {
+  "lt": "Smulkinti čiobreliai",
+  "de": "Gehackter Thymian"
+ },
+ "1 teaspoon finely grated lemon zest": {
+  "lt": "Tarkuota citrinos žievelė",
+  "de": "Abgeriebene Zitronenschale"
+ },
+ "1 1/2 cups (3 sticks) unsalted butter, room temperature, divided": {
+  "lt": "Nesūdytas sviestas (kambario temperatūros)",
+  "de": "Ungesalzene Butter (zimmerwarm)"
+ },
+ "1 tablespoon kosher salt, plus more": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1 (3 1/2–4-pound) chicken": {
+  "lt": "Visa vištiena",
+  "de": "Ganzes Hähnchen"
+ },
+ "6 anchovy fillets packed in oil": {
+  "lt": "Ančiuvių filė aliejuje",
+  "de": "Sardellenfilets in Öl"
+ },
+ "1 small garlic clove": {
+  "lt": "Maža česnako skiltelė",
+  "de": "Kleine Knoblauchzehe"
+ },
+ "2 large egg yolks*": {
+  "lt": "Didelių kiaušinių tryniai",
+  "de": "Eigelb von großen Eiern"
+ },
+ "2 tablespoons fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "3/4 teaspoon Dijon mustard": {
+  "lt": "Dižono garstyčios",
+  "de": "Dijonsenf"
+ },
+ "5 tablespoons olive oil, divided": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "1/2 cup vegetable oil": {
+  "lt": "Augalinis aliejus",
+  "de": "Pflanzenöl"
+ },
+ "3 tablespoons finely grated Parmesan": {
+  "lt": "Smulkiai tarkuotas parmezanas",
+  "de": "Fein geriebener Parmesan"
+ },
+ "3 cups torn 1\" pieces country bread": {
+  "lt": "Kaimiška duona (plėšyta gabaliukais)",
+  "de": "Landbrot (in Stücke gezupft)"
+ },
+ "3 romaine hearts": {
+  "lt": "Romaninių salotų širdelės",
+  "de": "Romanasalatherzen"
+ },
+ "4 large garlic cloves": {
+  "lt": "Didelės česnako skiltelės",
+  "de": "Große Knoblauchzehen"
+ },
+ "3 teaspoons kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "2 teaspoons coriander seeds": {
+  "lt": "Kalendros sėklos",
+  "de": "Koriandersamen"
+ },
+ "1 teaspoon fenugreek seeds": {
+  "lt": "Ožragės sėklos",
+  "de": "Bockshornkleesamen"
+ },
+ "3/4 teaspoon dried hot red-pepper flakes": {
+  "lt": "Džiovintų aitriųjų pipirų dribsniai",
+  "de": "Getrocknete Chiliflocken"
+ },
+ "4 tablespoons olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "1 (5-pound) bone-in pork shoulder roast (also called picnic roast), trimmed of excess fat and skin discarded": {
+  "lt": "Kiaulienos mentė su kaulu (be odos)",
+  "de": "Schweineschulter mit Knochen (ohne Schwarte)"
+ },
+ "1 large red onion, chopped": {
+  "lt": "Didelis raudonasis svogūnas (smulkintas)",
+  "de": "Große rote Zwiebel (gehackt)"
+ },
+ "2 cups water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "1/2 cup chopped fresh cilantro": {
+  "lt": "Smulkinta šviežia kalendra",
+  "de": "Gehackter frischer Koriander"
+ },
+ "1 tablespoon red-wine vinegar": {
+  "lt": "Raudonojo vyno actas",
+  "de": "Rotweinessig"
+ },
+ "an electric coffee/spice grinder": {
+  "lt": "Elektrinis kavos / prieskonių malūnėlis",
+  "de": "Elektrische Kaffee-/Gewürzmühle"
+ },
+ "1/4 cup sliced almonds": {
+  "lt": "Migdolų drožlės",
+  "de": "Mandelblättchen"
+ },
+ "1 medium head cauliflower (about 2 pounds), coarsely chopped": {
+  "lt": "Žiedinis kopūstas (stambiai pjaustytas)",
+  "de": "Blumenkohl (grob gehackt)"
+ },
+ "1/2 cup low-sodium vegetable or chicken broth": {
+  "lt": "Mažai sūrus daržovių arba vištienos sultinys",
+  "de": "Salzarme Gemüse- oder Hühnerbrühe"
+ },
+ "2 tablespoons honey": {
+  "lt": "Medus",
+  "de": "Honig"
+ },
+ "3/4 teaspoon ground cumin": {
+  "lt": "Malti kmynai (kuminas)",
+  "de": "Gemahlener Kreuzkümmel"
+ },
+ "3/4 teaspoon ground turmeric": {
+  "lt": "Ciberžolė",
+  "de": "Gemahlene Kurkuma"
+ },
+ "3/4 teaspoon paprika": {
+  "lt": "Paprika",
+  "de": "Paprikapulver"
+ },
+ "1/2 teaspoon ground cinnamon": {
+  "lt": "Malti cinamonai",
+  "de": "Gemahlener Zimt"
+ },
+ "3/4 teaspoon kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1/4 cup dried currants or raisins": {
+  "lt": "Džiovinti serbentai arba razinos",
+  "de": "Getrocknete Korinthen oder Rosinen"
+ },
+ "1/4 cup sliced dried apricots": {
+  "lt": "Džiovinti abrikosai (griežinėliais)",
+  "de": "Getrocknete Aprikosen (in Scheiben)"
+ },
+ "2 ounces applewood-smoked bacon (about 2 1/2 slices), chopped": {
+  "lt": "Obelų malkomis rūkyta šoninė (smulkinta)",
+  "de": "Über Apfelholz geräucherter Speck (gehackt)"
+ },
+ "3/4 cup chopped celery": {
+  "lt": "Smulkinti salierai",
+  "de": "Gehackter Staudensellerie"
+ },
+ "2 garlic cloves, chopped": {
+  "lt": "Česnako skiltelės (smulkintos)",
+  "de": "Knoblauchzehen (gehackt)"
+ },
+ "6 cups 1-inch pieces cauliflower (cut from 1 large head)": {
+  "lt": "Žiedinis kopūstas (gabaliukais)",
+  "de": "Blumenkohl (in Stücken)"
+ },
+ "3 1/2 cups (or more) low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1 3/4-inch cube Pecorino Romano cheese plus additional cheese shavings for serving": {
+  "lt": "Pecorino Romano sūris (+ drožlės patiekti)",
+  "de": "Pecorino Romano (+ Späne zum Servieren)"
+ },
+ "1/2 cup heavy whipping cream": {
+  "lt": "Riebi plakamoji grietinėlė",
+  "de": "Schlagsahne"
+ },
+ "White or black truffle oil (for drizzling)": {
+  "lt": "Baltųjų arba juodųjų triufelių aliejus",
+  "de": "Weißes oder schwarzes Trüffelöl"
+ },
+ "4 whole Arctic char (about 1 pound each), cleaned": {
+  "lt": "Ištisi arktiniai palijai (išdarinėti)",
+  "de": "Ganze Saiblinge (ausgenommen)"
+ },
+ "8 sprigs fresh tarragon": {
+  "lt": "Šviežio peletrūno šakelės",
+  "de": "Frische Estragonzweige"
+ },
+ "8 sprigs fresh dill": {
+  "lt": "Šviežių krapų šakelės",
+  "de": "Frische Dillzweige"
+ },
+ "8 sprigs fresh flat-leaf parsley": {
+  "lt": "Šviežių lapinių petražolių šakelės",
+  "de": "Frische glatte Petersilienzweige"
+ },
+ "8 stems fresh chives": {
+  "lt": "Švieži laiškiniai česnakai",
+  "de": "Frischer Schnittlauch"
+ },
+ "Salt and freshly ground white pepper": {
+  "lt": "Druska ir šviežiai malti baltieji pipirai",
+  "de": "Salz und frisch gemahlener weißer Pfeffer"
+ },
+ "Olive oil for brushing": {
+  "lt": "Alyvuogių aliejus (aptepti)",
+  "de": "Olivenöl (zum Bestreichen)"
+ },
+ "4 lemons, halved": {
+  "lt": "Citrinos (perpjautos)",
+  "de": "Zitronen (halbiert)"
+ },
+ "4 medium-size red onions, peeled and halved": {
+  "lt": "Raudonieji svogūnai (perpjauti)",
+  "de": "Rote Zwiebeln (halbiert)"
+ },
+ "2 (1 1/2\"–2\" thick) boneless New York strip steaks": {
+  "lt": "Jautienos nugarinės (New York strip) kepsniai be kaulo",
+  "de": "Rinder-Strip-Steaks ohne Knochen"
+ },
+ "1 tsp. freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "2 1/4 tsp. kosher salt, divided": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "2 bunches broccolini (about 1 lb. total), trimmed, halved lengthwise": {
+  "lt": "Brokolinukai (perpjauti išilgai)",
+  "de": "Brokkolini (längs halbiert)"
+ },
+ "1 Tbsp. extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "3 oz. coarsely grated Gruyère (about 1½ cups)": {
+  "lt": "Stambiai tarkuotas Gruyère sūris",
+  "de": "Grob geriebener Gruyère"
+ },
+ "3 oz. cream cheese, cut into pieces": {
+  "lt": "Kreminis sūris (gabaliukais)",
+  "de": "Frischkäse (in Stücken)"
+ },
+ "3/4 cup whole milk": {
+  "lt": "Nenugriebtas pienas",
+  "de": "Vollmilch"
+ },
+ "1/4 tsp. freshly grated or ground nutmeg": {
+  "lt": "Muskato riešutas (tarkuotas arba maltas)",
+  "de": "Muskatnuss (gerieben oder gemahlen)"
+ },
+ "Large pinch of cayenne pepper": {
+  "lt": "Didelis žiupsnis kajeno pipirų",
+  "de": "Große Prise Cayennepfeffer"
+ },
+ "Flaky sea salt": {
+  "lt": "Jūros druskos dribsniai",
+  "de": "Meersalzflocken"
+ },
+ "12 cups water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "8 garlic cloves": {
+  "lt": "Česnako skiltelės",
+  "de": "Knoblauchzehen"
+ },
+ "2-inch piece fresh ginger, peeled and sliced": {
+  "lt": "Šviežias imbieras (nuluptas, griežinėliais)",
+  "de": "Frischer Ingwer (geschält, in Scheiben)"
+ },
+ "4 whole star anise": {
+  "lt": "Ištisi žvaigždiniai anyžiai",
+  "de": "Ganzer Sternanis"
+ },
+ "4 bay leaves": {
+  "lt": "Lauro lapai",
+  "de": "Lorbeerblätter"
+ },
+ "1 tablespoon black peppercorns": {
+  "lt": "Juodųjų pipirų žirneliai",
+  "de": "Schwarze Pfefferkörner"
+ },
+ "1 (4-pound) chicken, cut into 8 pieces": {
+  "lt": "Vištiena (supjaustyta į 8 dalis)",
+  "de": "Hähnchen (in 8 Teile zerlegt)"
+ },
+ "4 carrots": {
+  "lt": "Morkos",
+  "de": "Karotten"
+ },
+ "4 celery stalks": {
+  "lt": "Salierų stiebai",
+  "de": "Selleriestangen"
+ },
+ "2 unpeeled white or red onions, halved": {
+  "lt": "Baltieji arba raudonieji svogūnai su lukštu (perpjauti)",
+  "de": "Ungeschälte weiße oder rote Zwiebeln (halbiert)"
+ },
+ "Salt, for seasoning": {
+  "lt": "Druska (pagardinti)",
+  "de": "Salz (zum Würzen)"
+ },
+ "Chopped parsley leaves and lemon wedges, for serving": {
+  "lt": "Smulkintos petražolės ir citrinos skiltelės patiekti",
+  "de": "Gehackte Petersilie und Zitronenspalten zum Servieren"
+ },
+ "1 onion, diced": {
+  "lt": "Svogūnas (kubeliais)",
+  "de": "Zwiebel (gewürfelt)"
+ },
+ "1 teaspoon salt": {
+  "lt": "Druska",
+  "de": "Salz"
+ },
+ "1 green bell pepper or red bell pepper, diced": {
+  "lt": "Žalioji arba raudonoji paprika (kubeliais)",
+  "de": "Grüne oder rote Paprika (gewürfelt)"
+ },
+ "1 garlic clove, minced": {
+  "lt": "Česnako skiltelė (smulkinta)",
+  "de": "Knoblauchzehe (fein gehackt)"
+ },
+ "1 teaspoon cumin powder": {
+  "lt": "Malti kmynai (kuminas)",
+  "de": "Gemahlener Kreuzkümmel"
+ },
+ "1 32 oz box chicken broth": {
+  "lt": "Vištienos sultinys",
+  "de": "Hühnerbrühe"
+ },
+ "1 bay leaf": {
+  "lt": "Lauro lapas",
+  "de": "Lorbeerblatt"
+ },
+ "1 1/2 cups frozen corn kernels": {
+  "lt": "Šaldyti kukurūzų grūdeliai",
+  "de": "Tiefgekühlte Maiskörner"
+ },
+ "1 15 oz can tomato, diced": {
+  "lt": "Konservuoti pomidorai kubeliais",
+  "de": "Gewürfelte Dosentomaten"
+ },
+ "1 pound chicken breast, boneless and skinless": {
+  "lt": "Vištienos krūtinėlė be kaulų ir odos",
+  "de": "Hähnchenbrust ohne Knochen und Haut"
+ },
+ "juice of 1 lime": {
+  "lt": "Vienos žaliosios citrinos sultys",
+  "de": "Saft von 1 Limette"
+ },
+ "Crushed tortilla chips": {
+  "lt": "Susmulkinti tortilijų traškučiai",
+  "de": "Zerbröselte Tortillachips"
+ },
+ "1 cup beef broth, divided": {
+  "lt": "Jautienos sultinys",
+  "de": "Rinderbrühe"
+ },
+ "1/2 cup all purpose flour": {
+  "lt": "Kvietiniai miltai",
+  "de": "Weizenmehl"
+ },
+ "4 4- to 5-inch-long pieces skirt steak": {
+  "lt": "Jautienos diafragmos kepsnio (skirt steak) gabalai",
+  "de": "Stücke vom Skirt Steak"
+ },
+ "2 tablespoons (1/4 stick) butter": {
+  "lt": "Sviestas",
+  "de": "Butter"
+ },
+ "1 fully cooked breakfast pork-sausage patty (about 1 ounce), finely chopped": {
+  "lt": "Iškeptas kiaulienos dešrelės paplotėlis (smulkintas)",
+  "de": "Gegartes Schweinswurst-Patty (fein gehackt)"
+ },
+ "1/2 cup whipping cream": {
+  "lt": "Plakamoji grietinėlė",
+  "de": "Schlagsahne"
+ },
+ "1/2 teaspoon dried sage": {
+  "lt": "Džiovintas šalavijas",
+  "de": "Getrockneter Salbei"
+ },
+ "Pinch of ground cloves": {
+  "lt": "Žiupsnis maltų gvazdikėlių",
+  "de": "Prise gemahlene Nelken"
+ },
+ "1/3 cup chopped green onion tops": {
+  "lt": "Smulkinti svogūnų laiškų galiukai",
+  "de": "Gehacktes Frühlingszwiebelgrün"
+ },
+ "28 shiitake mushroom caps": {
+  "lt": "Šiitake grybų kepurėlės",
+  "de": "Shiitake-Hüte"
+ },
+ "3/4 cup soy sauce": {
+  "lt": "Sojų padažas",
+  "de": "Sojasoße"
+ },
+ "3/4 cup mirin (rice wine)": {
+  "lt": "Mirinas (ryžių vynas)",
+  "de": "Mirin (Reiswein)"
+ },
+ "1/2 cup sugar": {
+  "lt": "Cukrus",
+  "de": "Zucker"
+ },
+ "1/4 cup water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "Juice of 1/2 lime": {
+  "lt": "Pusės žaliosios citrinos sultys",
+  "de": "Saft einer halben Limette"
+ },
+ "1 tablespoon chopped fresh cilantro": {
+  "lt": "Smulkinta šviežia kalendra",
+  "de": "Gehackter frischer Koriander"
+ },
+ "1 clove garlic, minced": {
+  "lt": "Česnako skiltelė (smulkinta)",
+  "de": "Knoblauchzehe (fein gehackt)"
+ },
+ "3/4 teaspoon peeled, grated fresh ginger": {
+  "lt": "Tarkuotas šviežias imbieras",
+  "de": "Geriebener frischer Ingwer"
+ },
+ "1/8 teaspoon hot red pepper flakes": {
+  "lt": "Aitriųjų pipirų dribsniai",
+  "de": "Chiliflocken"
+ },
+ "1 (1 1/2-to 2-pound) flank steak": {
+  "lt": "Jautienos šoninės kepsnys (flank steak)",
+  "de": "Flanksteak"
+ },
+ "1 bunch scallion tops": {
+  "lt": "Svogūnų laiškų galiukai",
+  "de": "Frühlingszwiebelgrün"
+ },
+ "1 teaspoon freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "1 bunch scallions, thinly sliced": {
+  "lt": "Svogūnų laiškai (plonai pjaustyti)",
+  "de": "Frühlingszwiebeln (in feinen Ringen)"
+ },
+ "1/2 bunch cilantro, leaves and tender stems only": {
+  "lt": "Kalendros lapeliai ir švelnūs stiebeliai",
+  "de": "Korianderblätter und zarte Stiele"
+ },
+ "1 teaspoon finely grated lime zest": {
+  "lt": "Tarkuota žaliosios citrinos žievelė",
+  "de": "Abgeriebene Limettenschale"
+ },
+ "1 teaspoon finely grated orange zest": {
+  "lt": "Tarkuota apelsino žievelė",
+  "de": "Abgeriebene Orangenschale"
+ },
+ "1/4 cup fresh lime juice": {
+  "lt": "Šviežios žaliųjų citrinų sultys",
+  "de": "Frischer Limettensaft"
+ },
+ "1/4 cup fresh orange juice": {
+  "lt": "Šviežios apelsinų sultys",
+  "de": "Frischer Orangensaft"
+ },
+ "1/4 cup reduced-sodium soy sauce": {
+  "lt": "Mažai sūrus sojų padažas",
+  "de": "Salzreduzierte Sojasoße"
+ },
+ "1 tablespoon kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "2 pounds skin-on, bone-in chicken thighs": {
+  "lt": "Vištienos šlaunelės su oda ir kaulu",
+  "de": "Hähnchenschenkel mit Haut und Knochen"
+ },
+ "4 sole fillets (each about 3 to 4 ounces)": {
+  "lt": "Jūrų liežuvių filė",
+  "de": "Seezungenfilets"
+ },
+ "2 tablespoons vegetable oil or canola oil": {
+  "lt": "Augalinis arba rapsų aliejus",
+  "de": "Pflanzen- oder Rapsöl"
+ },
+ "2 tablespoons (1/4 stick) unsalted butter": {
+  "lt": "Nesūdytas sviestas",
+  "de": "Ungesalzene Butter"
+ },
+ "1/4 cup (1/2 stick) unsalted butter, cut into 4 pieces": {
+  "lt": "Nesūdytas sviestas (4 gabalėliais)",
+  "de": "Ungesalzene Butter (in 4 Stücken)"
+ },
+ "2 tablespoons chopped fresh Italian parsley": {
+  "lt": "Smulkintos šviežios lapinės petražolės",
+  "de": "Gehackte frische glatte Petersilie"
+ },
+ "1 tablespoon fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "Lemon wedges": {
+  "lt": "Citrinos skiltelės",
+  "de": "Zitronenspalten"
+ },
+ "1/2 tablespoon whole white peppercorns": {
+  "lt": "Baltųjų pipirų žirneliai",
+  "de": "Ganze weiße Pfefferkörner"
+ },
+ "1/2 tablespoon whole coriander seeds": {
+  "lt": "Ištisos kalendros sėklos",
+  "de": "Ganze Koriandersamen"
+ },
+ "2 tablespoons plus 3/4 teaspoon ground cinnamon": {
+  "lt": "Malti cinamonai",
+  "de": "Gemahlener Zimt"
+ },
+ "2 tablespoons coarse sea salt (preferably gray crystals)": {
+  "lt": "Rupi jūros druska (geriausia pilka)",
+  "de": "Grobes Meersalz (am besten graues)"
+ },
+ "1 tablespoon plus 2 1/4 teaspoons unsweetened cocoa powder": {
+  "lt": "Nesaldinti kakavos milteliai",
+  "de": "Ungesüßtes Kakaopulver"
+ },
+ "1 teaspoon ground nutmeg": {
+  "lt": "Maltas muskato riešutas",
+  "de": "Gemahlene Muskatnuss"
+ },
+ "1/2 teaspoon ground cloves": {
+  "lt": "Malti gvazdikėliai",
+  "de": "Gemahlene Nelken"
+ },
+ "6 tablespoons extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "3 3/4 to 4 pounds onions, thinly sliced": {
+  "lt": "Svogūnai (plonais griežinėliais)",
+  "de": "Zwiebeln (in dünnen Scheiben)"
+ },
+ "1 1/2 tablespoons chopped fresh sage": {
+  "lt": "Smulkintas šviežias šalavijas",
+  "de": "Gehackter frischer Salbei"
+ },
+ "1 1/2 cups water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "1 5-pound pork shoulder butt with bone": {
+  "lt": "Kiaulienos sprandinė su kaulu",
+  "de": "Schweinenacken mit Knochen"
+ },
+ "2 medium Yukon Gold potatoes (12 ounces/350 g total)": {
+  "lt": "Vidutinės Yukon Gold bulvės",
+  "de": "Mittelgroße Yukon-Gold-Kartoffeln"
+ },
+ "6 plum tomatoes, peeled, seeded, and chopped": {
+  "lt": "Slyviniai pomidorai (nulupti, be sėklų, smulkinti)",
+  "de": "Eiertomaten (geschält, entkernt, gehackt)"
+ },
+ "1 1/2 ounces (45 g) Spanish chorizo, cut into 1/8-inch (3-mm) dice": {
+  "lt": "Ispaniška čoriso dešra (smulkiais kubeliais)",
+  "de": "Spanische Chorizo (fein gewürfelt)"
+ },
+ "12 small black olives, such as Niçoise, pitted": {
+  "lt": "Mažos juodosios alyvuogės be kauliukų (pvz., Niçoise)",
+  "de": "Kleine schwarze Oliven, entsteint (z. B. Niçoise)"
+ },
+ "1 large garlic clove, chopped": {
+  "lt": "Didelė česnako skiltelė (smulkinta)",
+  "de": "Große Knoblauchzehe (gehackt)"
+ },
+ "Four 4- to 5-ounce (125- to 150-g) skinned cod fillets": {
+  "lt": "Menkės filė be odos",
+  "de": "Kabeljaufilets ohne Haut"
+ },
+ "4 thyme sprigs": {
+  "lt": "Čiobrelių šakelės",
+  "de": "Thymianzweige"
+ },
+ "1/4 cup (8 g) chopped parsley": {
+  "lt": "Smulkintos petražolės",
+  "de": "Gehackte Petersilie"
+ },
+ "4 tablespoons (60 g) unsalted butter, sliced": {
+  "lt": "Nesūdytas sviestas (griežinėliais)",
+  "de": "Ungesalzene Butter (in Scheiben)"
+ },
+ "3 tablespoons extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "Sea salt and freshly ground pepper": {
+  "lt": "Jūros druska ir šviežiai malti pipirai",
+  "de": "Meersalz und frisch gemahlener Pfeffer"
+ },
+ "10 cups 1/2-inch cubes Cornbread for Dressing": {
+  "lt": "Kukurūzų duona įdarui (kubeliais)",
+  "de": "Maisbrot für die Füllung (gewürfelt)"
+ },
+ "4 cups 1/2-inch cubes crustless firm white sandwich bread (from 6 to 7 slices)": {
+  "lt": "Balta tostinė duona be plutos (kubeliais)",
+  "de": "Weißes Toastbrot ohne Rinde (gewürfelt)"
+ },
+ "1/2 cup (1 stick) butter": {
+  "lt": "Sviestas",
+  "de": "Butter"
+ },
+ "2 cups thinly sliced leeks (white and pale green parts only; about 3)": {
+  "lt": "Porai (plonai pjaustyti, tik balta ir šviesiai žalia dalis)",
+  "de": "Lauch (in feinen Ringen, nur Weißes und Hellgrünes)"
+ },
+ "2 cups chopped celery": {
+  "lt": "Smulkinti salierai",
+  "de": "Gehackter Staudensellerie"
+ },
+ "1 1/4 cups finely chopped smoked ham (about 7 ounces)": {
+  "lt": "Smulkiai pjaustytas rūkytas kumpis",
+  "de": "Fein gehackter geräucherter Schinken"
+ },
+ "1/4 cup chopped fresh parsley": {
+  "lt": "Smulkintos šviežios petražolės",
+  "de": "Gehackte frische Petersilie"
+ },
+ "4 teaspoons chopped fresh thyme": {
+  "lt": "Smulkinti švieži čiobreliai",
+  "de": "Gehackter frischer Thymian"
+ },
+ "4 teaspoons dried rubbed sage": {
+  "lt": "Džiovintas trintas šalavijas",
+  "de": "Getrockneter gerebelter Salbei"
+ },
+ "1 teaspoon coarse kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "4 large eggs, beaten to blend": {
+  "lt": "Dideli kiaušiniai (išplakti)",
+  "de": "Große Eier (verquirlt)"
+ },
+ "2 cups low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1 tablespoon unsalted butter, melted": {
+  "lt": "Nesūdytas sviestas (ištirpintas)",
+  "de": "Ungesalzene Butter (geschmolzen)"
+ },
+ "1/4 teaspoon cayenne pepper": {
+  "lt": "Kajeno pipirai",
+  "de": "Cayennepfeffer"
+ },
+ "1/4 teaspoon kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1/4 cup hot pepper sauce (such as Franks)": {
+  "lt": "Aštrus pipirų padažas (pvz., Frank's)",
+  "de": "Scharfe Pfeffersoße (z. B. Frank's)"
+ },
+ "1/4 cup honey": {
+  "lt": "Medus",
+  "de": "Honig"
+ },
+ "2 tablespoons soy sauce": {
+  "lt": "Sojų padažas",
+  "de": "Sojasoße"
+ },
+ "3 large garlic cloves, crushed": {
+  "lt": "Didelės česnako skiltelės (sutrintos)",
+  "de": "Große Knoblauchzehen (zerdrückt)"
+ },
+ "1 2x1\" piece of ginger, peeled, sliced": {
+  "lt": "Imbiero gabalėlis (nuluptas, griežinėliais)",
+  "de": "Stück Ingwer (geschält, in Scheiben)"
+ },
+ "5 pounds chicken wings, tips removed, drumettes and flats separated": {
+  "lt": "Vištienos sparneliai (be galiukų, padalinti)",
+  "de": "Hähnchenflügel (ohne Spitzen, geteilt)"
+ },
+ "1/2 teaspoon freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "1 cup Israeli or pearl couscous": {
+  "lt": "Izraelietiškas (perlinis) kuskusas",
+  "de": "Israelischer Perl-Couscous"
+ },
+ "1 3/4 teaspoons kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "2 1/2 tablespoons extra-virgin olive oil, divided": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "4 (6-ounce) arctic char or striped bass fillets, preferably skin on (about 3/4-inch thick)": {
+  "lt": "Arktinio palijo arba dryžuotojo ešerio filė, geriausia su oda",
+  "de": "Saiblings- oder Streifenbarschfilets, am besten mit Haut"
+ },
+ "3/4 teaspoon freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "8 teaspoons zaatar seasoning": {
+  "lt": "Zaataro prieskonių mišinys",
+  "de": "Za'atar-Gewürzmischung"
+ },
+ "1 pound Swiss chard, stems cut into 1/2-inch slices, leaves roughly chopped": {
+  "lt": "Lapiniai burokėliai (mangoldas)",
+  "de": "Mangold"
+ },
+ "1/4 cup pomegranate seeds": {
+  "lt": "Granatų sėklos",
+  "de": "Granatapfelkerne"
+ },
+ "1/4 cup pitted Kalamata olives, halved lengthwise": {
+  "lt": "Kalamata alyvuogės be kauliukų (perpjautos)",
+  "de": "Entsteinte Kalamata-Oliven (längs halbiert)"
+ },
+ "1/2 cup crumbled feta": {
+  "lt": "Trupinta feta",
+  "de": "Zerbröckelter Feta"
+ },
+ "1/2 lemon": {
+  "lt": "Pusė citrinos",
+  "de": "Halbe Zitrone"
+ },
+ "4 six-ounce cans drained chunk white tuna in water": {
+  "lt": "Konservuotas tunas savo sultyse (nusunktas)",
+  "de": "Thunfisch im eigenen Saft (abgetropft)"
+ },
+ "6 tablespoons finely chopped carrots": {
+  "lt": "Smulkintos morkos",
+  "de": "Fein gehackte Karotten"
+ },
+ "Half cut plus 1 tablespoon finely chopped red onion": {
+  "lt": "Smulkintas raudonasis svogūnas",
+  "de": "Fein gehackte rote Zwiebel"
+ },
+ "6 tablespoons chopped fresh parsley": {
+  "lt": "Smulkintos šviežios petražolės",
+  "de": "Gehackte frische Petersilie"
+ },
+ "6 tablespoons finely chopped celery": {
+  "lt": "Smulkinti salierai",
+  "de": "Fein gehackter Staudensellerie"
+ },
+ "3 scallions, finely chopped": {
+  "lt": "Svogūnų laiškai (smulkinti)",
+  "de": "Frühlingszwiebeln (fein gehackt)"
+ },
+ "One and a half cups of your favorite mayonnaise": {
+  "lt": "Majonezas",
+  "de": "Mayonnaise"
+ },
+ "1 small garlic clove, peeled and crushed": {
+  "lt": "Maža česnako skiltelė (sutrinta)",
+  "de": "Kleine Knoblauchzehe (zerdrückt)"
+ },
+ "3 tablespoons lemon juice": {
+  "lt": "Citrinų sultys",
+  "de": "Zitronensaft"
+ },
+ "Salt and pepper to taste": {
+  "lt": "Druska ir pipirai pagal skonį",
+  "de": "Salz und Pfeffer nach Geschmack"
+ },
+ "6 rolls": {
+  "lt": "Bandelės",
+  "de": "Brötchen"
+ },
+ "Lettuce and tomato as accompaniments": {
+  "lt": "Salotos ir pomidorai patiekti",
+  "de": "Salat und Tomate als Beilage"
+ },
+ "8 ounces coarsely chopped country ham or good deli ham": {
+  "lt": "Stambiai smulkintas kaimiškas arba virtas kumpis",
+  "de": "Grob gehackter Landschinken oder Kochschinken"
+ },
+ "4 ounces room-temperature cream cheese": {
+  "lt": "Kambario temperatūros kreminis sūris",
+  "de": "Zimmerwarmer Frischkäse"
+ },
+ "1/4 cup mayonnaise": {
+  "lt": "Majonezas",
+  "de": "Mayonnaise"
+ },
+ "1 tablespoon hot sauce": {
+  "lt": "Aštrus padažas",
+  "de": "Scharfe Soße"
+ },
+ "2 teaspoons whole grain mustard": {
+  "lt": "Grūdėtosios garstyčios",
+  "de": "Körniger Senf"
+ },
+ "1/8 teaspoon cayenne pepper (optional)": {
+  "lt": "Kajeno pipirai (nebūtina)",
+  "de": "Cayennepfeffer (optional)"
+ },
+ "1 chopped scallion": {
+  "lt": "Smulkintas svogūno laiškas",
+  "de": "Gehackte Frühlingszwiebel"
+ },
+ "2 tablespoons finely chopped fresh flat-leaf parsley": {
+  "lt": "Smulkintos šviežios lapinės petražolės",
+  "de": "Gehackte frische glatte Petersilie"
+ },
+ "1/2 cup Diamond Crystal or 1/4 cup plus 1 1/2 tsp. Morton kosher salt": {
+  "lt": "Rupi druska (Diamond Crystal arba Morton)",
+  "de": "Grobes Salz (Diamond Crystal oder Morton)"
+ },
+ "1 Tbsp. light brown sugar": {
+  "lt": "Šviesusis rudasis cukrus",
+  "de": "Heller brauner Zucker"
+ },
+ "1 (12–14-lb.) turkey, neck reserved for gravy, giblets discarded, patted dry": {
+  "lt": "Visas kalakutas (be vidaus organų)",
+  "de": "Ganzer Truthahn (ohne Innereien)"
+ },
+ "12 Tbsp. (1 1/2 sticks) unsalted butter, room temperature, divided": {
+  "lt": "Nesūdytas sviestas (kambario temperatūros)",
+  "de": "Ungesalzene Butter (zimmerwarm)"
+ },
+ "1/4 cup sherry vinegar or red wine vinegar": {
+  "lt": "Šerio arba raudonojo vyno actas",
+  "de": "Sherry- oder Rotweinessig"
+ },
+ "2 Tbsp. honey": {
+  "lt": "Medus",
+  "de": "Honig"
+ },
+ "4 tsp. Worcestershire sauce": {
+  "lt": "Vorčesterio padažas",
+  "de": "Worcestershiresoße"
+ },
+ "3 sprigs rosemary": {
+  "lt": "Rozmarino šakelės",
+  "de": "Rosmarinzweige"
+ },
+ "3 garlic cloves, crushed": {
+  "lt": "Česnako skiltelės (sutrintos)",
+  "de": "Knoblauchzehen (zerdrückt)"
+ },
+ "2 (2x1\") strips orange zest": {
+  "lt": "Apelsino žievelės juostelės",
+  "de": "Orangenschalenstreifen"
+ },
+ "1 (4–5-pound) skin-on, boneless pork belly": {
+  "lt": "Kiaulienos šoninė su oda, be kaulų",
+  "de": "Schweinebauch mit Schwarte, ohne Knochen"
+ },
+ "1 tablespoon vegetable oil": {
+  "lt": "Augalinis aliejus",
+  "de": "Pflanzenöl"
+ },
+ "1 (12-ounce) bottle unseasoned rice vinegar": {
+  "lt": "Ryžių actas (be priedų)",
+  "de": "Reisessig (ungewürzt)"
+ },
+ "12 garlic cloves, chopped": {
+  "lt": "Česnako skiltelės (smulkintos)",
+  "de": "Knoblauchzehen (gehackt)"
+ },
+ "6–12 green Thai chiles, lightly crushed but left whole": {
+  "lt": "Žalieji tailandietiški čili pipirai (lengvai sutraiškyti)",
+  "de": "Grüne Thai-Chilis (leicht angedrückt)"
+ },
+ "2 serrano chiles, torn into small pieces": {
+  "lt": "Serano čili pipirai (suplėšyti)",
+  "de": "Serrano-Chilis (zerzupft)"
+ },
+ "4 (12-oz.) bottles hard apple cider": {
+  "lt": "Stiprusis obuolių sidras",
+  "de": "Apfelwein (Cidre)"
+ },
+ "1/2 cup (1 stick) unsalted butter, room temperature": {
+  "lt": "Nesūdytas sviestas (kambario temperatūros)",
+  "de": "Ungesalzene Butter (zimmerwarm)"
+ },
+ "2 tablespoons finely chopped tender herbs (such as cilantro, chives, and/or parsley)": {
+  "lt": "Smulkintos švelnios žolelės (kalendra, laiškiniai česnakai, petražolės)",
+  "de": "Gehackte zarte Kräuter (Koriander, Schnittlauch, Petersilie)"
+ },
+ "1 1/2 teaspoons kosher salt, divided": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1/2 teaspoon freshly ground black pepper, plus more": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "1 pound sugar snap peas, trimmed": {
+  "lt": "Cukriniai žirneliai (ankštys)",
+  "de": "Zuckerschoten"
+ },
+ "1 pint cherry tomatoes (about 2 1/2 cups), quartered": {
+  "lt": "Vyšniniai pomidorai (ketvirčiais)",
+  "de": "Kirschtomaten (geviertelt)"
+ },
+ "2 large garlic cloves, thinly sliced": {
+  "lt": "Didelės česnako skiltelės (plonais griežinėliais)",
+  "de": "Große Knoblauchzehen (in dünnen Scheiben)"
+ },
+ "4 (1/2\"-thick) skinless flounder or tilapia fillets (about 6 ounces each)": {
+  "lt": "Plekšnės arba tilapijos filė be odos",
+  "de": "Flunder- oder Tilapiafilets ohne Haut"
+ },
+ "1/4 cup coarsely chopped basil": {
+  "lt": "Stambiai smulkintas bazilikas",
+  "de": "Grob gehacktes Basilikum"
+ },
+ "4 (16x12\") sheets parchment paper": {
+  "lt": "Kepimo popieriaus lakštai",
+  "de": "Backpapierbögen"
+ },
+ "1 1/2 lb fresh or frozen yuca (1 large), cut crosswise into 2-inch sections for pickled onions": {
+  "lt": "Šviežia arba šaldyta juka (kasava)",
+  "de": "Frische oder tiefgekühlte Yuca (Maniok)"
+ },
+ "1 medium red onion, halved lengthwise, then thinly sliced": {
+  "lt": "Raudonasis svogūnas (plonais griežinėliais)",
+  "de": "Rote Zwiebel (in dünnen Scheiben)"
+ },
+ "1/2 teaspoon salt": {
+  "lt": "Druska",
+  "de": "Salz"
+ },
+ "3 cups water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "1 lb tomatoes, coarsely chopped": {
+  "lt": "Pomidorai (stambiai pjaustyti)",
+  "de": "Tomaten (grob gehackt)"
+ },
+ "1 1/2 teaspoons salt": {
+  "lt": "Druska",
+  "de": "Salz"
+ },
+ "2 lb skinless tuna, bluefish, or mackerel fillets, cut into 1-inch pieces": {
+  "lt": "Tuno, melsvosios žuvies arba skumbrės filė be odos",
+  "de": "Thunfisch-, Blaubarsch- oder Makrelenfilets ohne Haut"
+ },
+ "Accompaniment: lime wedges": {
+  "lt": "Žaliosios citrinos skiltelės patiekti",
+  "de": "Limettenspalten als Beilage"
+ },
+ "Garnish: chopped fresh cilantro": {
+  "lt": "Smulkinta šviežia kalendra papuošti",
+  "de": "Gehackter frischer Koriander zum Garnieren"
+ },
+ "2 tablespoons extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "5 garlic cloves, chopped": {
+  "lt": "Česnako skiltelės (smulkintos)",
+  "de": "Knoblauchzehen (gehackt)"
+ },
+ "4 anchovy fillets": {
+  "lt": "Ančiuvių filė",
+  "de": "Sardellenfilets"
+ },
+ "3 tablespoons drained tiny capers": {
+  "lt": "Mažieji kaparėliai (nusunkti)",
+  "de": "Kleine Kapern (abgetropft)"
+ },
+ "2 tablespoons unsalted butter": {
+  "lt": "Nesūdytas sviestas",
+  "de": "Ungesalzene Butter"
+ },
+ "1/2 cup dry white wine": {
+  "lt": "Sausas baltasis vynas",
+  "de": "Trockener Weißwein"
+ },
+ "8 slices firm white bread, crusts removed": {
+  "lt": "Balta duona be plutos",
+  "de": "Weißbrot ohne Rinde"
+ },
+ "12 ounces fresh mozzarella, thinly sliced": {
+  "lt": "Šviežia mocarela (plonais griežinėliais)",
+  "de": "Frischer Mozzarella (in dünnen Scheiben)"
+ },
+ "All-purpose flour, for dredging": {
+  "lt": "Kvietiniai miltai (apvolioti)",
+  "de": "Weizenmehl (zum Wenden)"
+ },
+ "2 large eggs": {
+  "lt": "Dideli kiaušiniai",
+  "de": "Große Eier"
+ },
+ "2 tablespoons milk": {
+  "lt": "Pienas",
+  "de": "Milch"
+ },
+ "Vegetable oil, for frying": {
+  "lt": "Augalinis aliejus (kepti)",
+  "de": "Pflanzenöl (zum Braten)"
+ },
+ "1 tablespoon chopped fresh Italian parsley": {
+  "lt": "Smulkintos šviežios lapinės petražolės",
+  "de": "Gehackte frische glatte Petersilie"
+ },
+ "4 pounds unpeeled medium-size red-skinned potatoes": {
+  "lt": "Nenuluptos raudonaodės bulvės",
+  "de": "Ungeschälte rotschalige Kartoffeln"
+ },
+ "4 1/2 tablespoons olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "3 tablespoons malt vinegar or white wine vinegar": {
+  "lt": "Salyklo arba baltojo vyno actas",
+  "de": "Malz- oder Weißweinessig"
+ },
+ "1 tablespoon Dijon mustard": {
+  "lt": "Dižono garstyčios",
+  "de": "Dijonsenf"
+ },
+ "6 tablespoons lard, rendered bacon fat, or olive oil, divided": {
+  "lt": "Kiaulės taukai, šoninės riebalai arba alyvuogių aliejus",
+  "de": "Schmalz, Speckfett oder Olivenöl"
+ },
+ "6 tablespoons lager beer, divided": {
+  "lt": "Šviesusis alus (lageris)",
+  "de": "Helles Bier (Lager)"
+ },
+ "2 1/2 cups finely chopped red onions, divided": {
+  "lt": "Smulkinti raudonieji svogūnai",
+  "de": "Fein gehackte rote Zwiebeln"
+ },
+ "1/3 cup chopped fresh chives or green onions (green parts only)": {
+  "lt": "Smulkinti laiškiniai česnakai arba svogūnų laiškai",
+  "de": "Gehackter Schnittlauch oder Frühlingszwiebelgrün"
+ },
+ "1 pound dried gigante beans, dried lima beans, or dried Great Northern beans": {
+  "lt": "Džiovintos gigantės, limos arba baltosios pupelės",
+  "de": "Getrocknete Gigantes-, Limabohnen oder weiße Bohnen"
+ },
+ "1/4 cup olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "3 cups chopped onions (about 2 medium)": {
+  "lt": "Smulkinti svogūnai",
+  "de": "Gehackte Zwiebeln"
+ },
+ "8 cups (or more) low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1 28-ounce can whole plum tomatoes in juice (preferably San Marzano), tomatoes chopped, juice reserved": {
+  "lt": "Konservuoti ištisi slyviniai pomidorai su sultimis (geriausia San Marzano)",
+  "de": "Ganze Eiertomaten aus der Dose im Saft (am besten San Marzano)"
+ },
+ "1/4 cup red wine vinegar": {
+  "lt": "Raudonojo vyno actas",
+  "de": "Rotweinessig"
+ },
+ "1/4 cup ouzo (Greek anise-flavored liqueur)": {
+  "lt": "Uzo (graikiškas anyžių likeris)",
+  "de": "Ouzo (griechischer Anisschnaps)"
+ },
+ "1 tablespoon dried oregano (preferably Greek)": {
+  "lt": "Džiovintas raudonėlis (geriausia graikiškas)",
+  "de": "Getrockneter Oregano (am besten griechischer)"
+ },
+ "1 teaspoon dried crushed red pepper": {
+  "lt": "Džiovintų aitriųjų pipirų dribsniai",
+  "de": "Getrocknete Chiliflocken"
+ },
+ "1 cup chopped fresh dill": {
+  "lt": "Smulkinti švieži krapai",
+  "de": "Gehackter frischer Dill"
+ },
+ "\"Ingredient info: Dried gigante beans are large cream-colored beans from the mediterranean. Theyre available at some specialty foods stores and online at titanfood.com. Ouzo is available at some liquor stores.\"": {
+  "lt": "Pastaba apie ingredientus",
+  "de": "Hinweis zu den Zutaten"
+ },
+ "1 tablespoon canola oil": {
+  "lt": "Rapsų aliejus",
+  "de": "Rapsöl"
+ },
+ "1/4 cup sliced shallots": {
+  "lt": "Askaloniniai česnakai (griežinėliais)",
+  "de": "Schalotten (in Scheiben)"
+ },
+ "2 cloves garlic, peeled and minced": {
+  "lt": "Česnako skiltelės (nuluptos, smulkintos)",
+  "de": "Knoblauchzehen (geschält, fein gehackt)"
+ },
+ "3 pounds green beans, trimmed": {
+  "lt": "Šparaginės pupelės (apipjaustytos)",
+  "de": "Grüne Bohnen (geputzt)"
+ },
+ "1/2 cup red-wine vinegar": {
+  "lt": "Raudonojo vyno actas",
+  "de": "Rotweinessig"
+ },
+ "1 1/2 teaspoons kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1/2 cup chicken stock or low-sodium chicken broth": {
+  "lt": "Vištienos sultinys",
+  "de": "Hühnerbrühe"
+ },
+ "1/2 cup heavy cream": {
+  "lt": "Riebi grietinėlė",
+  "de": "Sahne"
+ },
+ "1 teaspoon coarsely chopped fresh rosemary": {
+  "lt": "Stambiai smulkintas šviežias rozmarinas",
+  "de": "Grob gehackter frischer Rosmarin"
+ },
+ "1 cup sliced almonds, lightly toasted": {
+  "lt": "Lengvai paskrudintos migdolų drožlės",
+  "de": "Leicht geröstete Mandelblättchen"
+ },
+ "1 cup freshly grated sharp or extra-sharp white Cheddar cheese": {
+  "lt": "Šviežiai tarkuotas aštrus baltasis čederis",
+  "de": "Frisch geriebener würziger weißer Cheddar"
+ },
+ "1 (2 1/2- to 3-quart) baking dish": {
+  "lt": "Kepimo indas",
+  "de": "Auflaufform"
+ },
+ "3 tablespoons unsalted butter": {
+  "lt": "Nesūdytas sviestas",
+  "de": "Ungesalzene Butter"
+ },
+ "2 1/2 pounds broccoli, tops chopped into 1/2-inch florets; stalks chopped into 1/2-inch pieces": {
+  "lt": "Brokoliai (žiedynais ir stiebų gabaliukais)",
+  "de": "Brokkoli (Röschen und Stielstücke)"
+ },
+ "3 shallots, finely chopped": {
+  "lt": "Askaloniniai česnakai (smulkinti)",
+  "de": "Schalotten (fein gehackt)"
+ },
+ "1/4 teaspoon salt": {
+  "lt": "Druska",
+  "de": "Salz"
+ },
+ "1/8 teaspoon ground black pepper": {
+  "lt": "Malti juodieji pipirai",
+  "de": "Gemahlener schwarzer Pfeffer"
+ },
+ "1 cup vegetable or chicken broth": {
+  "lt": "Daržovių arba vištienos sultinys",
+  "de": "Gemüse- oder Hühnerbrühe"
+ },
+ "1/2 pound grated sharp cheddar cheese (2 cups)": {
+  "lt": "Tarkuotas aštrus čederio sūris",
+  "de": "Geriebener würziger Cheddar"
+ },
+ "6 hard-cooked eggs, peeled": {
+  "lt": "Kietai virti kiaušiniai (nulupti)",
+  "de": "Hartgekochte Eier (geschält)"
+ },
+ "6 pitted black olives": {
+  "lt": "Juodosios alyvuogės be kauliukų",
+  "de": "Entsteinte schwarze Oliven"
+ },
+ "Pinch freshly grated nutmeg": {
+  "lt": "Žiupsnis šviežiai tarkuoto muskato riešuto",
+  "de": "Prise frisch geriebene Muskatnuss"
+ },
+ "1 1/2 cups (loosely packed) fresh basil leaves": {
+  "lt": "Švieži baziliko lapeliai",
+  "de": "Frische Basilikumblätter"
+ },
+ "1 large shallot, coarsely chopped": {
+  "lt": "Didelis askaloninis česnakas (stambiai smulkintas)",
+  "de": "Große Schalotte (grob gehackt)"
+ },
+ "8 tablespoons (1/2 cup) unsalted butter, room temperature": {
+  "lt": "Nesūdytas sviestas (kambario temperatūros)",
+  "de": "Ungesalzene Butter (zimmerwarm)"
+ },
+ "1 teaspoon grated lemon peel": {
+  "lt": "Tarkuota citrinos žievelė",
+  "de": "Abgeriebene Zitronenschale"
+ },
+ "6 6-ounce halibut fillets": {
+  "lt": "Otų filė",
+  "de": "Heilbuttfilets"
+ },
+ "Extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "18 fresh sardines, gutted, cleaned, scaled, patted dry": {
+  "lt": "Šviežios sardinės (išdarinėtos, nuvalytos)",
+  "de": "Frische Sardinen (ausgenommen, geschuppt)"
+ },
+ "3 tablespoons coarsely chopped fresh cilantro": {
+  "lt": "Stambiai smulkinta šviežia kalendra",
+  "de": "Grob gehackter frischer Koriander"
+ },
+ "3 tablespoons coarsely chopped fresh Italian parsley": {
+  "lt": "Stambiai smulkintos šviežios lapinės petražolės",
+  "de": "Grob gehackte frische glatte Petersilie"
+ },
+ "2 teaspoons finely grated lemon peel": {
+  "lt": "Smulkiai tarkuota citrinos žievelė",
+  "de": "Fein abgeriebene Zitronenschale"
+ },
+ "1/3 cup coarsely chopped pitted brine-cured green olives": {
+  "lt": "Stambiai smulkintos marinuotos žaliosios alyvuogės be kauliukų",
+  "de": "Grob gehackte entsteinte grüne Oliven in Lake"
+ },
+ "3 tablespoons finely chopped red onion": {
+  "lt": "Smulkintas raudonasis svogūnas",
+  "de": "Fein gehackte rote Zwiebel"
+ },
+ "Olive oil (for brushing)": {
+  "lt": "Alyvuogių aliejus (aptepti)",
+  "de": "Olivenöl (zum Bestreichen)"
+ },
+ "Lemon wedges (for garnish)": {
+  "lt": "Citrinos skiltelės papuošti",
+  "de": "Zitronenspalten zum Garnieren"
+ },
+ "4 (6-ounce) skin-on wild-caught salmon fillets": {
+  "lt": "Laukinės lašišos filė su oda",
+  "de": "Wildlachsfilets mit Haut"
+ },
+ "1/2 cup extra virgin olive oil, plus more for grilling": {
+  "lt": "Ypač tyras alyvuogių aliejus (+ grotelėms)",
+  "de": "Natives Olivenöl extra (+ für den Grill)"
+ },
+ "1 tablespoon grated Meyer or regular lemon zest": {
+  "lt": "Tarkuota Meyer arba paprastos citrinos žievelė",
+  "de": "Abgeriebene Meyer- oder normale Zitronenschale"
+ },
+ "Juice of 2 Meyer lemons (see head note) or regular lemons, plus 1 or 2 Meyer or regular lemons, sliced into 8 thin rounds": {
+  "lt": "Meyer arba paprastų citrinų sultys ir griežinėliai",
+  "de": "Saft und Scheiben von Meyer- oder normalen Zitronen"
+ },
+ "1 tablespoon minced fresh dill": {
+  "lt": "Smulkinti švieži krapai",
+  "de": "Fein gehackter frischer Dill"
+ },
+ "1 tablespoon pink or regular sea salt": {
+  "lt": "Rožinė arba paprasta jūros druska",
+  "de": "Rosa oder normales Meersalz"
+ },
+ "1/2 cup mayonnaise, preferably Hellmann’s": {
+  "lt": "Majonezas (geriausia Hellmann's)",
+  "de": "Mayonnaise (am besten Hellmann's)"
+ },
+ "1/2 cup sour cream": {
+  "lt": "Grietinė",
+  "de": "Saure Sahne"
+ },
+ "1 tablespoon fresh Meyer or regular lemon juice, or to taste": {
+  "lt": "Šviežios Meyer arba paprastų citrinų sultys",
+  "de": "Frischer Meyer- oder normaler Zitronensaft"
+ },
+ "1 teaspoon minced fresh dill": {
+  "lt": "Smulkinti švieži krapai",
+  "de": "Fein gehackter frischer Dill"
+ },
+ "1 teaspoon sea salt": {
+  "lt": "Jūros druska",
+  "de": "Meersalz"
+ },
+ "2 English cucumbers, peeled in stripes, halved, and cut into 1/4-inch dice": {
+  "lt": "Angliški agurkai (smulkiais kubeliais)",
+  "de": "Salatgurken (fein gewürfelt)"
+ },
+ "1 tablespoon minced chives": {
+  "lt": "Smulkinti laiškiniai česnakai",
+  "de": "Gehackter Schnittlauch"
+ },
+ "1 cup fresh lime juice": {
+  "lt": "Šviežios žaliųjų citrinų sultys",
+  "de": "Frischer Limettensaft"
+ },
+ "2/3 cup fresh orange juice": {
+  "lt": "Šviežios apelsinų sultys",
+  "de": "Frischer Orangensaft"
+ },
+ "1/2 cup olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "4 garlic cloves, thinly sliced": {
+  "lt": "Česnako skiltelės (plonais griežinėliais)",
+  "de": "Knoblauchzehen (in dünnen Scheiben)"
+ },
+ "2 teaspoons hot pepper sauce": {
+  "lt": "Aštrus pipirų padažas",
+  "de": "Scharfe Pfeffersoße"
+ },
+ "2 teaspoons dried crushed red pepper": {
+  "lt": "Džiovintų aitriųjų pipirų dribsniai",
+  "de": "Getrocknete Chiliflocken"
+ },
+ "16 large chicken thighs with skin and bones (about 6 pounds)": {
+  "lt": "Didelės vištienos šlaunelės su oda ir kaulu",
+  "de": "Große Hähnchenschenkel mit Haut und Knochen"
+ },
+ "16 green onions": {
+  "lt": "Svogūnų laiškai",
+  "de": "Frühlingszwiebeln"
+ },
+ "8 ears of corn, husked": {
+  "lt": "Kukurūzų burbuolės (nuluptos)",
+  "de": "Maiskolben (entblättert)"
+ },
+ "1/4 cup chopped fresh dill": {
+  "lt": "Smulkinti švieži krapai",
+  "de": "Gehackter frischer Dill"
+ },
+ "1 tablespoon finely grated orange peel": {
+  "lt": "Smulkiai tarkuota apelsino žievelė",
+  "de": "Fein abgeriebene Orangenschale"
+ },
+ "3 medium (1 1/2- to 2-inch) beets with green tops attached; beets trimmed and scrubbed, beet greens very coarsely chopped (4 to 6 cups)": {
+  "lt": "Burokėliai su lapais (lapai stambiai pjaustyti)",
+  "de": "Rote Bete mit Blättern (Blätter grob gehackt)"
+ },
+ "1/2 cup thinly sliced shallots": {
+  "lt": "Askaloniniai česnakai (plonais griežinėliais)",
+  "de": "Schalotten (in dünnen Scheiben)"
+ },
+ "4 6- to 7-ounce halibut fillets or mahi-mahi fillets (about 1 inch thick)": {
+  "lt": "Oto arba mahi-mahi filė",
+  "de": "Heilbutt- oder Mahi-Mahi-Filets"
+ },
+ "1 large garlic clove": {
+  "lt": "Didelė česnako skiltelė",
+  "de": "Große Knoblauchzehe"
+ },
+ "1/4 cup plus 2 tablespoons fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "1 1/2 teaspoons black pepper": {
+  "lt": "Juodieji pipirai",
+  "de": "Schwarzer Pfeffer"
+ },
+ "1 cup plus 2 tablespoons olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "1/4 cup finely chopped fresh thyme leaves": {
+  "lt": "Smulkinti švieži čiobrelių lapeliai",
+  "de": "Fein gehackte frische Thymianblätter"
+ },
+ "1 1/2 tablespoons finely chopped fresh rosemary leaves": {
+  "lt": "Smulkinti švieži rozmarino lapeliai",
+  "de": "Fein gehackte frische Rosmarinnadeln"
+ },
+ "1 (2-lb) piece trimmed boneless leg of lamb, cut into 1 1/4-inch cubes": {
+  "lt": "Ėrienos kumpis be kaulo (kubeliais)",
+  "de": "Lammkeule ohne Knochen (gewürfelt)"
+ },
+ "3 medium zucchini (1 1/2 lb total)": {
+  "lt": "Cukinijos",
+  "de": "Zucchini"
+ },
+ "24 large cherry tomatoes (3/4 lb total)": {
+  "lt": "Dideli vyšniniai pomidorai",
+  "de": "Große Kirschtomaten"
+ },
+ "soaked in warm water 1 hour": {
+  "lt": "Iešmelius 1 val. pamirkyti šiltame vandenyje",
+  "de": "Spieße 1 Std. in warmem Wasser einweichen"
+ },
+ "16 (12-inch) wooden skewers": {
+  "lt": "Mediniai iešmeliai",
+  "de": "Holzspieße"
+ },
+ "1/2 cup silken tofu": {
+  "lt": "Šilkinis tofu",
+  "de": "Seidentofu"
+ },
+ "3 tablespoons white miso": {
+  "lt": "Baltasis misas",
+  "de": "Helle Misopaste"
+ },
+ "1 tablespoon freshly squeezed lemon juice": {
+  "lt": "Šviežiai spaustos citrinų sultys",
+  "de": "Frisch gepresster Zitronensaft"
+ },
+ "2 tablespoons sherry vinegar (or malt vinegar if thats lying around)": {
+  "lt": "Šerio (arba salyklo) actas",
+  "de": "Sherry- (oder Malz-)Essig"
+ },
+ "1/2 teaspoon garlic powder": {
+  "lt": "Česnako milteliai",
+  "de": "Knoblauchpulver"
+ },
+ "1 teaspoon onion powder": {
+  "lt": "Svogūnų milteliai",
+  "de": "Zwiebelpulver"
+ },
+ "1 8-ounce can jumbo lump crab": {
+  "lt": "Konservuota didelių gabalų krabų mėsa",
+  "de": "Krabbenfleisch in großen Stücken (Dose)"
+ },
+ "1/4 cup sour cream": {
+  "lt": "Grietinė",
+  "de": "Saure Sahne"
+ },
+ "2 tablespoons finely chopped fresh chives": {
+  "lt": "Smulkinti švieži laiškiniai česnakai",
+  "de": "Fein gehackter frischer Schnittlauch"
+ },
+ "Olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "1 loaf miche bread or baguette, cut into 15 to 20 1/2-inch-thick slices": {
+  "lt": "Kaimiškas kepalas arba batonas (riekelėmis)",
+  "de": "Bauernbrot oder Baguette (in Scheiben)"
+ },
+ "1 (3\") piece ginger, peeled, finely grated": {
+  "lt": "Smulkiai tarkuotas imbieras",
+  "de": "Fein geriebener Ingwer"
+ },
+ "2 garlic cloves, finely grated": {
+  "lt": "Smulkiai tarkuotos česnako skiltelės",
+  "de": "Fein geriebene Knoblauchzehen"
+ },
+ "1/2 cup tahini": {
+  "lt": "Tahini (sezamų pasta)",
+  "de": "Tahini (Sesampaste)"
+ },
+ "1/4 cup low-sodium soy sauce or tamari": {
+  "lt": "Mažai sūrus sojų padažas arba tamari",
+  "de": "Salzreduzierte Sojasoße oder Tamari"
+ },
+ "1/4 cup mirin (Japanese rice wine)": {
+  "lt": "Mirinas (japoniškas ryžių vynas)",
+  "de": "Mirin (japanischer Reiswein)"
+ },
+ "1/4 cup unseasoned rice vinegar": {
+  "lt": "Ryžių actas (be priedų)",
+  "de": "Reisessig (ungewürzt)"
+ },
+ "1/4 cup hot chili sesame oil, plus more for serving": {
+  "lt": "Aštrus čili sezamų aliejus (+ patiekti)",
+  "de": "Scharfes Chili-Sesamöl (+ zum Servieren)"
+ },
+ "2 Tbsp. vegetable oil": {
+  "lt": "Augalinis aliejus",
+  "de": "Pflanzenöl"
+ },
+ "1 lb. ground pork, beef, chicken, or turkey": {
+  "lt": "Kiaulienos, jautienos, vištienos arba kalakutienos faršas",
+  "de": "Hackfleisch von Schwein, Rind, Huhn oder Pute"
+ },
+ "1 tsp. kosher salt, divided, plus more": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "2 cups sliced carrots, zucchini, or whole snow or sugar snap peas": {
+  "lt": "Morkos, cukinijos arba žirnelių ankštys",
+  "de": "Karotten, Zucchini oder Zuckerschoten"
+ },
+ "1 bunch scallions, white and pale green parts cut into 1\" pieces, dark green parts thinly sliced": {
+  "lt": "Svogūnų laiškai (balta ir žalia dalys atskirai)",
+  "de": "Frühlingszwiebeln (Weißes und Grünes getrennt)"
+ },
+ "8 oz. rice noodles of any shape": {
+  "lt": "Ryžių makaronai",
+  "de": "Reisnudeln"
+ },
+ "Toasted sesame seeds and sliced seaweed snacks (for serving; optional)": {
+  "lt": "Skrudinti sezamai ir jūros dumblių traškučiai patiekti (nebūtina)",
+  "de": "Geröstete Sesamsamen und Algensnacks zum Servieren (optional)"
+ },
+ "1 1/2 cups mayonnaise": {
+  "lt": "Majonezas",
+  "de": "Mayonnaise"
+ },
+ "1 tablespoon coarsely ground black pepper": {
+  "lt": "Stambiai malti juodieji pipirai",
+  "de": "Grob gemahlener schwarzer Pfeffer"
+ },
+ "1 teaspoon hot pepper sauce": {
+  "lt": "Aštrus pipirų padažas",
+  "de": "Scharfe Pfeffersoße"
+ },
+ "1 cup coarsely crumbled blue cheese": {
+  "lt": "Stambiai trupintas pelėsinis sūris",
+  "de": "Grob zerbröckelter Blauschimmelkäse"
+ },
+ "Buttermilk (optional)": {
+  "lt": "Pasukos (nebūtina)",
+  "de": "Buttermilch (optional)"
+ },
+ "1/2 pound thick-cut bacon, cut crosswise into 1-inch pieces": {
+  "lt": "Storai pjaustyta šoninė",
+  "de": "Dick geschnittener Speck"
+ },
+ "1 large head of iceberg lettuce, cut into 6 wedges, each with some core attached": {
+  "lt": "Ledinių salotų galva (6 skiltelėmis)",
+  "de": "Eisbergsalat (in 6 Spalten)"
+ },
+ "1/2 red onion, very thinly sliced": {
+  "lt": "Pusė raudonojo svogūno (labai plonais griežinėliais)",
+  "de": "Halbe rote Zwiebel (in sehr dünnen Scheiben)"
+ },
+ "1 pound Persian or Japanese cucumbers, peeled, halved, seeded, cut crosswise into 1-inch-thick slices (about 2 1/2 cups)": {
+  "lt": "Persiški arba japoniški agurkai (nulupti, be sėklų)",
+  "de": "Persische oder japanische Gurken (geschält, entkernt)"
+ },
+ "2 cups low-salt chicken broth or vegetable broth": {
+  "lt": "Mažai sūrus vištienos arba daržovių sultinys",
+  "de": "Salzarme Hühner- oder Gemüsebrühe"
+ },
+ "4 ounces finely crumbled feta cheese (about 3/4 cup)": {
+  "lt": "Smulkiai trupinta feta",
+  "de": "Fein zerbröckelter Feta"
+ },
+ "3/4 cup chopped white onion": {
+  "lt": "Smulkintas baltasis svogūnas",
+  "de": "Gehackte weiße Zwiebel"
+ },
+ "1/2 cup loosely packed fresh mint leaves": {
+  "lt": "Švieži mėtų lapeliai",
+  "de": "Frische Minzblätter"
+ },
+ "1/2 cup loosely packed watercress leaves": {
+  "lt": "Rėžiukų lapeliai",
+  "de": "Brunnenkresseblätter"
+ },
+ "1 tablespoon fresh oregano leaves": {
+  "lt": "Švieži raudonėlio lapeliai",
+  "de": "Frische Oreganoblätter"
+ },
+ "1 small garlic clove, peeled": {
+  "lt": "Maža česnako skiltelė (nulupta)",
+  "de": "Kleine Knoblauchzehe (geschält)"
+ },
+ "1 17.6-ounce container whole-milk or nonfat yogurt (preferably Greek; about 2 cups)": {
+  "lt": "Nenugriebtas arba liesas jogurtas (geriausia graikiškas)",
+  "de": "Vollmilch- oder Magerjoghurt (am besten griechischer)"
+ },
+ "2 hard-boiled eggs, chilled, coarsely chopped": {
+  "lt": "Kietai virti kiaušiniai (atšaldyti, smulkinti)",
+  "de": "Hartgekochte Eier (gekühlt, gehackt)"
+ },
+ "3 tablespoons chopped fresh chives": {
+  "lt": "Smulkinti švieži laiškiniai česnakai",
+  "de": "Gehackter frischer Schnittlauch"
+ },
+ "1 1/2 pounds ground beef chuck (20% fat)": {
+  "lt": "Jautienos sprandinės faršas (20 % riebalų)",
+  "de": "Rinderhack aus der Schulter (20 % Fett)"
+ },
+ "2 tablespoons chopped parsley": {
+  "lt": "Smulkintos petražolės",
+  "de": "Gehackte Petersilie"
+ },
+ "2 large garlic cloves, finely chopped, divided": {
+  "lt": "Didelės česnako skiltelės (smulkintos)",
+  "de": "Große Knoblauchzehen (fein gehackt)"
+ },
+ "1 1/2 teaspoons paprika, divided": {
+  "lt": "Paprika",
+  "de": "Paprikapulver"
+ },
+ "5 tablespoons (or more) unsalted butter, divided": {
+  "lt": "Nesūdytas sviestas",
+  "de": "Ungesalzene Butter"
+ },
+ "1/4 cup tomato paste": {
+  "lt": "Pomidorų pasta",
+  "de": "Tomatenmark"
+ },
+ "4 hamburger or brioche buns": {
+  "lt": "Mėsainių arba brioche bandelės",
+  "de": "Burger- oder Brioche-Brötchen"
+ },
+ "6 tablespoons (3/4 stick) butter, room temperature, divided": {
+  "lt": "Sviestas (kambario temperatūros)",
+  "de": "Butter (zimmerwarm)"
+ },
+ "1 large onion, chopped (2 1/2 cups)": {
+  "lt": "Didelis svogūnas (smulkintas)",
+  "de": "Große Zwiebel (gehackt)"
+ },
+ "3 teaspoons grated lemon peel, divided": {
+  "lt": "Tarkuota citrinos žievelė",
+  "de": "Abgeriebene Zitronenschale"
+ },
+ "1 (8.8-ounce) package toasted Israeli couscous (about 1 3/4 cups)": {
+  "lt": "Skrudintas izraelietiškas kuskusas",
+  "de": "Gerösteter israelischer Couscous"
+ },
+ "3 cups low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "3 cups 1/2-inch cubes peeled butternut squash (about 12 ounces)": {
+  "lt": "Muskatinis moliūgas (nuluptas, kubeliais)",
+  "de": "Butternusskürbis (geschält, gewürfelt)"
+ },
+ "1 cup diced radicchio": {
+  "lt": "Radikiai (kubeliais)",
+  "de": "Radicchio (gewürfelt)"
+ },
+ "3/4 cup finely grated Parmesan cheese": {
+  "lt": "Smulkiai tarkuotas parmezanas",
+  "de": "Fein geriebener Parmesan"
+ },
+ "1 cup (packed) fresh Italian parsley leaves": {
+  "lt": "Šviežių lapinių petražolių lapeliai",
+  "de": "Frische glatte Petersilienblätter"
+ },
+ "1 lb. firm white skinless fish fillets (such as mahi-mahi, cod, or halibut), cut into 2\" pieces": {
+  "lt": "Baltos žuvies filė be odos (mahi-mahi, menkė arba otas)",
+  "de": "Weißfischfilets ohne Haut (Mahi-Mahi, Kabeljau oder Heilbutt)"
+ },
+ "Kosher salt, freshly ground pepper": {
+  "lt": "Rupi druska ir šviežiai malti pipirai",
+  "de": "Grobes Salz und frisch gemahlener Pfeffer"
+ },
+ "1 Tbsp. fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "1 Tbsp. red wine vinegar": {
+  "lt": "Raudonojo vyno actas",
+  "de": "Rotweinessig"
+ },
+ "1/2 tsp. Dijon mustard": {
+  "lt": "Dižono garstyčios",
+  "de": "Dijonsenf"
+ },
+ "3 Tbsp. extra-virgin olive oil, divided": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "1 cup dry or instant polenta (coarse cornmeal)": {
+  "lt": "Polenta (stambios kukurūzų kruopos)",
+  "de": "Polenta (grober Maisgrieß)"
+ },
+ "1 garlic clove, smashed": {
+  "lt": "Česnako skiltelė (sutraiškyta)",
+  "de": "Knoblauchzehe (angedrückt)"
+ },
+ "1 medium yellow bell pepper, seeds and ribs removed, cut into 2\" pieces": {
+  "lt": "Geltonoji paprika (gabaliukais)",
+  "de": "Gelbe Paprika (in Stücken)"
+ },
+ "1 medium zucchini, cut into 2\" pieces": {
+  "lt": "Cukinija (gabaliukais)",
+  "de": "Zucchini (in Stücken)"
+ },
+ "1 pint cherry or grape tomatoes, halved": {
+  "lt": "Vyšniniai pomidorai (perpjauti)",
+  "de": "Kirsch- oder Datteltomaten (halbiert)"
+ },
+ "1 Tbsp. slivered fresh basil (or 1 tsp. dried), plus whole leaves for serving": {
+  "lt": "Šviežias bazilikas (juostelėmis + lapeliai patiekti)",
+  "de": "Frisches Basilikum (in Streifen + Blätter zum Servieren)"
+ },
+ "1 tsp. chopped fresh oregano (or 1/2 tsp. dried), plus whole leaves for serving": {
+  "lt": "Šviežias raudonėlis (smulkintas + lapeliai patiekti)",
+  "de": "Frischer Oregano (gehackt + Blätter zum Servieren)"
+ },
+ "3/4 teaspoon (or more) fine sea salt": {
+  "lt": "Smulki jūros druska",
+  "de": "Feines Meersalz"
+ },
+ "1/2 teaspoon (or more) black pepper": {
+  "lt": "Juodieji pipirai",
+  "de": "Schwarzer Pfeffer"
+ },
+ "1/2 teaspoon dried crushed red pepper": {
+  "lt": "Džiovintų aitriųjų pipirų dribsniai",
+  "de": "Getrocknete Chiliflocken"
+ },
+ "1/2 teaspoon (packed) grated lemon peel": {
+  "lt": "Tarkuota citrinos žievelė",
+  "de": "Abgeriebene Zitronenschale"
+ },
+ "31/2 tablespoons fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "3/4 cup extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "3/4 cup (packed) chopped Italian parsley": {
+  "lt": "Smulkintos lapinės petražolės",
+  "de": "Gehackte glatte Petersilie"
+ },
+ "1 tablespoon drained capers": {
+  "lt": "Kaparėliai (nusunkti)",
+  "de": "Kapern (abgetropft)"
+ },
+ "2 anchovy fillets, minced": {
+  "lt": "Ančiuvių filė (smulkinta)",
+  "de": "Sardellenfilets (fein gehackt)"
+ },
+ "3 pounds Jerusalem artichokes (also called sunchokes), unpeeled, cut into 1 1/2\" pieces": {
+  "lt": "Topinambai (nenulupti, gabaliukais)",
+  "de": "Topinambur (ungeschält, in Stücken)"
+ },
+ "1/2 cup olive oil, divided": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "4 anchovy fillets packed in oil, drained, finely chopped": {
+  "lt": "Ančiuvių filė aliejuje (nusunkta, smulkinta)",
+  "de": "Sardellenfilets in Öl (abgetropft, fein gehackt)"
+ },
+ "1/2 cup chopped fresh flat-leaf parsley": {
+  "lt": "Smulkintos šviežios lapinės petražolės",
+  "de": "Gehackte frische glatte Petersilie"
+ },
+ "2 tablespoons drained capers, chopped": {
+  "lt": "Kaparėliai (nusunkti, smulkinti)",
+  "de": "Kapern (abgetropft, gehackt)"
+ },
+ "1 tablespoon red wine vinegar": {
+  "lt": "Raudonojo vyno actas",
+  "de": "Rotweinessig"
+ },
+ "1/2 teaspoons crushed red pepper flakes": {
+  "lt": "Aitriųjų pipirų dribsniai",
+  "de": "Chiliflocken"
+ },
+ "1 large yellow onion, minced": {
+  "lt": "Didelis geltonasis svogūnas (smulkintas)",
+  "de": "Große gelbe Zwiebel (fein gehackt)"
+ },
+ "1/2 pound slab bacon, minced": {
+  "lt": "Šoninė gabalu (smulkinta)",
+  "de": "Speck am Stück (fein gehackt)"
+ },
+ "2 pounds collard greens, trimmed and torn into bite-size pieces": {
+  "lt": "Lapiniai kopūstai (plėšyti gabaliukais)",
+  "de": "Blattkohl (Collard Greens, mundgerecht gezupft)"
+ },
+ "1/4 cup sherry vinegar": {
+  "lt": "Šerio actas",
+  "de": "Sherryessig"
+ },
+ "1 tablespoon sorghum or maple syrup": {
+  "lt": "Sorgų arba klevų sirupas",
+  "de": "Sorghum- oder Ahornsirup"
+ },
+ "2 cups chicken stock": {
+  "lt": "Vištienos sultinys",
+  "de": "Hühnerbrühe"
+ },
+ "1 cup heavy cream": {
+  "lt": "Riebi grietinėlė",
+  "de": "Sahne"
+ },
+ "1 cup finely chopped Classic Cabbage Kimchi": {
+  "lt": "Smulkintas kopūstų kimči",
+  "de": "Fein gehacktes Kohl-Kimchi"
+ },
+ "2 tablespoons plus 1/4 cup chopped shallots": {
+  "lt": "Smulkinti askaloniniai česnakai",
+  "de": "Gehackte Schalotten"
+ },
+ "4 1/2 cups diced rhubarb, divided": {
+  "lt": "Rabarbarai (kubeliais)",
+  "de": "Rhabarber (gewürfelt)"
+ },
+ "2 teaspoons finely grated lemon peel, divided": {
+  "lt": "Smulkiai tarkuota citrinos žievelė",
+  "de": "Fein abgeriebene Zitronenschale"
+ },
+ "1/4 cup (1/2 stick) butter": {
+  "lt": "Sviestas",
+  "de": "Butter"
+ },
+ "1/2 cup sliced unpeeled fresh ginger": {
+  "lt": "Nenuluptas šviežias imbieras (griežinėliais)",
+  "de": "Ungeschälter frischer Ingwer (in Scheiben)"
+ },
+ "3/4 cup sugar": {
+  "lt": "Cukrus",
+  "de": "Zucker"
+ },
+ "6 tablespoons brandy": {
+  "lt": "Brendis",
+  "de": "Brandy"
+ },
+ "4 cups low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1 whole star anise": {
+  "lt": "Ištisas žvaigždinis anyžius",
+  "de": "Ganzer Sternanis"
+ },
+ "6 boneless chicken breast halves with skin": {
+  "lt": "Vištienos krūtinėlės be kaulų, su oda",
+  "de": "Hähnchenbrust ohne Knochen, mit Haut"
+ },
+ "1/2 cup unsalted, roasted almonds, coarsely chopped": {
+  "lt": "Nesūdyti skrudinti migdolai (stambiai smulkinti)",
+  "de": "Ungesalzene geröstete Mandeln (grob gehackt)"
+ },
+ "1 tablespoon plus 1/4 cup olive oil": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "4 large garlic cloves, thinly sliced": {
+  "lt": "Didelės česnako skiltelės (plonais griežinėliais)",
+  "de": "Große Knoblauchzehen (in dünnen Scheiben)"
+ },
+ "3/4 teaspoons crushed red pepper flakes": {
+  "lt": "Aitriųjų pipirų dribsniai",
+  "de": "Chiliflocken"
+ },
+ "2 pounds littleneck clams, scrubbed": {
+  "lt": "Mažieji venerėliai (nušveisti)",
+  "de": "Kleine Venusmuscheln (geschrubbt)"
+ },
+ "12 ounces linguine": {
+  "lt": "Lingvinė",
+  "de": "Linguine"
+ },
+ "4 (1 1/2-lb) live lobsters or 1 1/2 lb cooked fresh lobster meat": {
+  "lt": "Gyvi omarai arba virta omarų mėsa",
+  "de": "Lebende Hummer oder gekochtes Hummerfleisch"
+ },
+ "1 lb small red potatoes": {
+  "lt": "Mažos raudonosios bulvės",
+  "de": "Kleine rote Kartoffeln"
+ },
+ "3 ears corn": {
+  "lt": "Kukurūzų burbuolės",
+  "de": "Maiskolben"
+ },
+ "2 1/2 tablespoons fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "1 1/2 to 2 tablespoons chopped fresh tarragon": {
+  "lt": "Smulkintas šviežias peletrūnas",
+  "de": "Gehackter frischer Estragon"
+ },
+ "1/2 teaspoon Dijon mustard": {
+  "lt": "Dižono garstyčios",
+  "de": "Dijonsenf"
+ },
+ "2 cups grape or cherry tomatoes, halved": {
+  "lt": "Vyšniniai pomidorai (perpjauti)",
+  "de": "Dattel- oder Kirschtomaten (halbiert)"
+ },
+ "1 cup coarsely chopped frisée (French curly endive)": {
+  "lt": "Garbanotosios endivijos (frizė)",
+  "de": "Frisée-Salat"
+ },
+ "1/3 cup sliced scallion": {
+  "lt": "Svogūnų laiškai (griežinėliais)",
+  "de": "Frühlingszwiebeln (in Ringen)"
+ },
+ "1/2 cup uncooked basmati rice": {
+  "lt": "Nevirti basmati ryžiai",
+  "de": "Ungekochter Basmatireis"
+ },
+ "1/4 cup chopped almonds": {
+  "lt": "Smulkinti migdolai",
+  "de": "Gehackte Mandeln"
+ },
+ "2 pound 90-percent-lean ground bison": {
+  "lt": "Liesas bizono faršas (90 %)",
+  "de": "Mageres Bisonhack (90 %)"
+ },
+ "1/4 cup chopped raisins": {
+  "lt": "Smulkintos razinos",
+  "de": "Gehackte Rosinen"
+ },
+ "1/4 cup plus 1 tablespoons chopped flat-leaf parsley, divided": {
+  "lt": "Smulkintos lapinės petražolės",
+  "de": "Gehackte glatte Petersilie"
+ },
+ "3 tablespoons chopped mint, divided, plus whole leaves for garnish": {
+  "lt": "Smulkintos mėtos (+ lapeliai papuošti)",
+  "de": "Gehackte Minze (+ Blätter zum Garnieren)"
+ },
+ "2 teaspoons coarse salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1/8 teaspoon freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "3 tablespoons olive oil, divided": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "1 cup nonfat plain yogurt": {
+  "lt": "Liesas natūralus jogurtas",
+  "de": "Fettarmer Naturjoghurt"
+ },
+ "2 teaspoons fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "1 stem saffron (optional)": {
+  "lt": "Šafrano siūlelis (nebūtina)",
+  "de": "Safranfaden (optional)"
+ },
+ "1 1/2 cups low-sodium marinara sauce": {
+  "lt": "Mažai sūrus marinaros padažas",
+  "de": "Salzarme Marinara-Soße"
+ },
+ "24 small brioche buns (1 1/2-inch diameter)": {
+  "lt": "Mažos brioche bandelės",
+  "de": "Kleine Brioche-Brötchen"
+ },
+ "1 bunch chives, cut into 1-inch pieces": {
+  "lt": "Laiškiniai česnakai (gabaliukais)",
+  "de": "Schnittlauch (in Stücken)"
+ },
+ "4–8 Scotch bonnet chiles or habanero chiles": {
+  "lt": "Scotch bonnet arba habanero čili pipirai",
+  "de": "Scotch-Bonnet- oder Habanero-Chilis"
+ },
+ "5 garlic cloves, crushed": {
+  "lt": "Česnako skiltelės (sutrintos)",
+  "de": "Knoblauchzehen (zerdrückt)"
+ },
+ "3/4 cup malt vinegar": {
+  "lt": "Salyklo actas",
+  "de": "Malzessig"
+ },
+ "2 tablespoons Jamaican rum": {
+  "lt": "Jamaikos romas",
+  "de": "Jamaika-Rum"
+ },
+ "2 tablespoons Diamond Crystal or 1 tablespoon Morton kosher salt": {
+  "lt": "Rupi druska (Diamond Crystal arba Morton)",
+  "de": "Grobes Salz (Diamond Crystal oder Morton)"
+ },
+ "2 1/2 teaspoons ground allspice": {
+  "lt": "Malti kvapieji pipirai",
+  "de": "Gemahlener Piment"
+ },
+ "1 1/2 teaspoons ground nutmeg": {
+  "lt": "Maltas muskato riešutas",
+  "de": "Gemahlene Muskatnuss"
+ },
+ "3/4 teaspoon ground cloves": {
+  "lt": "Malti gvazdikėliai",
+  "de": "Gemahlene Nelken"
+ },
+ "8 pieces skin-on, bone-in chicken legs (about 6 pounds total), drumsticks and thighs separated, patted dry": {
+  "lt": "Vištienos kojos su oda ir kaulu (blauzdelės ir šlaunelės)",
+  "de": "Hähnchenkeulen mit Haut und Knochen (Unter- und Oberschenkel)"
+ },
+ "Vegetable oil (for grill)": {
+  "lt": "Augalinis aliejus (grotelėms)",
+  "de": "Pflanzenöl (für den Grill)"
+ },
+ "1 small onion, diced": {
+  "lt": "Mažas svogūnas (kubeliais)",
+  "de": "Kleine Zwiebel (gewürfelt)"
+ },
+ "2 pounds chicken breasts, bone-in, skinless (about 2 large breasts)": {
+  "lt": "Vištienos krūtinėlės su kaulu, be odos",
+  "de": "Hähnchenbrust mit Knochen, ohne Haut"
+ },
+ "1 quart (32 oz) chicken stock (i use low sodium chicken stock)": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1 can white beans, drained and rinsed": {
+  "lt": "Konservuotos baltosios pupelės (nusunktos, nuplautos)",
+  "de": "Weiße Bohnen aus der Dose (abgetropft, abgespült)"
+ },
+ "1 cup frozen shoe peg white corn": {
+  "lt": "Šaldyti baltieji kukurūzai",
+  "de": "Tiefgekühlter weißer Mais"
+ },
+ "1 jar diced green chilies (they are mild.)": {
+  "lt": "Konservuoti švelnūs žalieji čili pipirai (kubeliais)",
+  "de": "Milde grüne Chilis aus dem Glas (gewürfelt)"
+ },
+ "The juice of 1 lime (about 2 to 3 tbsp lime juice)": {
+  "lt": "Vienos žaliosios citrinos sultys",
+  "de": "Saft von 1 Limette"
+ },
+ "1 pound eggplant, cut into 1-inch cubes (3 cups)": {
+  "lt": "Baklažanas (kubeliais)",
+  "de": "Aubergine (gewürfelt)"
+ },
+ "1 medium-large zucchini, cut into 1-inch pieces (2 cups)": {
+  "lt": "Cukinija (gabaliukais)",
+  "de": "Zucchini (in Stücken)"
+ },
+ "1 large bell pepper, cut into 1-inch pieces (1 1/2 cups)": {
+  "lt": "Didelė paprika (gabaliukais)",
+  "de": "Große Paprika (in Stücken)"
+ },
+ "1 onion, cut into 1-inch pieces": {
+  "lt": "Svogūnas (gabaliukais)",
+  "de": "Zwiebel (in Stücken)"
+ },
+ "4 teaspoon olive oil, divided": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "2 tablespoon finely chopped fresh thyme (or 1 teaspoon dried)": {
+  "lt": "Smulkinti švieži čiobreliai (arba džiovinti)",
+  "de": "Fein gehackter frischer (oder getrockneter) Thymian"
+ },
+ "Vegetable oil cooking spray": {
+  "lt": "Purškiamas augalinis aliejus",
+  "de": "Pflanzenöl-Spray"
+ },
+ "1 tablespoon finely chopped garlic": {
+  "lt": "Smulkintas česnakas",
+  "de": "Fein gehackter Knoblauch"
+ },
+ "1 jar (14 ounces) prepared marinara sauce": {
+  "lt": "Paruoštas marinaros padažas",
+  "de": "Fertige Marinara-Soße"
+ },
+ "4 monkfish fillets (about 6 ounces each)": {
+  "lt": "Jūrų velnio filė",
+  "de": "Seeteufelfilets"
+ },
+ "3 tablespoon finely chopped fresh basil (plus leaves for garnish)": {
+  "lt": "Smulkintas šviežias bazilikas (+ lapeliai papuošti)",
+  "de": "Fein gehacktes frisches Basilikum (+ Blätter zum Garnieren)"
+ },
+ "2 tablespoon drained capers": {
+  "lt": "Kaparėliai (nusunkti)",
+  "de": "Kapern (abgetropft)"
+ },
+ "1 1/2 cups minced shallots (about 8 large)": {
+  "lt": "Smulkinti askaloniniai česnakai",
+  "de": "Fein gehackte Schalotten"
+ },
+ "6 garlic cloves, minced": {
+  "lt": "Česnako skiltelės (smulkintos)",
+  "de": "Knoblauchzehen (fein gehackt)"
+ },
+ "1 1/4 cups dry white wine, divided": {
+  "lt": "Sausas baltasis vynas",
+  "de": "Trockener Weißwein"
+ },
+ "3/4 cup dry red wine": {
+  "lt": "Sausas raudonasis vynas",
+  "de": "Trockener Rotwein"
+ },
+ "2 14-ounce cans low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1 14-ounce can low-salt beef broth": {
+  "lt": "Mažai sūrus jautienos sultinys",
+  "de": "Salzarme Rinderbrühe"
+ },
+ "3/4 cup fresh orange juice": {
+  "lt": "Šviežios apelsinų sultys",
+  "de": "Frischer Orangensaft"
+ },
+ "2 tablespoons pomegranate molasses*": {
+  "lt": "Granatų sirupas (melasa)",
+  "de": "Granatapfelsirup"
+ },
+ "3 teaspoons minced fresh marjoram, divided": {
+  "lt": "Smulkintas šviežias mairūnas",
+  "de": "Fein gehackter frischer Majoran"
+ },
+ "1 fresh bay leaf": {
+  "lt": "Šviežias lauro lapas",
+  "de": "Frisches Lorbeerblatt"
+ },
+ "4 pounds boneless Muscovy duck breasts (4 to 8 breast halves, depending on size)": {
+  "lt": "Muskusinės anties krūtinėlės be kaulų",
+  "de": "Flugentenbrust ohne Knochen"
+ },
+ "1 1/2 tablespoons all purpose flour": {
+  "lt": "Kvietiniai miltai",
+  "de": "Weizenmehl"
+ },
+ "3 tablespoons unsalted butter, divided": {
+  "lt": "Nesūdytas sviestas",
+  "de": "Ungesalzene Butter"
+ },
+ "3 tablespoons olive oil, divided, plus more for brushing": {
+  "lt": "Alyvuogių aliejus (+ aptepti)",
+  "de": "Olivenöl (+ zum Bestreichen)"
+ },
+ "1 1/2 pounds mixed mushrooms (such as chanterelle, crimini, and maitake), cut into bite-size pieces": {
+  "lt": "Įvairūs grybai (voveraitės, pievagrybiai, maitake)",
+  "de": "Gemischte Pilze (Pfifferlinge, Champignons, Maitake)"
+ },
+ "1 large shallot, finely chopped": {
+  "lt": "Didelis askaloninis česnakas (smulkintas)",
+  "de": "Große Schalotte (fein gehackt)"
+ },
+ "1/3 cup dry white wine": {
+  "lt": "Sausas baltasis vynas",
+  "de": "Trockener Weißwein"
+ },
+ "1 cup ricotta": {
+  "lt": "Rikota",
+  "de": "Ricotta"
+ },
+ "1/4 cup heavy cream": {
+  "lt": "Riebi grietinėlė",
+  "de": "Sahne"
+ },
+ "6 fresh pasta sheets (about 7x5\") or 12 dried lasagna noodles": {
+  "lt": "Šviežios lazanijos lakštai arba džiovinti lazanijos lakštai",
+  "de": "Frische oder getrocknete Lasagneblätter"
+ },
+ "8 ounces burrata or fresh mozzarella, torn into large pieces": {
+  "lt": "Burata arba šviežia mocarela (plėšyta)",
+  "de": "Burrata oder frischer Mozzarella (gezupft)"
+ },
+ "1 1/2 ounces Parmesan, finely grated": {
+  "lt": "Smulkiai tarkuotas parmezanas",
+  "de": "Fein geriebener Parmesan"
+ },
+ "6 teaspoons marjoram leaves": {
+  "lt": "Mairūno lapeliai",
+  "de": "Majoranblätter"
+ },
+ "1/2 bunch Tuscan kale, ribs and stems removed, leaves torn": {
+  "lt": "Toskaninis lapinis kopūstas (be stiebų, plėšytas)",
+  "de": "Schwarzkohl (ohne Stiele, gezupft)"
+ },
+ "1 tablespoon white wine vinegar": {
+  "lt": "Baltojo vyno actas",
+  "de": "Weißweinessig"
+ },
+ "6 thick bacon slices, cut crosswise into 1/2-inch pieces": {
+  "lt": "Storos šoninės juostelės (gabaliukais)",
+  "de": "Dicke Speckscheiben (in Stücken)"
+ },
+ "1 large onion, chopped": {
+  "lt": "Didelis svogūnas (smulkintas)",
+  "de": "Große Zwiebel (gehackt)"
+ },
+ "2 large carrots, peeled, chopped": {
+  "lt": "Didelės morkos (nuluptos, smulkintos)",
+  "de": "Große Karotten (geschält, gehackt)"
+ },
+ "1 1/4 teaspoons dried thyme": {
+  "lt": "Džiovinti čiobreliai",
+  "de": "Getrockneter Thymian"
+ },
+ "3/4 teaspoon crushed dried rosemary": {
+  "lt": "Trintas džiovintas rozmarinas",
+  "de": "Zerriebener getrockneter Rosmarin"
+ },
+ "3 tablespoons all purpose flour": {
+  "lt": "Kvietiniai miltai",
+  "de": "Weizenmehl"
+ },
+ "4 cups whole milk": {
+  "lt": "Nenugriebtas pienas",
+  "de": "Vollmilch"
+ },
+ "1 8-ounce unpeeled white-skinned potato, cut into 1/2-inch cubes": {
+  "lt": "Nenulupta baltaodė bulvė (kubeliais)",
+  "de": "Ungeschälte weißschalige Kartoffel (gewürfelt)"
+ },
+ "3 6 1/2-ounce cans chopped clams in juice": {
+  "lt": "Konservuoti smulkinti venerėliai su sultimis",
+  "de": "Gehackte Venusmuscheln im Saft (Dose)"
+ },
+ "1 8 3/4-ounce can corn kernels, drained": {
+  "lt": "Konservuoti kukurūzų grūdeliai (nusunkti)",
+  "de": "Maiskörner aus der Dose (abgetropft)"
+ },
+ "Chopped fresh parsley": {
+  "lt": "Smulkintos šviežios petražolės",
+  "de": "Gehackte frische Petersilie"
+ },
+ "16 cups canned low-salt chicken broth": {
+  "lt": "Konservuotas mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe (Dose)"
+ },
+ "1 3 1/2-pound chicken, cut into 8 pieces": {
+  "lt": "Vištiena (supjaustyta į 8 dalis)",
+  "de": "Hähnchen (in 8 Teile zerlegt)"
+ },
+ "1/2 cup chopped onion": {
+  "lt": "Smulkintas svogūnas",
+  "de": "Gehackte Zwiebel"
+ },
+ "2 carrots, peeled, thinly sliced": {
+  "lt": "Morkos (nuluptos, plonais griežinėliais)",
+  "de": "Karotten (geschält, in dünnen Scheiben)"
+ },
+ "2 celery stalks, sliced": {
+  "lt": "Salierų stiebai (griežinėliais)",
+  "de": "Selleriestangen (in Scheiben)"
+ },
+ "1 cup sliced mushrooms": {
+  "lt": "Pjaustyti grybai",
+  "de": "Geschnittene Pilze"
+ },
+ "8 ounces dried wide egg noodles": {
+  "lt": "Džiovinti platūs kiaušininiai makaronai",
+  "de": "Getrocknete breite Eiernudeln"
+ },
+ "1/2 cup finely chopped tender herbs such as dill or parsley": {
+  "lt": "Smulkintos švelnios žolelės (krapai arba petražolės)",
+  "de": "Fein gehackte zarte Kräuter (Dill oder Petersilie)"
+ },
+ "4 applewood-smoked bacon slices, diced": {
+  "lt": "Obelų malkomis rūkytos šoninės juostelės (kubeliais)",
+  "de": "Über Apfelholz geräucherter Speck (gewürfelt)"
+ },
+ "2 medium leeks (white and pale green parts only), halved lengthwise, then cut crosswise into 1/3-inch pieces": {
+  "lt": "Porai (tik balta ir šviesiai žalia dalis)",
+  "de": "Lauch (nur Weißes und Hellgrünes)"
+ },
+ "10 ounces orecchiette (little ear-shaped pasta) or small shells": {
+  "lt": "Orekietės arba maži kriaukliukai",
+  "de": "Orecchiette oder kleine Muschelnudeln"
+ },
+ "2 large eggs, room temperature": {
+  "lt": "Dideli kiaušiniai (kambario temperatūros)",
+  "de": "Große Eier (zimmerwarm)"
+ },
+ "1/2 cup freshly grated Parmesan cheese plus additional for serving": {
+  "lt": "Šviežiai tarkuotas parmezanas (+ patiekti)",
+  "de": "Frisch geriebener Parmesan (+ zum Servieren)"
+ },
+ "1 lemon": {
+  "lt": "Citrina",
+  "de": "Zitrone"
+ },
+ "1 1/2 cups dry white wine": {
+  "lt": "Sausas baltasis vynas",
+  "de": "Trockener Weißwein"
+ },
+ "2 garlic cloves, peeled, crushed": {
+  "lt": "Česnako skiltelės (nuluptos, sutrintos)",
+  "de": "Knoblauchzehen (geschält, zerdrückt)"
+ },
+ "2 cups heavy whipping cream": {
+  "lt": "Riebi plakamoji grietinėlė",
+  "de": "Schlagsahne"
+ },
+ "1 teaspoon ground turmeric": {
+  "lt": "Ciberžolė",
+  "de": "Gemahlene Kurkuma"
+ },
+ "3 pounds large scallops": {
+  "lt": "Didieji šukutės",
+  "de": "Große Jakobsmuscheln"
+ },
+ "2 tablespoons (1/4 stick) butter, divided": {
+  "lt": "Sviestas",
+  "de": "Butter"
+ },
+ "1/4 cup (1/2 stick) unsalted butter, room temperature": {
+  "lt": "Nesūdytas sviestas (kambario temperatūros)",
+  "de": "Ungesalzene Butter (zimmerwarm)"
+ },
+ "1 teaspoon minced fresh thyme": {
+  "lt": "Smulkinti švieži čiobreliai",
+  "de": "Fein gehackter frischer Thymian"
+ },
+ "1 teaspoon honey": {
+  "lt": "Medus",
+  "de": "Honig"
+ },
+ "1 teaspoon whole pink peppercorns": {
+  "lt": "Ištisi rožiniai pipirai",
+  "de": "Ganze rosa Pfefferbeeren"
+ },
+ "1 10-ounce New York strip steak (about 1 1/4 to 1 1/2 inches thick)": {
+  "lt": "Jautienos nugarinės (New York strip) kepsnys",
+  "de": "Rinder-Strip-Steak"
+ },
+ "2 teaspoons extra-virgin olive oil, divided": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "1/4 cup thinly sliced shallot": {
+  "lt": "Askaloninis česnakas (plonais griežinėliais)",
+  "de": "Schalotte (in dünnen Scheiben)"
+ },
+ "1 cup dry red wine": {
+  "lt": "Sausas raudonasis vynas",
+  "de": "Trockener Rotwein"
+ },
+ "1/2 cup low-salt beef broth or low-salt chicken broth": {
+  "lt": "Mažai sūrus jautienos arba vištienos sultinys",
+  "de": "Salzarme Rinder- oder Hühnerbrühe"
+ },
+ "Celery Root and Parsnip Puree": {
+  "lt": "Saliero šaknies ir pastarnoko tyrė",
+  "de": "Püree aus Knollensellerie und Pastinake"
+ },
+ "1/2 cup (packed) flat-leaf parsley (leaves and stems)": {
+  "lt": "Lapinės petražolės (lapai ir stiebai)",
+  "de": "Glatte Petersilie (Blätter und Stiele)"
+ },
+ "4 kale leaves (center ribs removed)": {
+  "lt": "Lapinio kopūsto lapai (be gyslų)",
+  "de": "Grünkohlblätter (ohne Mittelrippe)"
+ },
+ "1 cup frozen organic berries (such as strawberries or raspberries)": {
+  "lt": "Šaldytos ekologiškos uogos (braškės, avietės)",
+  "de": "Tiefgekühlte Bio-Beeren (Erdbeeren, Himbeeren)"
+ },
+ "1 banana (cut into pieces)": {
+  "lt": "Bananas (gabaliukais)",
+  "de": "Banane (in Stücken)"
+ },
+ "1 teaspoon ground flaxseed": {
+  "lt": "Malti linų sėmenys",
+  "de": "Gemahlene Leinsamen"
+ },
+ "2 (28-ounce) cans whole tomatoes with juice or crushed tomatoes": {
+  "lt": "Konservuoti ištisi arba trinti pomidorai",
+  "de": "Ganze oder passierte Dosentomaten"
+ },
+ "6 ounces pancetta or 6 slices bacon, finely chopped": {
+  "lt": "Pančeta arba šoninė (smulkinta)",
+  "de": "Pancetta oder Speck (fein gehackt)"
+ },
+ "1/4 pound ground pork (not lean)": {
+  "lt": "Riebus kiaulienos faršas",
+  "de": "Fettes Schweinehack"
+ },
+ "1/4 pound ground beef chuck (not lean)": {
+  "lt": "Riebus jautienos sprandinės faršas",
+  "de": "Fettes Rinderhack aus der Schulter"
+ },
+ "1/4 pound ground veal": {
+  "lt": "Veršienos faršas",
+  "de": "Kalbshack"
+ },
+ "1 small onion, finely chopped (about 1 cup)": {
+  "lt": "Mažas svogūnas (smulkintas)",
+  "de": "Kleine Zwiebel (fein gehackt)"
+ },
+ "1 carrot, finely chopped (about 1 cup)": {
+  "lt": "Morka (smulkinta)",
+  "de": "Karotte (fein gehackt)"
+ },
+ "1 teaspoon kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1 pound small pasta such as orecchiette or rotini": {
+  "lt": "Maži makaronai (orekietės arba rotini)",
+  "de": "Kleine Nudeln (Orecchiette oder Rotini)"
+ },
+ "Garnish: Freshly grated Parmigiano-Reggiano cheese": {
+  "lt": "Šviežiai tarkuotas Parmigiano-Reggiano papuošti",
+  "de": "Frisch geriebener Parmigiano-Reggiano zum Garnieren"
+ },
+ "1 cup dried garbanzo beans (chickpeas; about 7 ounces)": {
+  "lt": "Džiovinti avinžirniai",
+  "de": "Getrocknete Kichererbsen"
+ },
+ "6 tablespoons extra-virgin olive oil, divided": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "3 garlic cloves, peeled, divided": {
+  "lt": "Česnako skiltelės (nuluptos)",
+  "de": "Knoblauchzehen (geschält)"
+ },
+ "1 6-inch-long fresh rosemary sprig": {
+  "lt": "Šviežia rozmarino šakelė",
+  "de": "Frischer Rosmarinzweig"
+ },
+ "1/4 teaspoon dried crushed red pepper": {
+  "lt": "Džiovintų aitriųjų pipirų dribsniai",
+  "de": "Getrocknete Chiliflocken"
+ },
+ "1 3/4 pounds small clams (such as Manila)": {
+  "lt": "Maži venerėliai (pvz., Manila)",
+  "de": "Kleine Venusmuscheln (z. B. Manila)"
+ },
+ "1 cup ditalini or other short hollow pasta (about 5 ounces)": {
+  "lt": "Ditalini arba kiti trumpi tuščiaviduriai makaronai",
+  "de": "Ditalini oder andere kurze Röhrennudeln"
+ },
+ "1 medium onion, finely chopped": {
+  "lt": "Svogūnas (smulkintas)",
+  "de": "Zwiebel (fein gehackt)"
+ },
+ "2 flat anchovy fillets, rinsed and chopped": {
+  "lt": "Ančiuvių filė (nuplauta, smulkinta)",
+  "de": "Sardellenfilets (abgespült, gehackt)"
+ },
+ "1/2 cup chopped red bell pepper": {
+  "lt": "Smulkinta raudonoji paprika",
+  "de": "Gehackte rote Paprika"
+ },
+ "1/2 cup chopped yellow bell pepper": {
+  "lt": "Smulkinta geltonoji paprika",
+  "de": "Gehackte gelbe Paprika"
+ },
+ "1/2 teaspoon finely chopped fresh rosemary": {
+  "lt": "Smulkintas šviežias rozmarinas",
+  "de": "Fein gehackter frischer Rosmarin"
+ },
+ "1/2 cup Niçoise or other brine-cured black olives, pitted and coarsely chopped": {
+  "lt": "Niçoise ar kitos marinuotos juodosios alyvuogės be kauliukų",
+  "de": "Niçoise- oder andere schwarze Oliven in Lake, entsteint"
+ },
+ "1 1/3 cups all-purpose flour": {
+  "lt": "Kvietiniai miltai",
+  "de": "Weizenmehl"
+ },
+ "2 teaspoons baking powder": {
+  "lt": "Kepimo milteliai",
+  "de": "Backpulver"
+ },
+ "3 1/2 tablespoons cold unsalted butter, cut into small pieces": {
+  "lt": "Šaltas nesūdytas sviestas (gabaliukais)",
+  "de": "Kalte ungesalzene Butter (in Stücken)"
+ },
+ "1/2 cup whole milk": {
+  "lt": "Nenugriebtas pienas",
+  "de": "Vollmilch"
+ },
+ "2 tablespoons shelled pumpkin seeds (pepitas)": {
+  "lt": "Lukštentos moliūgų sėklos",
+  "de": "Geschälte Kürbiskerne"
+ },
+ "3 pounds winter squash (such as acorn, kabocha, delicata, or butternut), halved, seeded, cut into 1\" wedges": {
+  "lt": "Žieminiai moliūgai (gilės, kabocha, delikata arba muskatinis)",
+  "de": "Winterkürbis (Eichel-, Hokkaido-, Delicata- oder Butternuss)"
+ },
+ "4 1\"-thick bone-in pork chops": {
+  "lt": "Kiaulienos kotletai su kaulu",
+  "de": "Schweinekoteletts mit Knochen"
+ },
+ "1/2 small garlic clove, finely grated": {
+  "lt": "Pusė mažos česnako skiltelės (tarkuota)",
+  "de": "Halbe kleine Knoblauchzehe (gerieben)"
+ },
+ "3 tablespoons coarsely chopped fresh cilantro plus leaves for garnish": {
+  "lt": "Stambiai smulkinta šviežia kalendra (+ lapeliai papuošti)",
+  "de": "Grob gehackter frischer Koriander (+ Blätter zum Garnieren)"
+ },
+ "2 tablespoons (or more) fresh lime juice": {
+  "lt": "Šviežios žaliųjų citrinų sultys",
+  "de": "Frischer Limettensaft"
+ },
+ "1 (2-lb.) piece skinless, boneless pork shoulder (Boston butt)": {
+  "lt": "Kiaulienos mentė be kaulo ir odos (sprandinė)",
+  "de": "Schweineschulter ohne Knochen und Schwarte (Nacken)"
+ },
+ "7 guajillo chiles, seeds removed": {
+  "lt": "Guajillo čili pipirai (be sėklų)",
+  "de": "Guajillo-Chilis (entkernt)"
+ },
+ "3 morita chiles, seeds removed": {
+  "lt": "Morita čili pipirai (be sėklų)",
+  "de": "Morita-Chilis (entkernt)"
+ },
+ "4 garlic cloves": {
+  "lt": "Česnako skiltelės",
+  "de": "Knoblauchzehen"
+ },
+ "⅓ cup fresh orange juice": {
+  "lt": "Šviežios apelsinų sultys",
+  "de": "Frischer Orangensaft"
+ },
+ "¼ cup fresh lime juice": {
+  "lt": "Šviežios žaliųjų citrinų sultys",
+  "de": "Frischer Limettensaft"
+ },
+ "3 Tbsp. achiote (annatto) paste": {
+  "lt": "Achiote (anato) pasta",
+  "de": "Achiote-(Annatto-)Paste"
+ },
+ "1 Tbsp. Diamond Crystal or 1½ tsp. Morton kosher salt": {
+  "lt": "Rupi druska (Diamond Crystal arba Morton)",
+  "de": "Grobes Salz (Diamond Crystal oder Morton)"
+ },
+ "8 (6\"-diameter) corn tortillas": {
+  "lt": "Kukurūzų tortilijos",
+  "de": "Maistortillas"
+ },
+ "4 Tbsp. extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "12 oz. quesillo (Oaxaca cheese), coarsely grated": {
+  "lt": "Quesillo (Oachakos sūris), stambiai tarkuotas",
+  "de": "Quesillo (Oaxaca-Käse), grob gerieben"
+ },
+ "Chopped white onion": {
+  "lt": "Smulkintas baltasis svogūnas",
+  "de": "Gehackte weiße Zwiebel"
+ },
+ "coarsely chopped cilantro": {
+  "lt": "Stambiai smulkinta kalendra",
+  "de": "Grob gehackter Koriander"
+ },
+ "and lime wedges (for serving)": {
+  "lt": "Žaliosios citrinos skiltelės patiekti",
+  "de": "Limettenspalten zum Servieren"
+ },
+ "1 1/2 ounces medium-size dried shiitake mushrooms (dried forest mushrooms)": {
+  "lt": "Džiovinti šiitake grybai",
+  "de": "Getrocknete Shiitake-Pilze"
+ },
+ "1 cup cold water": {
+  "lt": "Šaltas vanduo",
+  "de": "Kaltes Wasser"
+ },
+ "6 cups low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "2 (1-inch-diameter 1/8-inch-thick slices) peeled fresh ginger": {
+  "lt": "Nuluptas šviežias imbieras (griežinėliais)",
+  "de": "Geschälter frischer Ingwer (in Scheiben)"
+ },
+ "1 pound fresh Shanghai noodles": {
+  "lt": "Švieži Šanchajaus makaronai",
+  "de": "Frische Shanghai-Nudeln"
+ },
+ "3 tablespoons peanut oil or vegetable oil, divided": {
+  "lt": "Žemės riešutų arba augalinis aliejus",
+  "de": "Erdnuss- oder Pflanzenöl"
+ },
+ "12 ounces pork butt, trimmed, cut into 2-inch-long matchstick-size strips": {
+  "lt": "Kiaulienos sprandinė (šiaudeliais)",
+  "de": "Schweinenacken (in feinen Streifen)"
+ },
+ "1 tablespoon Shaoxing wine (Chinese rice wine) or dry Sherry": {
+  "lt": "Shaoxing ryžių vynas arba sausas šeris",
+  "de": "Shaoxing-Reiswein oder trockener Sherry"
+ },
+ "1 (6 1/2-ounce) can preserved snow cabbage, well drained": {
+  "lt": "Konservuotas sniego kopūstas (nusunktas)",
+  "de": "Eingelegter Schneekohl (abgetropft)"
+ },
+ "1 cup drained canned bamboo shoot strips (most of one 8-ounce can)": {
+  "lt": "Konservuotos bambuko ūglių juostelės (nusunktos)",
+  "de": "Bambussprossenstreifen aus der Dose (abgetropft)"
+ },
+ "3/4 teaspoon sugar": {
+  "lt": "Cukrus",
+  "de": "Zucker"
+ },
+ "1 1/2 tablespoons cornstarch": {
+  "lt": "Kukurūzų krakmolas",
+  "de": "Maisstärke"
+ },
+ "1/4 teaspoon black pepper": {
+  "lt": "Juodieji pipirai",
+  "de": "Schwarzer Pfeffer"
+ },
+ "3/4 pound sirloin beef tips, sliced against the grain 1/8 inch thick": {
+  "lt": "Jautienos nugarinės gabaliukai (plonai skersai pluošto)",
+  "de": "Rinderhüftstücke (dünn quer zur Faser)"
+ },
+ "3 tablespoons vegetable oil": {
+  "lt": "Augalinis aliejus",
+  "de": "Pflanzenöl"
+ },
+ "10 ounces frozen broccoli florets, thawed": {
+  "lt": "Šaldyti brokolių žiedynai (atšildyti)",
+  "de": "Tiefgekühlte Brokkoliröschen (aufgetaut)"
+ },
+ "3 garlic cloves, chopped": {
+  "lt": "Česnako skiltelės (smulkintos)",
+  "de": "Knoblauchzehen (gehackt)"
+ },
+ "3 tablespoons soy sauce": {
+  "lt": "Sojų padažas",
+  "de": "Sojasoße"
+ },
+ "1/3 cup water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "Accompaniment: rice": {
+  "lt": "Ryžiai garnyrui",
+  "de": "Reis als Beilage"
+ },
+ "Garnish: fresh cilantro sprigs": {
+  "lt": "Šviežios kalendros šakelės papuošti",
+  "de": "Frische Korianderzweige zum Garnieren"
+ },
+ "a well-seasoned 14-inch flat-bottomed wok": {
+  "lt": "Gerai įdegintas plokščiadugnis vokas",
+  "de": "Gut eingebrannter Wok mit flachem Boden"
+ },
+ "1 pound shell-on medium shrimp": {
+  "lt": "Vidutinės krevetės su kiautais",
+  "de": "Mittelgroße Garnelen mit Schale"
+ },
+ "1/2 medium fennel bulb, thinly sliced": {
+  "lt": "Pusė pankolio gumbo (plonais griežinėliais)",
+  "de": "Halbe Fenchelknolle (in dünnen Scheiben)"
+ },
+ "1/2 medium onion, thinly sliced": {
+  "lt": "Pusė svogūno (plonais griežinėliais)",
+  "de": "Halbe Zwiebel (in dünnen Scheiben)"
+ },
+ "2 garlic cloves, thinly sliced": {
+  "lt": "Česnako skiltelės (plonais griežinėliais)",
+  "de": "Knoblauchzehen (in dünnen Scheiben)"
+ },
+ "1/2 Fresno chile or red jalapeño, thinly sliced, seeded": {
+  "lt": "Pusė Fresno arba raudonojo jalapeño pipiro (be sėklų)",
+  "de": "Halbe Fresno- oder rote Jalapeño-Chili (entkernt)"
+ },
+ "1/2 cup fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "1/4 cup apple cider vinegar": {
+  "lt": "Obuolių sidro actas",
+  "de": "Apfelessig"
+ },
+ "2 tablespoons fennel fronds": {
+  "lt": "Pankolio lapeliai",
+  "de": "Fenchelgrün"
+ },
+ "1/2 loaf ciabatta or country-style bread, sliced 1/2\" thick, toasted": {
+  "lt": "Čiabata arba kaimiška duona (skrudintos riekelės)",
+  "de": "Ciabatta oder Landbrot (geröstete Scheiben)"
+ },
+ "Mayonnaise (for serving; optional)": {
+  "lt": "Majonezas patiekti (nebūtina)",
+  "de": "Mayonnaise zum Servieren (optional)"
+ },
+ "2 teaspoons chili flakes": {
+  "lt": "Čili dribsniai",
+  "de": "Chiliflocken"
+ },
+ "1 teaspoon sea salt, plus more for sprinkling": {
+  "lt": "Jūros druska (+ pabarstyti)",
+  "de": "Meersalz (+ zum Bestreuen)"
+ },
+ "1 1/2 pounds sweet potatoes, cut into wedges": {
+  "lt": "Batatai (skiltelėmis)",
+  "de": "Süßkartoffeln (in Spalten)"
+ },
+ "Cracked black pepper": {
+  "lt": "Grūsti juodieji pipirai",
+  "de": "Grob zerstoßener schwarzer Pfeffer"
+ },
+ "2 cups quinoa flakes": {
+  "lt": "Bolivinės balandos dribsniai",
+  "de": "Quinoaflocken"
+ },
+ "1 tablespoon finely grated lime zest": {
+  "lt": "Smulkiai tarkuota žaliosios citrinos žievelė",
+  "de": "Fein abgeriebene Limettenschale"
+ },
+ "2 eggs": {
+  "lt": "Kiaušiniai",
+  "de": "Eier"
+ },
+ "4 (5 1/4-ounce) snapper fillets": {
+  "lt": "Raudonojo ešerio (snapper) filė",
+  "de": "Red-Snapper-Filets"
+ },
+ "1/2 cup flat-leaf parsley leaves, finely chopped": {
+  "lt": "Smulkinti lapinių petražolių lapeliai",
+  "de": "Fein gehackte glatte Petersilienblätter"
+ },
+ "Mayonnaise and lime wedges, to serve": {
+  "lt": "Majonezas ir žaliosios citrinos skiltelės patiekti",
+  "de": "Mayonnaise und Limettenspalten zum Servieren"
+ },
+ "1 medium onion, coarsely chopped": {
+  "lt": "Svogūnas (stambiai pjaustytas)",
+  "de": "Zwiebel (grob gehackt)"
+ },
+ "1 garlic clove, chopped": {
+  "lt": "Česnako skiltelė (smulkinta)",
+  "de": "Knoblauchzehe (gehackt)"
+ },
+ "1 fresh thyme sprig": {
+  "lt": "Šviežio čiobrelio šakelė",
+  "de": "Frischer Thymianzweig"
+ },
+ "4 cups (or more) low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1/2 cup canned unsweetened coconut milk*": {
+  "lt": "Konservuotas nesaldintas kokosų pienas",
+  "de": "Ungesüßte Kokosmilch (Dose)"
+ },
+ "1 1/4 cups dried kidney beans": {
+  "lt": "Džiovintos raudonosios pupelės",
+  "de": "Getrocknete Kidneybohnen"
+ },
+ "1 tablespoon dry Sherry": {
+  "lt": "Sausas šeris",
+  "de": "Trockener Sherry"
+ },
+ "6 tablespoons high-quality dark rum": {
+  "lt": "Kokybiškas tamsusis romas",
+  "de": "Hochwertiger dunkler Rum"
+ },
+ "2 tablespoons chopped fresh chives": {
+  "lt": "Smulkinti švieži laiškiniai česnakai",
+  "de": "Gehackter frischer Schnittlauch"
+ },
+ "3 (12- to 14-oz) boneless rib-eye steaks (1 1/2 inches thick)": {
+  "lt": "Jautienos antrekoto kepsniai be kaulo",
+  "de": "Rib-Eye-Steaks ohne Knochen"
+ },
+ "3/4 teaspoon black pepper": {
+  "lt": "Juodieji pipirai",
+  "de": "Schwarzer Pfeffer"
+ },
+ "1 medium onion, chopped": {
+  "lt": "Svogūnas (smulkintas)",
+  "de": "Zwiebel (gehackt)"
+ },
+ "1 Italian frying pepper, seeded and chopped": {
+  "lt": "Itališka kepimui skirta paprika (be sėklų, smulkinta)",
+  "de": "Italienische Bratpaprika (entkernt, gehackt)"
+ },
+ "2 garlic cloves, finely chopped": {
+  "lt": "Česnako skiltelės (smulkintos)",
+  "de": "Knoblauchzehen (fein gehackt)"
+ },
+ "1 teaspoon chili powder (not pure chile)": {
+  "lt": "Čili prieskonių mišinys",
+  "de": "Chili-Gewürzmischung"
+ },
+ "2 cups corn (from 4 large ears)": {
+  "lt": "Kukurūzų grūdeliai (nuo burbuolių)",
+  "de": "Maiskörner (vom Kolben)"
+ },
+ "1/2 lb cherry or grape tomatoes, halved": {
+  "lt": "Vyšniniai pomidorai (perpjauti)",
+  "de": "Kirsch- oder Datteltomaten (halbiert)"
+ },
+ "1/4 cup chopped fresh basil": {
+  "lt": "Smulkintas šviežias bazilikas",
+  "de": "Gehacktes frisches Basilikum"
+ },
+ "1 tablespoon fresh lime juice": {
+  "lt": "Šviežios žaliųjų citrinų sultys",
+  "de": "Frischer Limettensaft"
+ },
+ "4 chicken legs (thigh and drumstick; about 2 1/2 lb. total)": {
+  "lt": "Vištienos kojos (šlaunelė ir blauzdelė)",
+  "de": "Hähnchenkeulen (Ober- und Unterschenkel)"
+ },
+ "4 heads of garlic, halved crosswise": {
+  "lt": "Česnako galvos (perpjautos skersai)",
+  "de": "Knoblauchknollen (quer halbiert)"
+ },
+ "1 lemon, thinly sliced into rounds, seeds removed": {
+  "lt": "Citrina (plonais griežinėliais, be sėklų)",
+  "de": "Zitrone (in dünnen Scheiben, entkernt)"
+ },
+ "1 red chile (such as Fresno), quartered lengthwise, seeds removed if desired": {
+  "lt": "Raudonasis čili pipiras (pvz., Fresno)",
+  "de": "Rote Chili (z. B. Fresno)"
+ },
+ "3 bay leaves or 5 sprigs thyme": {
+  "lt": "Lauro lapai arba čiobrelių šakelės",
+  "de": "Lorbeerblätter oder Thymianzweige"
+ },
+ "1/2 cup extra-virgin olive oil": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "Country-style bread, toasted (for serving)": {
+  "lt": "Skrudinta kaimiška duona patiekti",
+  "de": "Geröstetes Landbrot zum Servieren"
+ },
+ "2 (15-ounce) cans white beans, drained and rinsed": {
+  "lt": "Konservuotos baltosios pupelės (nusunktos, nuplautos)",
+  "de": "Weiße Bohnen aus der Dose (abgetropft, abgespült)"
+ },
+ "2 tablespoons capers with brine": {
+  "lt": "Kaparėliai su sūrymu",
+  "de": "Kapern mit Lake"
+ },
+ "8 teaspoons Dijon mustard": {
+  "lt": "Dižono garstyčios",
+  "de": "Dijonsenf"
+ },
+ "8 skin-on bone-in chicken thighs (about 2 pounds)": {
+  "lt": "Vištienos šlaunelės su oda ir kaulu",
+  "de": "Hähnchenschenkel mit Haut und Knochen"
+ },
+ "1 large lemon, thinly sliced, seeds removed": {
+  "lt": "Didelė citrina (plonais griežinėliais, be sėklų)",
+  "de": "Große Zitrone (in dünnen Scheiben, entkernt)"
+ },
+ "2 tablespoons coarsely chopped fresh parsley": {
+  "lt": "Stambiai smulkintos šviežios petražolės",
+  "de": "Grob gehackte frische Petersilie"
+ },
+ "1 pound plum tomatoes, cored, diced": {
+  "lt": "Slyviniai pomidorai (kubeliais)",
+  "de": "Eiertomaten (gewürfelt)"
+ },
+ "1/2 cup finely chopped red onion": {
+  "lt": "Smulkintas raudonasis svogūnas",
+  "de": "Fein gehackte rote Zwiebel"
+ },
+ "5 anchovy fillets, minced": {
+  "lt": "Ančiuvių filė (smulkinta)",
+  "de": "Sardellenfilets (fein gehackt)"
+ },
+ "3 large garlic cloves (2 minced, 1 halved)": {
+  "lt": "Didelės česnako skiltelės (2 smulkintos, 1 perpjauta)",
+  "de": "Große Knoblauchzehen (2 gehackt, 1 halbiert)"
+ },
+ "4 7- to 8-ounce cod fillets or other white fish fillets (such as halibut; about 1 inch thick)": {
+  "lt": "Menkės ar kitos baltos žuvies filė (pvz., otas)",
+  "de": "Kabeljau- oder andere Weißfischfilets (z. B. Heilbutt)"
+ },
+ "4 1/2-inch-thick slices country white bread": {
+  "lt": "Kaimiškos baltos duonos riekės",
+  "de": "Scheiben weißes Landbrot"
+ },
+ "1/2 cup fresh basil leaves": {
+  "lt": "Švieži baziliko lapeliai",
+  "de": "Frische Basilikumblätter"
+ },
+ "6 sweet firm red or black plums (such as Burgundies, Satsumas, or El Dorados; about 2 pounds), quartered, pitted": {
+  "lt": "Saldžios tvirtos raudonosios ar juodosios slyvos (ketvirčiais, be kauliukų)",
+  "de": "Süße feste rote oder schwarze Pflaumen (geviertelt, entsteint)"
+ },
+ "2 cups Pinot Gris or Viognier": {
+  "lt": "Pinot Gris arba Viognier vynas",
+  "de": "Pinot Gris oder Viognier"
+ },
+ "2 whole star anise*": {
+  "lt": "Ištisi žvaigždiniai anyžiai",
+  "de": "Ganzer Sternanis"
+ },
+ "cinnamon stick": {
+  "lt": "Cinamono lazdelė",
+  "de": "Zimtstange"
+ },
+ "1/4 cup plus 1 1/4 teaspoons sugar, divided": {
+  "lt": "Cukrus",
+  "de": "Zucker"
+ },
+ "5 fresh thyme sprigs plus 1 teaspoon finely chopped thyme, divided": {
+  "lt": "Šviežio čiobrelio šakelės ir smulkinti lapeliai",
+  "de": "Frische Thymianzweige und gehackte Blätter"
+ },
+ "2 tablespoons chopped shallot": {
+  "lt": "Smulkintas askaloninis česnakas",
+  "de": "Gehackte Schalotte"
+ },
+ "2 1 1/4-pound pork tenderloins": {
+  "lt": "Kiaulienos išpjovos",
+  "de": "Schweinefilets"
+ },
+ "2 teaspoons chopped fresh thyme": {
+  "lt": "Smulkinti švieži čiobreliai",
+  "de": "Gehackter frischer Thymian"
+ },
+ "Chopped fresh chives": {
+  "lt": "Smulkinti švieži laiškiniai česnakai",
+  "de": "Gehackter frischer Schnittlauch"
+ },
+ "1 1/2 cups loosely packed fresh rosemary leaves": {
+  "lt": "Švieži rozmarino lapeliai",
+  "de": "Frische Rosmarinnadeln"
+ },
+ "4 teaspoons coarse kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "2 teaspoons freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "6 tablespoons olive oil, divided": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "1 pound red-skinned or white-skinned potatoes, cut into 3/4-inch pieces": {
+  "lt": "Raudonaodės arba baltaodės bulvės (gabaliukais)",
+  "de": "Rot- oder weißschalige Kartoffeln (in Stücken)"
+ },
+ "1 pound parsnips, peeled, cut into 3/4-inch pieces": {
+  "lt": "Pastarnokai (nulupti, gabaliukais)",
+  "de": "Pastinaken (geschält, in Stücken)"
+ },
+ "1 3 1/2-to 3 3/4-pound whole side of salmon with skin": {
+  "lt": "Visa lašišos pusė su oda",
+  "de": "Ganze Lachsseite mit Haut"
+ },
+ "1 pound crimini (baby bella) mushrooms, quartered if large, halved if small assorted salad greens": {
+  "lt": "Rudieji pievagrybiai ir įvairios salotos",
+  "de": "Braune Champignons und gemischte Blattsalate"
+ },
+ "1/3 cup Pinot Noir or other dry red wine": {
+  "lt": "Pinot Noir ar kitas sausas raudonasis vynas",
+  "de": "Pinot Noir oder anderer trockener Rotwein"
+ },
+ "2 limes": {
+  "lt": "Žaliosios citrinos",
+  "de": "Limetten"
+ },
+ "½ teaspoon fine sea salt, plus more as needed": {
+  "lt": "Smulki jūros druska",
+  "de": "Feines Meersalz"
+ },
+ "½ teaspoon freshly ground black pepper": {
+  "lt": "Šviežiai malti juodieji pipirai",
+  "de": "Frisch gemahlener schwarzer Pfeffer"
+ },
+ "4 dried juniper berries, lightly crushed with a mortar and pestle or the side of a heavy knife": {
+  "lt": "Džiovintos kadagio uogos (lengvai sutrintos)",
+  "de": "Getrocknete Wacholderbeeren (leicht zerstoßen)"
+ },
+ "½ teaspoon fennel seeds, lightly crushed with a mortar and pestle or the side of a heavy knife": {
+  "lt": "Pankolio sėklos (lengvai sutrintos)",
+  "de": "Fenchelsamen (leicht zerstoßen)"
+ },
+ "4 (6- to 8-ounce) skinless salmon fillets": {
+  "lt": "Lašišos filė be odos",
+  "de": "Lachsfilets ohne Haut"
+ },
+ "6 sprigs fresh marjoram or thyme": {
+  "lt": "Šviežio mairūno arba čiobrelio šakelės",
+  "de": "Frische Majoran- oder Thymianzweige"
+ },
+ "Extra-virgin olive oil, as needed": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "1 large fennel bulb, with fronds": {
+  "lt": "Didelis pankolio gumbas su lapeliais",
+  "de": "Große Fenchelknolle mit Grün"
+ },
+ "Flaky sea salt, for serving": {
+  "lt": "Jūros druskos dribsniai patiekti",
+  "de": "Meersalzflocken zum Servieren"
+ },
+ "3 anchovy fillets": {
+  "lt": "Ančiuvių filė",
+  "de": "Sardellenfilets"
+ },
+ "2 tablespoons drained capers": {
+  "lt": "Kaparėliai (nusunkti)",
+  "de": "Kapern (abgetropft)"
+ },
+ "1 tablespoon Cognac": {
+  "lt": "Konjakas",
+  "de": "Cognac"
+ },
+ "1 tablespoon chopped fresh parsley": {
+  "lt": "Smulkintos šviežios petražolės",
+  "de": "Gehackte frische Petersilie"
+ },
+ "1/2 teaspoon ground black pepper": {
+  "lt": "Malti juodieji pipirai",
+  "de": "Gemahlener schwarzer Pfeffer"
+ },
+ "1/2 cup (1 stick) butter, room temperature": {
+  "lt": "Sviestas (kambario temperatūros)",
+  "de": "Butter (zimmerwarm)"
+ },
+ "6 6-ounce salmon fillets": {
+  "lt": "Lašišos filė",
+  "de": "Lachsfilets"
+ },
+ "1/3 cup chopped fresh dill": {
+  "lt": "Smulkinti švieži krapai",
+  "de": "Gehackter frischer Dill"
+ },
+ "1/3 cup finely chopped green onions (about 2)": {
+  "lt": "Smulkinti svogūnų laiškai",
+  "de": "Fein gehackte Frühlingszwiebeln"
+ },
+ "1/2 cup shelled natural pistachios or almonds, toasted, finely chopped": {
+  "lt": "Skrudintos pistacijos arba migdolai (smulkinti)",
+  "de": "Geröstete Pistazien oder Mandeln (fein gehackt)"
+ },
+ "1/4 cup plus 1 1/2 tablespoons pistachio oil or extra-virgin olive oil": {
+  "lt": "Pistacijų arba ypač tyras alyvuogių aliejus",
+  "de": "Pistazienöl oder natives Olivenöl extra"
+ },
+ "2 yellow bell peppers or orange bell peppers, cut into 1/2-inch strips": {
+  "lt": "Geltonosios arba oranžinės paprikos (juostelėmis)",
+  "de": "Gelbe oder orange Paprika (in Streifen)"
+ },
+ "1 pound sugar snap peas, trimmed, strings removed": {
+  "lt": "Cukriniai žirneliai (ankštys, be gyslų)",
+  "de": "Zuckerschoten (ohne Fäden)"
+ },
+ "4 6-ounce salmon fillets": {
+  "lt": "Lašišos filė",
+  "de": "Lachsfilets"
+ },
+ "1 4-pound box rock salt": {
+  "lt": "Rupi akmens druska",
+  "de": "Grobes Steinsalz"
+ },
+ "16 uncooked unpeeled large shrimp": {
+  "lt": "Didelės nevirtos krevetės su kiautais",
+  "de": "Große rohe Garnelen mit Schale"
+ },
+ "1/2 cup (1 stick) butter, chilled, diced": {
+  "lt": "Šaltas sviestas (kubeliais)",
+  "de": "Kalte Butter (gewürfelt)"
+ },
+ "1 head garlic, separated into cloves and peeled": {
+  "lt": "Česnako galva (skiltelės nuluptos)",
+  "de": "Knoblauchknolle (Zehen geschält)"
+ },
+ "2 teaspoons black peppercorns": {
+  "lt": "Juodųjų pipirų žirneliai",
+  "de": "Schwarze Pfefferkörner"
+ },
+ "2 teaspoons ground cumin": {
+  "lt": "Malti kmynai (kuminas)",
+  "de": "Gemahlener Kreuzkümmel"
+ },
+ "2 teaspoons allspice berries or ground allspice": {
+  "lt": "Kvapieji pipirai (žirneliai arba malti)",
+  "de": "Piment (ganz oder gemahlen)"
+ },
+ "3/4 cup bitter orange juice (from about 6 oranges) or equal parts lime juice and orange juice": {
+  "lt": "Karčiųjų apelsinų sultys (arba žaliųjų citrinų ir apelsinų sulčių mišinys)",
+  "de": "Bitterorangensaft (oder Limetten- und Orangensaft gemischt)"
+ },
+ "1 cup sweet orange juice diluted with about 1/4 cup water": {
+  "lt": "Saldžių apelsinų sultys, atskiestos vandeniu",
+  "de": "Süßer Orangensaft, mit Wasser verdünnt"
+ },
+ "One 8- to 9-pound leg of pork, with skin": {
+  "lt": "Kiaulienos kumpis su oda",
+  "de": "Schweinekeule mit Schwarte"
+ },
+ "1/4 cup sweet sherry or port wine, for deglazing": {
+  "lt": "Saldus šeris arba portveinas (padažui)",
+  "de": "Süßer Sherry oder Portwein (zum Ablöschen)"
+ },
+ "1 16-ounce ball purchased fresh pizza dough": {
+  "lt": "Pirktinė šviežia picos tešla",
+  "de": "Gekaufter frischer Pizzateig"
+ },
+ "2/3 cup finely grated Piave or Parmesan cheese": {
+  "lt": "Smulkiai tarkuotas Piave arba parmezano sūris",
+  "de": "Fein geriebener Piave oder Parmesan"
+ },
+ "2 1/4 teaspoons finely chopped fresh rosemary, divided": {
+  "lt": "Smulkintas šviežias rozmarinas",
+  "de": "Fein gehackter frischer Rosmarin"
+ },
+ "1 1/2 tablespoons olive oil, divided": {
+  "lt": "Alyvuogių aliejus",
+  "de": "Olivenöl"
+ },
+ "2 1/2 hot Italian sausages, casings removed": {
+  "lt": "Aštrios itališkos dešrelės (be apvalkalo)",
+  "de": "Scharfe italienische Würste (ohne Darm)"
+ },
+ "1 small red onion, thinly sliced": {
+  "lt": "Mažas raudonasis svogūnas (plonais griežinėliais)",
+  "de": "Kleine rote Zwiebel (in dünnen Scheiben)"
+ },
+ "7 ounces fresh wild mushrooms (such as stemmed shiitake, oyster, and chanterelle), thickly sliced": {
+  "lt": "Švieži miško grybai (šiitake, gluosniabudės, voveraitės)",
+  "de": "Frische Waldpilze (Shiitake, Austernpilze, Pfifferlinge)"
+ },
+ "1 3/4 cups coarsely grated whole-milk mozzarella cheese (about 7 ounces), divided": {
+  "lt": "Stambiai tarkuota nenugriebto pieno mocarela",
+  "de": "Grob geriebener Vollmilch-Mozzarella"
+ },
+ "Chopped fresh parsley (optional)": {
+  "lt": "Smulkintos šviežios petražolės (nebūtina)",
+  "de": "Gehackte frische Petersilie (optional)"
+ },
+ "1/4 cup finely chopped fresh Italian parsley": {
+  "lt": "Smulkintos šviežios lapinės petražolės",
+  "de": "Fein gehackte frische glatte Petersilie"
+ },
+ "1 tablespoon finely chopped fresh tarragon": {
+  "lt": "Smulkintas šviežias peletrūnas",
+  "de": "Fein gehackter frischer Estragon"
+ },
+ "1 tablespoon minced shallot": {
+  "lt": "Smulkintas askaloninis česnakas",
+  "de": "Fein gehackte Schalotte"
+ },
+ "2 teaspoons finely grated orange peel": {
+  "lt": "Smulkiai tarkuota apelsino žievelė",
+  "de": "Fein abgeriebene Orangenschale"
+ },
+ "1/2 teaspoon finely grated lemon peel": {
+  "lt": "Smulkiai tarkuota citrinos žievelė",
+  "de": "Fein abgeriebene Zitronenschale"
+ },
+ "1/4 teaspoon (scant) saffron threads": {
+  "lt": "Šafrano siūleliai",
+  "de": "Safranfäden"
+ },
+ "12 chicken cutlets (1/4 to 1/2 inch thick; about 2 pounds)": {
+  "lt": "Vištienos kepsneliai (plonos krūtinėlės griežinės)",
+  "de": "Hähnchenschnitzel (dünne Brustscheiben)"
+ },
+ "2 tablespoons (or more) extra-virgin olive oil, divided": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "1 tablespoon butter": {
+  "lt": "Sviestas",
+  "de": "Butter"
+ },
+ "3/4 pound spring onions or green onions (dark green parts discarded); white parts cut into 1/4-inch-thick slices, pale green parts cut into 1/2-inchthick slices (scant 2 cups)": {
+  "lt": "Jauni svogūnai arba svogūnų laiškai (balta ir šviesiai žalia dalys)",
+  "de": "Frühlingszwiebeln (Weißes und Hellgrünes)"
+ },
+ "1 1/2 pounds slender asparagus, tops cut into 3-inch pieces, stems cut into 1/2-inch pieces": {
+  "lt": "Ploni šparagai (gabaliukais)",
+  "de": "Dünner Spargel (in Stücken)"
+ },
+ "3/4 cup low-salt chicken broth": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "2 tablespoons crème fraîche or heavy whipping cream": {
+  "lt": "Crème fraîche arba riebi grietinėlė",
+  "de": "Crème fraîche oder Schlagsahne"
+ },
+ "6 ounces slab bacon, sliced 1/4\" thick, slices cut into 1/4\" pieces": {
+  "lt": "Šoninė gabalu (smulkiais gabaliukais)",
+  "de": "Speck am Stück (in kleinen Stücken)"
+ },
+ "4 ripe but firm Bosc pears, quartered, seeds removed": {
+  "lt": "Prinokusios, bet tvirtos Bosc kriaušės (ketvirčiais)",
+  "de": "Reife, aber feste Bosc-Birnen (geviertelt)"
+ },
+ "1 tablespoon whole grain mustard": {
+  "lt": "Grūdėtosios garstyčios",
+  "de": "Körniger Senf"
+ },
+ "1 tablespoon, plus 2 teaspoons walnut oil or olive oil": {
+  "lt": "Graikinių riešutų arba alyvuogių aliejus",
+  "de": "Walnuss- oder Olivenöl"
+ },
+ "1/2 cup unsalted, roasted walnuts": {
+  "lt": "Nesūdyti skrudinti graikiniai riešutai",
+  "de": "Ungesalzene geröstete Walnüsse"
+ },
+ "Sliced chives (for serving)": {
+  "lt": "Pjaustyti laiškiniai česnakai patiekti",
+  "de": "Geschnittener Schnittlauch zum Servieren"
+ },
+ "50g (about 6 Tablespoons plus 2 teaspoons) buckwheat flour": {
+  "lt": "Grikių miltai",
+  "de": "Buchweizenmehl"
+ },
+ "1 large free-range egg": {
+  "lt": "Didelis laisvai laikomų vištų kiaušinis",
+  "de": "Großes Freilandei"
+ },
+ "150 ml (about 2/3 cup) water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "Coconut oil, for frying": {
+  "lt": "Kokosų aliejus (kepti)",
+  "de": "Kokosöl (zum Braten)"
+ },
+ "4 slices of prosciutto": {
+  "lt": "Prošuto riekelės",
+  "de": "Prosciutto-Scheiben"
+ },
+ "1 small handful of fresh spinach": {
+  "lt": "Saujelė šviežių špinatų",
+  "de": "Handvoll frischer Spinat"
+ },
+ "6 sun-dried tomatoes, drained and cut into small pieces": {
+  "lt": "Saulėje džiovinti pomidorai (gabaliukais)",
+  "de": "Getrocknete Tomaten (in Stücken)"
+ },
+ "Sea salt and freshly ground black pepper": {
+  "lt": "Jūros druska ir šviežiai malti juodieji pipirai",
+  "de": "Meersalz und frisch gemahlener schwarzer Pfeffer"
+ },
+ "16 quail eggs": {
+  "lt": "Putpelių kiaušiniai",
+  "de": "Wachteleier"
+ },
+ "1/2 cup water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "1 teaspoon sugar": {
+  "lt": "Cukrus",
+  "de": "Zucker"
+ },
+ "1/4 teaspoon Asian sesame oil": {
+  "lt": "Azijietiškas sezamų aliejus",
+  "de": "Asiatisches Sesamöl"
+ },
+ "1/2 small red onion, thinly sliced": {
+  "lt": "Pusė mažo raudonojo svogūno (plonais griežinėliais)",
+  "de": "Halbe kleine rote Zwiebel (in dünnen Scheiben)"
+ },
+ "2 tablespoons fresh lime juice": {
+  "lt": "Šviežios žaliųjų citrinų sultys",
+  "de": "Frischer Limettensaft"
+ },
+ "Pinch of sugar": {
+  "lt": "Žiupsnis cukraus",
+  "de": "Prise Zucker"
+ },
+ "1/4 medium pineapple, peeled, cored, cut lengthwise into spears, then crosswise 1/2\" thick (about 2 cups)": {
+  "lt": "Ketvirtis ananaso (nuluptas, be šerdies, gabaliukais)",
+  "de": "Viertel Ananas (geschält, ohne Strunk, in Stücken)"
+ },
+ "2 tablespoons extra-virgin olive oil, divided": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "1 1/4 pounds shrimp, peeled, deveined": {
+  "lt": "Krevetės (nuluptos, be žarnelės)",
+  "de": "Garnelen (geschält, ohne Darm)"
+ },
+ "1 tablespoon Sriracha": {
+  "lt": "Sriracha padažas",
+  "de": "Sriracha-Soße"
+ },
+ "8 corn tortillas, warmed": {
+  "lt": "Pašildytos kukurūzų tortilijos",
+  "de": "Gewärmte Maistortillas"
+ },
+ "1 jalapeño, very thinly sliced, seeds removed if desired": {
+  "lt": "Jalapeño pipiras (labai plonais griežinėliais)",
+  "de": "Jalapeño (in sehr dünnen Scheiben)"
+ },
+ "1/2 cup cilantro leaves with tender stems": {
+  "lt": "Kalendros lapeliai su švelniais stiebeliais",
+  "de": "Korianderblätter mit zarten Stielen"
+ },
+ "Lime wedges (for serving)": {
+  "lt": "Žaliosios citrinos skiltelės patiekti",
+  "de": "Limettenspalten zum Servieren"
+ },
+ "3 large heirloom tomatoes, halved": {
+  "lt": "Dideli senųjų veislių pomidorai (perpjauti)",
+  "de": "Große alte Tomatensorten (halbiert)"
+ },
+ "1/4 cup olive oil (plus some for brushing)": {
+  "lt": "Alyvuogių aliejus (+ aptepti)",
+  "de": "Olivenöl (+ zum Bestreichen)"
+ },
+ "4 cups fresh arugula": {
+  "lt": "Šviežia rukola",
+  "de": "Frischer Rucola"
+ },
+ "2 1/4 cups yellow and green wax beans, blanched and cut into 1/2-inch pieces": {
+  "lt": "Geltonosios ir žaliosios pupelės (blanširuotos, gabaliukais)",
+  "de": "Gelbe und grüne Wachsbohnen (blanchiert, in Stücken)"
+ },
+ "2 1/4 cups fresh corn, cut from cobs": {
+  "lt": "Švieži kukurūzų grūdeliai",
+  "de": "Frische Maiskörner"
+ },
+ "2 1/4 cups diced red bell peppers": {
+  "lt": "Raudonoji paprika (kubeliais)",
+  "de": "Rote Paprika (gewürfelt)"
+ },
+ "2 1/4 cups halved cherry tomatoes": {
+  "lt": "Vyšniniai pomidorai (perpjauti)",
+  "de": "Kirschtomaten (halbiert)"
+ },
+ "1 pound small cooked shrimp": {
+  "lt": "Mažos virtos krevetės",
+  "de": "Kleine gekochte Garnelen"
+ },
+ "1 tablespoons Champagne vinegar": {
+  "lt": "Šampano actas",
+  "de": "Champagneressig"
+ },
+ "1 1/2 teaspoons finely diced shallot": {
+  "lt": "Smulkiai kapotas askaloninis česnakas",
+  "de": "Fein gewürfelte Schalotte"
+ },
+ "1 cup water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "1 yellow onion slice": {
+  "lt": "Geltonojo svogūno griežinėlis",
+  "de": "Scheibe gelbe Zwiebel"
+ },
+ "1 lemon slice": {
+  "lt": "Citrinos griežinėlis",
+  "de": "Zitronenscheibe"
+ },
+ "1 sprig dill": {
+  "lt": "Krapų šakelė",
+  "de": "Dillzweig"
+ },
+ "4 (6-ounce) salmon fillets": {
+  "lt": "Lašišos filė",
+  "de": "Lachsfilets"
+ },
+ "1 3 1/2–4-pound chicken": {
+  "lt": "Visa vištiena",
+  "de": "Ganzes Hähnchen"
+ },
+ "1 fennel bulb, sliced lengthwise 1/2\" thick": {
+  "lt": "Pankolio gumbas (išilginėmis riekelėmis)",
+  "de": "Fenchelknolle (längs in Scheiben)"
+ },
+ "2 large parsnips, peeled, sliced 1/2\" thick on the diagonal": {
+  "lt": "Dideli pastarnokai (nulupti, įstrižais griežinėliais)",
+  "de": "Große Pastinaken (geschält, schräg in Scheiben)"
+ },
+ "1 bunch scallions": {
+  "lt": "Svogūnų laiškų ryšelis",
+  "de": "Bund Frühlingszwiebeln"
+ },
+ "3 wide strips lemon zest": {
+  "lt": "Plačios citrinos žievelės juostelės",
+  "de": "Breite Zitronenschalenstreifen"
+ },
+ "Lemon wedges (for serving)": {
+  "lt": "Citrinos skiltelės patiekti",
+  "de": "Zitronenspalten zum Servieren"
+ },
+ "1 lb. any color bell peppers, halved, seeds and ribs removed": {
+  "lt": "Bet kokios spalvos paprikos (perpjautos, be sėklų)",
+  "de": "Paprika in beliebiger Farbe (halbiert, entkernt)"
+ },
+ "1/2 head of garlic": {
+  "lt": "Pusė česnako galvos",
+  "de": "Halbe Knoblauchknolle"
+ },
+ "2 sprigs oregano": {
+  "lt": "Raudonėlio šakelės",
+  "de": "Oreganozweige"
+ },
+ "2 dried bay leaves": {
+  "lt": "Džiovinti lauro lapai",
+  "de": "Getrocknete Lorbeerblätter"
+ },
+ "3/4 tsp. kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "1 Tbsp. sherry vinegar": {
+  "lt": "Šerio actas",
+  "de": "Sherryessig"
+ },
+ "6 medium red, orange, and/or yellow bell peppers": {
+  "lt": "Raudonosios, oranžinės ir (arba) geltonosios paprikos",
+  "de": "Rote, orange und/oder gelbe Paprika"
+ },
+ "6 Tbsp. extra-virgin olive oil, divided": {
+  "lt": "Ypač tyras alyvuogių aliejus",
+  "de": "Natives Olivenöl extra"
+ },
+ "Kosher salt, freshly ground black pepper": {
+  "lt": "Rupi druska ir šviežiai malti juodieji pipirai",
+  "de": "Grobes Salz und frisch gemahlener schwarzer Pfeffer"
+ },
+ "4 garlic cloves, smashed": {
+  "lt": "Česnako skiltelės (sutraiškytos)",
+  "de": "Knoblauchzehen (angedrückt)"
+ },
+ "2 Tbsp. sherry vinegar or red wine vinegar": {
+  "lt": "Šerio arba raudonojo vyno actas",
+  "de": "Sherry- oder Rotweinessig"
+ },
+ "1 tsp. crushed red pepper flakes": {
+  "lt": "Aitriųjų pipirų dribsniai",
+  "de": "Chiliflocken"
+ },
+ "1 (1 1/2-lb.) skinless cod, halibut, or striped bass fillet": {
+  "lt": "Menkės, oto arba dryžuotojo ešerio filė be odos",
+  "de": "Kabeljau-, Heilbutt- oder Streifenbarschfilet ohne Haut"
+ },
+ "1/4 cup coarsely chopped parsley": {
+  "lt": "Stambiai smulkintos petražolės",
+  "de": "Grob gehackte Petersilie"
+ },
+ "2 Tbsp. drained capers": {
+  "lt": "Kaparėliai (nusunkti)",
+  "de": "Kapern (abgetropft)"
+ },
+ "Country-style bread (for serving)": {
+  "lt": "Kaimiška duona patiekti",
+  "de": "Landbrot zum Servieren"
+ },
+ "4 1/2 teaspoons fresh lemon juice": {
+  "lt": "Šviežios citrinų sultys",
+  "de": "Frischer Zitronensaft"
+ },
+ "3/4 pound asparagus spears (about 1 bunch), trimmed": {
+  "lt": "Šparagai (apipjaustyti)",
+  "de": "Spargel (geputzt)"
+ },
+ "1/2 cup thinly sliced fennel bulb (preferably shaved with V-slicer)": {
+  "lt": "Plonai pjaustytas pankolio gumbas",
+  "de": "Fein gehobelte Fenchelknolle"
+ },
+ "Nonstick vegetable oil spray": {
+  "lt": "Nepridegantis purškiamas augalinis aliejus",
+  "de": "Antihaft-Pflanzenölspray"
+ },
+ "2 1/2 cups fresh breadcrumbs made from crustless French bread": {
+  "lt": "Švieži prancūziškos duonos džiūvėsėliai",
+  "de": "Frische Semmelbrösel aus französischem Brot"
+ },
+ "3 tablespoons finely grated Parmesan cheese": {
+  "lt": "Smulkiai tarkuotas parmezanas",
+  "de": "Fein geriebener Parmesan"
+ },
+ "2 tablespoons finely chopped fresh Italian parsley": {
+  "lt": "Smulkintos šviežios lapinės petražolės",
+  "de": "Fein gehackte frische glatte Petersilie"
+ },
+ "1 tablespoon finely chopped fresh thyme": {
+  "lt": "Smulkinti švieži čiobreliai",
+  "de": "Fein gehackter frischer Thymian"
+ },
+ "3 tablespoons butter, melted": {
+  "lt": "Sviestas (ištirpintas)",
+  "de": "Butter (geschmolzen)"
+ },
+ "1/4 cup unseasoned rice wine vinegar": {
+  "lt": "Ryžių vyno actas (be priedų)",
+  "de": "Reisweinessig (ungewürzt)"
+ },
+ "1 Tbsp. kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "2 tsp. fish sauce": {
+  "lt": "Žuvų padažas",
+  "de": "Fischsoße"
+ },
+ "1 1/2 tsp. sugar": {
+  "lt": "Cukrus",
+  "de": "Zucker"
+ },
+ "1/2 tsp. crushed red pepper flakes": {
+  "lt": "Aitriųjų pipirų dribsniai",
+  "de": "Chiliflocken"
+ },
+ "2 lb. green beans, trimmed": {
+  "lt": "Šparaginės pupelės (apipjaustytos)",
+  "de": "Grüne Bohnen (geputzt)"
+ },
+ "1/2 red onion, thinly sliced": {
+  "lt": "Pusė raudonojo svogūno (plonais griežinėliais)",
+  "de": "Halbe rote Zwiebel (in dünnen Scheiben)"
+ },
+ "2 Tbsp. neutral oil (such as sunflower or grapeseed)": {
+  "lt": "Neutralaus skonio aliejus (saulėgrąžų arba vynuogių kauliukų)",
+  "de": "Neutrales Öl (Sonnenblumen- oder Traubenkernöl)"
+ },
+ "1/2 cup coarsely crushed roasted salted peanuts": {
+  "lt": "Stambiai grūsti skrudinti sūdyti žemės riešutai",
+  "de": "Grob zerstoßene geröstete gesalzene Erdnüsse"
+ },
+ "1/2 cup store-bought crispy fried shallots": {
+  "lt": "Pirktiniai traškūs keptieji askaloniniai česnakai",
+  "de": "Gekaufte knusprige Röstschalotten"
+ },
+ "8 bone-in chicken thighs (about 2 1/2 pounds total)": {
+  "lt": "Vištienos šlaunelės su kaulu",
+  "de": "Hähnchenschenkel mit Knochen"
+ },
+ "Coarse salt and freshly ground pepper": {
+  "lt": "Rupi druska ir šviežiai malti pipirai",
+  "de": "Grobes Salz und frisch gemahlener Pfeffer"
+ },
+ "2 tablespoons olive oil (optional)": {
+  "lt": "Alyvuogių aliejus (nebūtina)",
+  "de": "Olivenöl (optional)"
+ },
+ "2 pounds carrots, cut into 1 1/2-inch lengths": {
+  "lt": "Morkos (gabaliukais)",
+  "de": "Karotten (in Stücken)"
+ },
+ "1 garlic clove, thinly sliced": {
+  "lt": "Česnako skiltelė (plonais griežinėliais)",
+  "de": "Knoblauchzehe (in dünnen Scheiben)"
+ },
+ "1 cinnamon stick": {
+  "lt": "Cinamono lazdelė",
+  "de": "Zimtstange"
+ },
+ "1/4 cup golden raisins": {
+  "lt": "Šviesiosios razinos",
+  "de": "Goldene Rosinen"
+ },
+ "1/2 cup fresh cilantro leaves": {
+  "lt": "Švieži kalendros lapeliai",
+  "de": "Frische Korianderblätter"
+ },
+ "1/4 cup sliced almonds, toasted (optional)": {
+  "lt": "Paskrudintos migdolų drožlės (nebūtina)",
+  "de": "Geröstete Mandelblättchen (optional)"
+ },
+ "2 (28- to 32-oz) cans whole tomatoes in juice (preferably organic)": {
+  "lt": "Konservuoti ištisi pomidorai su sultimis (geriausia ekologiški)",
+  "de": "Ganze Dosentomaten im Saft (am besten bio)"
+ },
+ "1 large onion, coarsely chopped (2 1/4 cups)": {
+  "lt": "Didelis svogūnas (stambiai pjaustytas)",
+  "de": "Große Zwiebel (grob gehackt)"
+ },
+ "2 teaspoons finely chopped garlic": {
+  "lt": "Smulkintas česnakas",
+  "de": "Fein gehackter Knoblauch"
+ },
+ "1 teaspoon finely chopped fresh jalapeño chile including seeds": {
+  "lt": "Smulkintas šviežias jalapeño pipiras su sėklomis",
+  "de": "Fein gehackte frische Jalapeño mit Kernen"
+ },
+ "2 teaspoons finely chopped peeled fresh ginger": {
+  "lt": "Smulkintas nuluptas šviežias imbieras",
+  "de": "Fein gehackter geschälter frischer Ingwer"
+ },
+ "2 1/4 cups reduced-sodium chicken broth (18 fl oz)": {
+  "lt": "Mažai sūrus vištienos sultinys",
+  "de": "Salzarme Hühnerbrühe"
+ },
+ "1 tablespoon sugar, or to taste": {
+  "lt": "Cukrus (pagal skonį)",
+  "de": "Zucker (nach Geschmack)"
+ },
+ "2 teaspoons salt, or to taste": {
+  "lt": "Druska (pagal skonį)",
+  "de": "Salz (nach Geschmack)"
+ },
+ "2 tablespoons vegetable oil, divided": {
+  "lt": "Augalinis aliejus",
+  "de": "Pflanzenöl"
+ },
+ "1 pound skirt or flank steak": {
+  "lt": "Jautienos diafragmos arba šoninės kepsnys",
+  "de": "Skirt- oder Flanksteak"
+ },
+ "1/2 cup fresh cilantro leaves with tender stems, divided": {
+  "lt": "Švieži kalendros lapeliai su švelniais stiebeliais",
+  "de": "Frische Korianderblätter mit zarten Stielen"
+ },
+ "4 radishes, trimmed, chopped": {
+  "lt": "Ridikėliai (apipjaustyti, smulkinti)",
+  "de": "Radieschen (geputzt, gehackt)"
+ },
+ "2 spring onions or 4 scallions, white and pale-green parts only, thinly sliced": {
+  "lt": "Jauni svogūnai arba svogūnų laiškai (plonai pjaustyti)",
+  "de": "Frühlingszwiebeln (in feinen Ringen)"
+ },
+ "1/2 serrano chile or jalapeño, seeds removed if desired, finely chopped": {
+  "lt": "Pusė serano arba jalapeño pipiro (smulkinta)",
+  "de": "Halbe Serrano- oder Jalapeño-Chili (fein gehackt)"
+ },
+ "2 ounces queso fresco or Cotija cheese, crumbled": {
+  "lt": "Trupintas queso fresco arba Cotija sūris",
+  "de": "Zerbröckelter Queso fresco oder Cotija"
+ },
+ "12 dried shiitake mushrooms* (1 to 1 1/4 oz)": {
+  "lt": "Džiovinti šiitake grybai",
+  "de": "Getrocknete Shiitake-Pilze"
+ },
+ "2 cups boiling-hot water": {
+  "lt": "Verdantis vanduo",
+  "de": "Kochendes Wasser"
+ },
+ "2 1/2 lb skinless chicken thighs (bone-in)": {
+  "lt": "Vištienos šlaunelės be odos, su kaulu",
+  "de": "Hähnchenschenkel ohne Haut, mit Knochen"
+ },
+ "1/4 cup soy sauce": {
+  "lt": "Sojų padažas",
+  "de": "Sojasoße"
+ },
+ "2 tablespoons Chinese rice wine or medium-dry Sherry": {
+  "lt": "Kiniškas ryžių vynas arba pusiau sausas šeris",
+  "de": "Chinesischer Reiswein oder halbtrockener Sherry"
+ },
+ "2 tablespoons cornstarch": {
+  "lt": "Kukurūzų krakmolas",
+  "de": "Maisstärke"
+ },
+ "1 teaspoon Asian sesame oil": {
+  "lt": "Azijietiškas sezamų aliejus",
+  "de": "Asiatisches Sesamöl"
+ },
+ "3 scallions, cut into 1-inch pieces": {
+  "lt": "Svogūnų laiškai (gabaliukais)",
+  "de": "Frühlingszwiebeln (in Stücken)"
+ },
+ "1 tablespoon minced peeled fresh ginger": {
+  "lt": "Smulkintas nuluptas šviežias imbieras",
+  "de": "Fein gehackter geschälter frischer Ingwer"
+ },
+ "1 1/2 lb baby bok choy (6 to 8), trimmed, halved lengthwise, and washed well": {
+  "lt": "Jauni pak choi kopūstai (perpjauti išilgai)",
+  "de": "Baby-Pak-Choi (längs halbiert)"
+ },
+ "Accompaniment: steamed rice": {
+  "lt": "Garinti ryžiai garnyrui",
+  "de": "Gedämpfter Reis als Beilage"
+ },
+ "Garnish: thinly sliced scallion": {
+  "lt": "Plonai pjaustyti svogūnų laiškai papuošti",
+  "de": "Frühlingszwiebelringe zum Garnieren"
+ },
+ "a heavy cleaver; a 13- to 14-inch wok with a lid and a 9-inch round metal cooling rack or a deep 12-inch skillet fitted with a 12-inch steamer insert; a 9- to 9 1/2-inch (6-cup) deep-dish pie plate": {
+  "lt": "Kapoklė, vokas su dangčiu ir grotelėmis, gili pyrago forma",
+  "de": "Hackbeil, Wok mit Deckel und Gitter, tiefe Kuchenform"
+ },
+ "1 (8-ounce) bag dried cheese tortelloni": {
+  "lt": "Džiovinti torteloniai su sūriu",
+  "de": "Getrocknete Käse-Tortelloni"
+ },
+ "1 large garlic clove, finely chopped": {
+  "lt": "Didelė česnako skiltelė (smulkinta)",
+  "de": "Große Knoblauchzehe (fein gehackt)"
+ },
+ "2 oz thinly sliced prosciutto, cut into strips": {
+  "lt": "Plonai pjaustytas prošutas (juostelėmis)",
+  "de": "Dünn geschnittener Prosciutto (in Streifen)"
+ },
+ "2 cups corn (from 4 ears)": {
+  "lt": "Kukurūzų grūdeliai (nuo burbuolių)",
+  "de": "Maiskörner (vom Kolben)"
+ },
+ "1/2 stick unsalted butter": {
+  "lt": "Nesūdytas sviestas",
+  "de": "Ungesalzene Butter"
+ },
+ "2 medium tomatoes": {
+  "lt": "Vidutiniai pomidorai",
+  "de": "Mittelgroße Tomaten"
+ },
+ "1/2 cup chopped basil": {
+  "lt": "Smulkintas bazilikas",
+  "de": "Gehacktes Basilikum"
+ },
+ "10 dried chiles de árbol, seeds and ribs removed": {
+  "lt": "Džiovinti de árbol čili pipirai (be sėklų)",
+  "de": "Getrocknete Chiles de árbol (entkernt)"
+ },
+ "3 medium tomatillos, husks removed, rinsed": {
+  "lt": "Tomatiljai (be lukštų, nuplauti)",
+  "de": "Tomatillos (ohne Hülle, abgespült)"
+ },
+ "3 garlic cloves, smashed": {
+  "lt": "Česnako skiltelės (sutraiškytos)",
+  "de": "Knoblauchzehen (angedrückt)"
+ },
+ "1 teaspoon fresh lime juice": {
+  "lt": "Šviežios žaliųjų citrinų sultys",
+  "de": "Frischer Limettensaft"
+ },
+ "2 1/2 pounds tomatillos, husked, rinsed, and quartered": {
+  "lt": "Tomatiljai (be lukštų, ketvirčiais)",
+  "de": "Tomatillos (ohne Hülle, geviertelt)"
+ },
+ "1 tablespoon lard or vegetable oil": {
+  "lt": "Kiaulės taukai arba augalinis aliejus",
+  "de": "Schmalz oder Pflanzenöl"
+ },
+ "10 medium cloves garlic": {
+  "lt": "Vidutinės česnako skiltelės",
+  "de": "Mittelgroße Knoblauchzehen"
+ },
+ "15 small pasilla de Oaxaca chiles, stemmed and seeded": {
+  "lt": "Maži pasilla de Oaxaca čili pipirai (be kotelių ir sėklų)",
+  "de": "Kleine Pasilla-de-Oaxaca-Chilis (ohne Stiel und Kerne)"
+ },
+ "Kosher or fine sea salt": {
+  "lt": "Rupi arba smulki jūros druska",
+  "de": "Grobes Salz oder feines Meersalz"
+ },
+ "1 large carrot, chopped": {
+  "lt": "Didelė morka (smulkinta)",
+  "de": "Große Karotte (gehackt)"
+ },
+ "1 celery stalk with leaves, chopped": {
+  "lt": "Saliero stiebas su lapais (smulkintas)",
+  "de": "Selleriestange mit Grün (gehackt)"
+ },
+ "1 carcass with skin from one 12- to 15-pound turkey; meat removed and reserved, carcass broken into pieces": {
+  "lt": "Kalakuto karkasas su oda (sulaužytas gabalais)",
+  "de": "Truthahnkarkasse mit Haut (zerteilt)"
+ },
+ "4 quarts (about) cold water": {
+  "lt": "Šaltas vanduo",
+  "de": "Kaltes Wasser"
+ },
+ "4 fresh Italian parsley sprigs": {
+  "lt": "Šviežių lapinių petražolių šakelės",
+  "de": "Frische glatte Petersilienzweige"
+ },
+ "1/2 teaspoon dried thyme": {
+  "lt": "Džiovinti čiobreliai",
+  "de": "Getrockneter Thymian"
+ },
+ "1/4 teaspoon whole black peppercorns": {
+  "lt": "Juodųjų pipirų žirneliai",
+  "de": "Schwarze Pfefferkörner"
+ },
+ "8 cups Day-After Turkey Stock": {
+  "lt": "Kalakutienos sultinys",
+  "de": "Truthahnbrühe"
+ },
+ "4 tablespoons (1/2 stick) unsalted butter, divided": {
+  "lt": "Nesūdytas sviestas",
+  "de": "Ungesalzene Butter"
+ },
+ "1 small yellow onion, thinly sliced": {
+  "lt": "Mažas geltonasis svogūnas (plonais griežinėliais)",
+  "de": "Kleine gelbe Zwiebel (in dünnen Scheiben)"
+ },
+ "2 cups assorted fresh mushrooms (preferably wild, but white buttons will do), thinly sliced": {
+  "lt": "Įvairūs švieži grybai (geriausia miško)",
+  "de": "Gemischte frische Pilze (am besten Waldpilze)"
+ },
+ "2 cups arborio or carnaroli rice": {
+  "lt": "Arborio arba carnaroli ryžiai",
+  "de": "Arborio- oder Carnaroli-Reis"
+ },
+ "1 cup shredded leftover turkey meat (optional)": {
+  "lt": "Likusi kalakutienos mėsa (nebūtina)",
+  "de": "Übrig gebliebenes Truthahnfleisch (optional)"
+ },
+ "1/2 cup shredded Parmesan": {
+  "lt": "Tarkuotas parmezanas",
+  "de": "Geriebener Parmesan"
+ },
+ "Kosher salt and freshly ground black pepper": {
+  "lt": "Rupi druska ir šviežiai malti juodieji pipirai",
+  "de": "Grobes Salz und frisch gemahlener schwarzer Pfeffer"
+ },
+ "2 tablespoons finely chopped flat-leaf parsley": {
+  "lt": "Smulkintos lapinės petražolės",
+  "de": "Fein gehackte glatte Petersilie"
+ },
+ "2 lamb shanks (2 pounds total)": {
+  "lt": "Ėrienos blauzdos",
+  "de": "Lammhaxen"
+ },
+ "2 medium carrots, chopped": {
+  "lt": "Vidutinės morkos (smulkintos)",
+  "de": "Mittelgroße Karotten (gehackt)"
+ },
+ "2 celery ribs, chopped": {
+  "lt": "Salierų stiebai (smulkinti)",
+  "de": "Selleriestangen (gehackt)"
+ },
+ "3 garlic cloves, thinly sliced": {
+  "lt": "Česnako skiltelės (plonais griežinėliais)",
+  "de": "Knoblauchzehen (in dünnen Scheiben)"
+ },
+ "1 (14-ounces) can diced tomatoes in juice": {
+  "lt": "Konservuoti pomidorai kubeliais su sultimis",
+  "de": "Gewürfelte Dosentomaten im Saft"
+ },
+ "2 rosemary sprigs": {
+  "lt": "Rozmarino šakelės",
+  "de": "Rosmarinzweige"
+ },
+ "1 cup dried navy beans, picked over": {
+  "lt": "Džiovintos baltosios pupelės (perrinktos)",
+  "de": "Getrocknete weiße Bohnen (verlesen)"
+ },
+ "3 1/2 cups water": {
+  "lt": "Vanduo",
+  "de": "Wasser"
+ },
+ "Garnish: chopped flat-leaf parsley; extra-virgin olive oil for drizzling": {
+  "lt": "Smulkintos lapinės petražolės ir alyvuogių aliejus papuošti",
+  "de": "Gehackte glatte Petersilie und Olivenöl zum Garnieren"
+ },
+ "Equipment: a 6-to 8-quart pressure cooker": {
+  "lt": "Greitpuodis",
+  "de": "Schnellkochtopf"
+ },
+ "2 pounds carrots, peeled": {
+  "lt": "Morkos (nuluptos)",
+  "de": "Karotten (geschält)"
+ },
+ "3 green bell peppers, cut into 1-inch squares": {
+  "lt": "Žaliosios paprikos (kvadratėliais)",
+  "de": "Grüne Paprika (in Quadraten)"
+ },
+ "3 yellow onions, cut into 1-inch wedges": {
+  "lt": "Geltonieji svogūnai (skiltelėmis)",
+  "de": "Gelbe Zwiebeln (in Spalten)"
+ },
+ "3/4 cup cider vinegar": {
+  "lt": "Obuolių sidro actas",
+  "de": "Apfelessig"
+ },
+ "1 cup tomato puree": {
+  "lt": "Pomidorų tyrė",
+  "de": "Tomatenpüree"
+ },
+ "1 teaspoon mustard powder": {
+  "lt": "Garstyčių milteliai",
+  "de": "Senfpulver"
+ },
+ "1 teaspoon Worcestershire sauce": {
+  "lt": "Vorčesterio padažas",
+  "de": "Worcestershiresoße"
+ },
+ "2 skinless, boneless chicken thighs": {
+  "lt": "Vištienos šlaunelės be odos ir kaulų",
+  "de": "Hähnchenschenkel ohne Haut und Knochen"
+ },
+ "1 (4x4-inch) piece dried kombu": {
+  "lt": "Džiovintas kombu dumblis",
+  "de": "Getrocknete Kombu-Alge"
+ },
+ "1 (2-inch) piece ginger, peeled, crushed": {
+  "lt": "Imbiero gabalėlis (nuluptas, sutraiškytas)",
+  "de": "Stück Ingwer (geschält, angedrückt)"
+ },
+ "3 star anise pods": {
+  "lt": "Žvaigždiniai anyžiai",
+  "de": "Sternanis"
+ },
+ "1 (2-inch) cinnamon stick": {
+  "lt": "Cinamono lazdelė",
+  "de": "Zimtstange"
+ },
+ "2 whole cloves": {
+  "lt": "Ištisi gvazdikėliai",
+  "de": "Ganze Nelken"
+ },
+ "4 cups chicken stock or low-sodium chicken broth": {
+  "lt": "Vištienos sultinys",
+  "de": "Hühnerbrühe"
+ },
+ "1 cup glutinous (sticky) rice or sushi rice, rinsed": {
+  "lt": "Lipnieji arba sušių ryžiai (nuplauti)",
+  "de": "Klebreis oder Sushireis (gewaschen)"
+ },
+ "1 tablespoon (or more) fish sauce": {
+  "lt": "Žuvų padažas",
+  "de": "Fischsoße"
+ },
+ "1 teaspoon palm or light brown sugar": {
+  "lt": "Palmių arba šviesusis rudasis cukrus",
+  "de": "Palmzucker oder heller brauner Zucker"
+ },
+ "1 scallion, thinly sliced": {
+  "lt": "Svogūno laiškas (plonai pjaustytas)",
+  "de": "Frühlingszwiebel (in feinen Ringen)"
+ },
+ "1 jalapeño, thinly sliced": {
+  "lt": "Jalapeño pipiras (plonais griežinėliais)",
+  "de": "Jalapeño (in dünnen Scheiben)"
+ },
+ "1/4 cup thinly sliced white onion": {
+  "lt": "Baltasis svogūnas (plonais griežinėliais)",
+  "de": "Weiße Zwiebel (in dünnen Scheiben)"
+ },
+ "1 3-pound box coarse kosher salt": {
+  "lt": "Rupi druska",
+  "de": "Grobes Salz"
+ },
+ "5 (or more) large egg whites": {
+  "lt": "Didelių kiaušinių baltymai",
+  "de": "Eiweiß von großen Eiern"
+ },
+ "2 1- to 1 1/2-pound whole branzino, loup de mer, or sea bass, gutted": {
+  "lt": "Ištisi europiniai jūrų ešeriai (išdarinėti)",
+  "de": "Ganze Wolfsbarsche (ausgenommen)"
+ },
+ "8 fresh parsley sprigs": {
+  "lt": "Šviežių petražolių šakelės",
+  "de": "Frische Petersilienzweige"
+ },
+ "2 fresh thyme sprigs": {
+  "lt": "Šviežio čiobrelio šakelės",
+  "de": "Frische Thymianzweige"
+ },
+ "4 thin lemon slices": {
+  "lt": "Ploni citrinos griežinėliai",
+  "de": "Dünne Zitronenscheiben"
+ },
+ "1/4 cup finely diced celery": {
+  "lt": "Smulkiai kapoti salierai",
+  "de": "Fein gewürfelter Staudensellerie"
+ },
+ "1/4 cup finely diced cucumber": {
+  "lt": "Smulkiai kapotas agurkas",
+  "de": "Fein gewürfelte Gurke"
+ },
+ "1/4 cup finely chopped fresh parsley": {
+  "lt": "Smulkintos šviežios petražolės",
+  "de": "Fein gehackte frische Petersilie"
+ },
+ "2 tablespoons drained small capers": {
+  "lt": "Mažieji kaparėliai (nusunkti)",
+  "de": "Kleine Kapern (abgetropft)"
+ },
+ "2 tablespoons sliced pitted brine-cured green olives (such as picholine)": {
+  "lt": "Marinuotos žaliosios alyvuogės be kauliukų (griežinėliais)",
+  "de": "Grüne Oliven in Lake, entsteint (in Scheiben, z. B. Picholine)"
+ },
+ "3 cups arugula": {
+  "lt": "Rukola",
+  "de": "Rucola"
+ }
+}

@@ -127,6 +127,8 @@ Testai (be modelio): `python code/test_translate.py`.
 | `code/update_prices.py` | Kainų atnaujinimas → `data/prices_live.csv` (+ `prices_history.csv`) |
 | `code/test_prices.py` | Kainų modulio testai (be interneto) |
 | `data/recipe_instructions.json` | Rodomi instrukcijų vertimai LT / DE (Claude) |
+| `data/ingredient_names.json` | Konkretūs ingredientų pavadinimai LT / DE kiekvienai receptų eilutei (Claude) |
+| `code/test_ingredients.py` | Ingredientų sąrašo tvarkymo ir pavadinimų testai |
 | `code/translate_instructions.py` | Bazinis offline vertimas EN → LT/DE (OPUS-MT) → `data/recipe_instructions_opus.json` |
 | `code/test_translate.py` | Vertimo testai (be modelio) |
 | `requirements-translate.txt` | Papildomos bibliotekos tik vertimo skriptui |

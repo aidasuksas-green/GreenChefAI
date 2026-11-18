@@ -397,6 +397,40 @@ def totals(items, prefix=""):
 HYBRID_THRESHOLD = 0.6
 
 
+_EQUIPMENT = re.compile(r"^(equipment:|a heavy cleaver|a well-seasoned|an electric)|\bskewers\b|parchment paper|"
+                        r"baking dish|pie plate|pressure cooker|\bwok\b|grinder", re.I)
+_NOTE = re.compile(r'^"?ingredient info:', re.I)
+_QUOTED_PAIR = re.compile(r'^"([^"]+)",\s*(.+)$')
+
+
+def normalize_lines(lines, kb):
+    """Sutvarko Epicurious ingredientų sąrašo nuotrupas:
+    - eilutės dalis, atskirta kableliu į atskirą eilutę („1/2 red onion“ + „very thinly sliced“), prijungiama
+      prie ankstesnės: eilutė prasideda mažąja raide ir ji arba ankstesnė nėra atpažinta žinių bazėje;
+    - dvi kabutėmis sulipusios eilutės („"8 teaspoons zaatar", 1 pound Swiss chard…“) atskiriamos;
+    - įrangos eilutės (iešmeliai, kepimo popierius, vokas…) atskiriamos nuo ingredientų.
+    Grąžina (ingredientai, įranga)."""
+    out, equipment = [], []
+    for raw in lines:
+        line = str(raw).strip()
+        if not line:
+            continue
+        m = _QUOTED_PAIR.match(line)
+        parts = [m.group(1), m.group(2)] if m else [line]
+        for part in parts:
+            if _NOTE.match(part):  # receptų rinkinio pastabos („Ingredient info: …“) – ne ingredientas
+                continue
+            if _EQUIPMENT.search(part) and (kb.match(part) is None or
+                                            part.lower().startswith(("a ", "an ", "equipment:"))):
+                equipment.append(part)
+                continue
+            if out and part[:1].islower() and (kb.match(part) is None or kb.match(out[-1]) is None):
+                out[-1] = f"{out[-1]}, {part}"
+            else:
+                out.append(part)
+    return out, equipment
+
+
 def classify_lines(lines, model, thr=HYBRID_THRESHOLD):
     """Grąžina sąrašą (kategorija, tikimybė, šaltinis).
     Jei ekspertinės taisyklės randa gyvūninį produktą – tikima taisyklėmis.
