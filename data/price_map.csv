@@ -1,15 +1,17 @@
 key,source,ref,must,exclude,factor,unit,note
 chicken_breast,barbora,viščiukų broilerių filė,visciuku|broileriu file,marinuot|skonio|rukyt|virt|kepta,1,,
 chicken,barbora,viščiukų broilerių šlaunelės,slaunel,marinuot|skonio|rukyt|kepta,1,,
-ground_beef,barbora,malta mėsa,malt,kotlet|augalin|vegan,1,,
+ground_beef,barbora,malta mėsa,malt|fars mes|jautien|kiaulien|fars,kotlet|augalin|vegan|vist|visc|iesmel|maltin|prieskon|kukul,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 beef,barbora,jautiena,jautien,malt|faršas|farsas|konserv|troskin|sultin|desr,1,,
+beef_ribs,derive,beef,,,1,,iš jautienos kainos
 pork,barbora,kiaulienos sprandinė,kiaulien,marinuot|skonio|rukyt|virt,1,,
+pork_belly,derive,pork,,,1,,iš kiaulienos kainos
 bacon,barbora,šoninė,sonin,,1,,
 sausage,barbora,dešrelės,desrel,augalin|vegan|veget,1,,
 cured_ham,barbora,vytintas kumpis,kump,virt|konserv,1,,
 lamb,skip,,,,1,,Barboroje tik gyvūnų ėdalas (2026-11-17); KB kaina iš dzukukrautuvele.lt / mesosbroliai.lt
-turkey,barbora,kalakutienos filė,kalakut,marinuot|skonio|rukyt|virt|desr,1,,
-duck,barbora,ančių krūtinėlės,anciu|anties|antis|antien,kepen|sirdel|skranduk|pastet|burbul|idaryt,1,,
+turkey,barbora,kalakutienos filė,kalakut,marinuot|skonio|rukyt|virt|desr|garuose|ruosta|sumustin|kump|kepen|pastet,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
+duck,barbora,ančių krūtinėlės,anciu|anties|antis|antien,kepen|sirdel|skranduk|pastet|burbul|idaryt|marinuot,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 meat_broth,barbora,sultinys,sultin vistien|jautien|kalakut,kubel|drebuc|milt|sriub|virtin,1,l,"tik skystas sultinys (€/l), ne koncentratas"
 gelatin,barbora,želatina,zelatin,,1,,
 salmon,barbora,lašišos filė,lasis,rukyt|konserv|salot|surimi,1,,
@@ -18,9 +20,9 @@ tuna,barbora,tunas,tun,salot|pastet,1,,konservuotas tunas (receptuose dažniausi
 shrimp,barbora,krevetės,krevet,traskuc|salot|lazdel,1,,
 scallops,barbora,šukučių mėsa,sukuciu|sukutes,tesl|kump|pyrag|marcipan|sukutis,1,,Barboroje vadinama „šukučių mėsa“ (pvz. NOWACO)
 mussels,barbora,midijos,midij,,1,,
-crab,barbora,krabai,krab,lazdel|surimi,1,,
+crab,barbora,krabai,krab,lazdel|surimi|trask|skonio|uzkand|chips,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 anchovy,barbora,ančiuviai,anciuv,alyvuoges|tesl|idaryt,1,,
-fish_sauce,barbora,žuvų padažas,zuv padaz,,1,,
+fish_sauce,barbora,žuvų padažas,zuvu|zuvies padaz,kukul|tyrel|pomidor|darzov|seko,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 oyster_sauce,barbora,austrių padažas,austr,,1,,
 worcestershire,barbora,worcestershire padažas,worcester|vorcester,,1,,
 milk,barbora,pienas,pien,kokos|aviz|soj|migdol|ryziu|sokolad|kondens|sutirst|milt|gerim|kav|desert,1,,
@@ -29,18 +31,18 @@ butter,barbora,sviestas,sviest,augalin|riesut|kakav|mis,1,,
 parmesan,barbora,parmezanas,parmez|parmigian|grana|pecorin,,1,,
 cheese,barbora,fermentinis sūris,suris|surio,lydyt|varsk|kremin|augalin|vegan|grietinel|lazdel,1,,
 feta,barbora,feta,feta|fetos,,1,,
-ricotta,barbora,rikota,rikot|ricott,,1,,
+ricotta,barbora,rikota,rikot|ricott,raviol|pesto|padaz|lakst|su rikot,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 cream_cheese,barbora,maskarponė,maskarpon|mascarpon,,1,,
 yogurt,barbora,graikiškas jogurtas,jogurt,soj|kokos|augalin|geriam,1,,
 sour_cream,barbora,grietinė,grietin,grietinel|padaz|augalin,1,,
 buttermilk,barbora,pasukos,pasuk,,1,,
 ice_cream,barbora,ledai vaniliniai,ledai|ledu,augalin|vegan,1,,
-egg,barbora,kiaušiniai,kiausin,sokolad|staigmen|putpel|makaron,1,,
+egg,barbora,kiaušiniai,kiausin,sokolad|staigmen|putpel|makaron|lakst|lazanij|vermisel|sumustin|salot|su kiausin|majonez,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 egg_yolk,derive,egg,,,1.4,,iš kiaušinio kainos (KB santykis 7/5)
 egg_white,derive,egg,,,0.8,,iš kiaušinio kainos (KB santykis 4/5)
 mayonnaise,barbora,majonezas,majonez,vegan|augalin,1,,
 honey,barbora,medus,medus,sausain|tort|pyrag,1,,
-tofu_firm,barbora,sojų varškė,soj|tofu varsk|tofu,rukyt|marin|uztepel|omlet|pastet|paprik|bazilik|zolel|kraik|desert|jogurt,1,,
+tofu_firm,barbora,sojų varškė,soj|tofu varsk|tofu,rukyt|marin|uztepel|omlet|pastet|paprik|bazilik|zolel|kraik|desert|jogurt|padaz|bolonij,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 smoked_tofu,barbora,rūkyta sojų varškė,rukyt soj|tofu,uztepel,1,,
 tempeh,barbora,tempeh,tempe,,1,,
 seitan,barbora,seitanas,seitan,,1,,
@@ -54,15 +56,15 @@ capers,barbora,kaparėliai,kaparel,,1,,
 soy_sauce,barbora,sojų padažas,soj padaz,,1,,
 mushroom_sauce,skip,,,,1,,per specifiška prekė; lieka KB kaina
 veg_broth,barbora,daržovių sultinys,darzov sultin,kubel|drebuc,1,l,"tik skystas sultinys (€/l), ne koncentratas"
-agar,barbora,agaras,agar,,1,,
-maple_syrup,barbora,klevų sirupas,klev sirup,,1,,
+agar,barbora,agaras,agar,jautien|antrekot|pjausn,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
+maple_syrup,barbora,klevų sirupas,klev sirup,sparn|visc|ledai|su klev|jogurt|granol|dribsn,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 oat_milk,barbora,avižų gėrimas,aviz gerim,,1,,
 coconut_cream,barbora,kokosų kremas,kokos krem|grietinel,drozl|kubel|traskuc|aliej|fermentuot|gerim,1,,
 plant_butter,barbora,margarinas,margarin,,1,,
 nutritional_yeast,barbora,maistinės mielės,miel maistin|neaktyv,,1,,
-vegan_cheese,barbora,veganiškas sūris,vegan|augalin sur,,1,,
+vegan_cheese,barbora,veganiškas sūris,vegan|augalin sur,ledai|desert|trask|skonio|surel|uzkand,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 cashew_ricotta,skip,,,,1,,gaminama virtuvėje; lieka KB kaina
-soy_yogurt,barbora,sojų jogurtas,soj jogurt|desert,,1,,
+soy_yogurt,barbora,sojų jogurtas,soj jogurt,sokolad|desert,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 plant_ice_cream,barbora,augaliniai ledai,ledai|ledu augalin|vegan,,1,,
 flax_egg,skip,,,,1,,gaminama virtuvėje; lieka KB kaina
 aquafaba,skip,,,,1,,šalutinis produktas; lieka KB kaina
@@ -75,7 +77,7 @@ salt,barbora,valgomoji druska,drusk,himalaj|vonios|vonia|indaplov,1,,
 spices,barbora,malti juodieji pipirai,pipir,,1,,
 garlic,barbora,česnakai,cesnak,milteliai|granul|marin|skonio|dziov|padaz|duona,1,,
 onion,barbora,svogūnai,svogun,laisk|keptu|milteliai|dziov|traskuc,1,,
-scallion,barbora,svogūnų laiškai,laisk,,1,,
+scallion,barbora,svogūnų laiškai,laisk,trask|skonio,1,,pataisyta 2026-11-18: atmestos netinkamos prekės
 tomato,barbora,pomidorai,pomidor,konserv|pasta|padaz|sult|dziov|trint|kecup,1,,
 tomato_paste,barbora,pomidorų pasta,pomidor pasta|koncentrat,,1,,
 potato,barbora,bulvės,bulv,traskuc|keptu|frit|kosel|salot|lazdel,1,,

@@ -7,7 +7,7 @@ failą data/prices_live.csv, todėl lėtas ar užblokuotas šaltinis programėl�
 
 Šaltiniai:
   barbora  – paieška https://barbora.lt/paieska?q=... ; iš kiekvienos prekės kortelės
-             imama kaina už vienetą (€/kg, €/l, €/vnt). Grąžinama atitinkančių prekių mediana.
+             imama kaina už vienetą (€/kg, €/l, €/vnt). Grąžinama atitinkančių prekių apatinis ketvirtis (PRICE_QUANTILE).
   lastmile – konkretus produktas https://www.lastmile.lt/chain/{grandinė}/product/{slug}.
              Duomenys imami iš <script id="__NEXT_DATA__"> JSON (Next.js).
              Grandinės: IKI, PROMO-CashandCarry ir kt.
@@ -18,7 +18,6 @@ import html as htmllib
 import json
 import random
 import re
-import statistics
 import time
 import unicodedata
 import urllib.robotparser
@@ -343,8 +342,24 @@ def parse_lastmile(page: str, ref: str):
 # ---------------------------------------------------------------------------
 # Vieno ingrediento kaina
 # ---------------------------------------------------------------------------
+# Kurį kainų tašką imti: 0.25 = apatinis ketvirtis (pigesnės bazinės prekės, kaip perka
+# restoranai), 0.5 = mediana. Tarp reikšmių – tiesinė interpoliacija.
+PRICE_QUANTILE = 0.25
+
+
+def quantile(values, q=PRICE_QUANTILE):
+    v = sorted(values)
+    if not v:
+        return None
+    pos = (len(v) - 1) * q
+    lo = int(pos)
+    hi = min(lo + 1, len(v) - 1)
+    return round(v[lo] + (v[hi] - v[lo]) * (pos - lo), 4)
+
+
 def aggregate(offers, must="", exclude="", top=10, unit=""):
-    """Atrenka tinkamas prekes ir grąžina (mediana_kaina_uz_vieneta, vienetas, atrinktos).
+    """Atrenka tinkamas prekes ir grąžina (kaina_uz_vieneta, vienetas, atrinktos).
+    Kaina – PRICE_QUANTILE kvantilis (numatytai apatinis ketvirtis).
     unit (nebūtina): imti tik prekes su šiuo vienetu, pvz. 'l' – skystas sultinys, ne kubeliai."""
     want = norm_unit(unit) if unit else ""
     good = [o for o in offers if o.get("in_stock", True) and o.get("unit_price")
@@ -352,8 +367,8 @@ def aggregate(offers, must="", exclude="", top=10, unit=""):
             and title_matches(o.get("title", ""), must, exclude)][:top]
     if not good:
         return None, None, []
-    # medianą skaičiuojame tik dažniausio vieneto prekėms (nemaišome €/kg su €/vnt)
+    # kainą skaičiuojame tik dažniausio vieneto prekėms (nemaišome €/kg su €/vnt)
     units = [o["unit"] for o in good]
     unit = max(set(units), key=units.count)
     same = [o for o in good if o["unit"] == unit]
-    return statistics.median(o["unit_price"] for o in same), unit, same
+    return quantile([o["unit_price"] for o in same]), unit, same

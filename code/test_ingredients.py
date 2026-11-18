@@ -85,6 +85,32 @@ def test_quantity_parsing_of_packages_and_heads():
     assert grams("1 large head of iceberg lettuce, cut into 6 wedges") > 400
 
 
+def test_edible_part_and_dried_legumes():
+    def it(line):
+        return g.analyse_line(line, KB, "X")
+    a = it("1 pound chicken breast, boneless and skinless")
+    b = it("1 (3 1/2–4-pound) chicken")
+    assert a["edible"] == 1.0 and b["edible"] == 0.7
+    assert abs(b["price"] - KB.nutrients("chicken", b["grams"])["price"]) < 1e-9   # kaina – nuo viso svorio
+    assert it("2 pounds littleneck clams, scrubbed")["edible"] == 0.25
+    assert it("2 cups dried navy or cannellini beans, soaked overnight")["edible"] == g.DRIED_LEGUME_YIELD
+    assert abs(it("4 whole Arctic char (about 1 pound each), cleaned")["grams"] - 4 * 454) < 1
+    assert KB.match("4 1/2 pounds beef short ribs") == "beef_ribs"
+    assert KB.match("1 (4–5-pound) skin-on, boneless pork belly") == "pork_belly"
+    assert KB.match("8 cups Day-After Turkey Stock") == "meat_broth"
+
+
+def test_kb_energy_is_consistent():
+    """Energija turi atitikti makroelementus (Atwater 4/9/4 kcal/g) ±15 %, išskyrus alkoholį ir prieskonius."""
+    df = pd.read_csv(os.path.join(g.DATA_DIR, "ingredients_kb.csv"))
+    for r in df.itertuples():
+        # vynas (alkoholis 7 kcal/g) ir daug skaidulų turintys produktai (USDA angliavandeniai su skaidulomis)
+        if r.key in ("vinegar_wine", "salt", "water", "spices", "agar", "tomato_paste") or r.kcal < 60:
+            continue
+        calc = r.protein * 4 + r.fat * 9 + r.carbs * 4
+        assert abs(calc - r.kcal) / r.kcal < 0.15, (r.key, r.kcal, calc)
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:

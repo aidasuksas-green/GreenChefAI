@@ -51,7 +51,7 @@ jos nereikia. Po kainos kortele rodoma, kiek ingredientų turi gyvą kainą ir k
 **Kaip tai veikia ir kodėl saugu:**
 - Programėlė pati į parduotuves nesikreipia: ji skaito tik paruoštą failą, todėl lėta ar
   užblokuota svetainė jos nesugadina.
-- Barbora: imama kainos už kg/l/vnt **mediana** iš iki 10 tinkamų prekių (pagal `must` / `exclude`
+- Barbora: imamas kainos už kg/l/vnt **apatinis ketvirtis** (pigesnės bazinės prekės; `PRICE_QUANTILE` faile `price_sources.py`, 0.5 = mediana) iš iki 10 tinkamų prekių (pagal `must` / `exclude`
   žodžius). Išparduotos prekės nevertinamos.
 - Kaina, kuri daugiau nei 4 kartus skiriasi nuo bazinės, pažymima `suspicious` ir **nenaudojama**
   (paieška greičiausiai rado ne tą prekę).

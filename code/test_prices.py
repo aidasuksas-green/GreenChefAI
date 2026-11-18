@@ -124,8 +124,15 @@ def test_barbora_cards():
     assert offers[0]["url"] == "https://barbora.lt/p/sviezia-visciuku-broileriu-file-500-g"
     assert offers[3]["in_stock"] is False
     price, unit, used = ps.aggregate(offers, "visciuku|broileriu file", "marinuot|skonio")
-    # 15,99 (česnakų skonio) atmetama, 8,98 (išparduota) atmetama -> mediana iš 7,98 / 7,49 / 9,98
-    assert unit == "kg" and price == 7.98 and len(used) == 3, (price, used)
+    # 15,99 (česnakų skonio) atmetama, 8,98 (išparduota) atmetama -> apatinis ketvirtis iš 7,49 / 7,98 / 9,98
+    assert unit == "kg" and price == 7.735 and len(used) == 3, (price, used)
+
+
+def test_quantile():
+    assert ps.quantile([5.0]) == 5.0
+    assert ps.quantile([1, 2, 3, 4, 5]) == 2.0
+    assert ps.quantile([1, 2, 3, 4, 5], 0.5) == 3.0
+    assert ps.quantile([]) is None
 
 
 def test_barbora_bforcart():

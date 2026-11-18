@@ -333,17 +333,24 @@ with tab1:
 
 with tab2:
     st.write(t["custom_intro"])
-    name = st.text_input(t["custom_name"], t["custom_default_name"])
     options = kb.df[f"name_{lang}"].tolist()
     key_by_name = dict(zip(kb.df[f"name_{lang}"], kb.df["key"]))
     default = [("ground_beef", 500), ("egg", 50), ("onion", 120), ("bread", 60), ("milk", 100),
                ("sour_cream", 200), ("butter", 30), ("scallion", 15), ("salt", 6), ("spices", 2)]
     df0 = pd.DataFrame({t["ingredient"]: [kb.name(k, lang) for k, _ in default], t["grams"]: [v for _, v in default]})
-    edited = st.data_editor(
-        df0, num_rows="dynamic", width="stretch", key=f"editor_{lang}",
-        column_config={t["ingredient"]: st.column_config.SelectboxColumn(options=options, required=True),
-                       t["grams"]: st.column_config.NumberColumn(min_value=0, max_value=20000, step=5)})
-    st.caption(t["add_row_hint"])
+    # kompaktiškas išdėstymas: kairėje – įvedimo lentelė, dešinėje – kaip atpažinta (spalvos)
+    c_in, c_out = st.columns([1, 1], gap="large")
+    with c_in:
+        name = st.text_input(t["custom_name"], t["custom_default_name"])
+        _st = st.session_state.get(f"editor_{lang}", {})
+        _rows = len(df0) + len(_st.get("added_rows", [])) - len(_st.get("deleted_rows", []))
+        edited = st.data_editor(
+            df0, num_rows="dynamic", width="stretch", hide_index=True, key=f"editor_{lang}",
+            height=(_rows + 2) * 35 + 3,   # visos eilutės matomos be slinkties
+            column_config={t["ingredient"]: st.column_config.SelectboxColumn(options=options, required=True, width=240),
+                           t["grams"]: st.column_config.NumberColumn(min_value=0, max_value=20000, step=5, width=80,
+                                                                    format="%d g")})
+        st.caption(t["add_row_hint"])
     citems = []
     for _, r in edited.dropna().iterrows():
         k = key_by_name.get(r[t["ingredient"]])
@@ -352,9 +359,11 @@ with tab2:
         gr = float(r[t["grams"]])
         citems.append({"line": kb.name(k, lang), "custom": True, "key": k, "category": kb.row(k).category, "grams": gr,
                        "has_qty": True, **kb.nutrients(k, gr)})
+    with c_out:
+        st.markdown(f"<div class='gc-h3'>{html.escape(name)}</div>", unsafe_allow_html=True)
+        if citems:
+            render_ingredients(citems, ["kb"] * len(citems))
     if citems:
-        st.markdown(f"### {name}")
-        render_ingredients(citems, ["kb"] * len(citems))
         st.markdown("---")
         render_results(citems)
 

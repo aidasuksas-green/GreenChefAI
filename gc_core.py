@@ -203,10 +203,13 @@ def parse_quantity(line: str, kb_row=None):
         return qty * per, True
     # c) bendras svoris skliausteliuose turi pirmenybę prieš apytikslius vienetus:
     #    "8 chicken thighs (about 2 1/2 pounds)", "2 bunches broccoli (about 2 pounds)", "cashews (7 oz)"
-    m3 = re.search(r"\((?:about |approximately |)" + NUM + r"\s*(pounds?|lbs?|ounces?|oz)\.?(?: total)?\)", rest)
+    m3 = re.search(r"(?:\(|; )(?:about |approximately |)" + NUM + r"(?:\s*to\s*" + NUM + r")?\s*(pounds?|lbs?|ounces?|oz)\.?"
+                   r"(?: (total|each))?\)", rest)
     if m3:
-        u = m3.group(2)
-        return _num(m3.group(1)) * (454 if u.startswith(("pound", "lb")) else 28.35), True
+        u = m3.group(3)
+        w_ = _num(m3.group(1)) if not m3.group(2) else (_num(m3.group(1)) + _num(m3.group(2))) / 2
+        w_ *= qty if m3.group(4) == "each" else 1    # "4 whole char (about 1 pound each)"
+        return w_ * (454 if u.startswith(("pound", "lb")) else 28.35), True
     word = re.match(r"^([a-z\-]+)\.?", rest)
     w = word.group(1) if word else ""
     key = getattr(kb_row, "name", None) if kb_row is not None else None
@@ -230,6 +233,10 @@ def parse_quantity(line: str, kb_row=None):
     if w in ("slice", "slices"):
         return qty * (piece if piece < 60 else 25), True
     mult = SIZE.get(w, 1.0)
+    # aitriųjų pipirų vienetai: džiovintas ~4 g, šviežias (jalapeño, serrano, Thai) ~15 g
+    if re.search(r"\bchil(?:e|i|es|ies|is)\b|jalape|serrano|habanero|scotch bonnet|guajillo|morita|pasilla|ancho", t) \
+            and not re.search(r"bell pepper|powder|flakes|sauce|paste|oil", t):
+        piece = 4.0 if re.search(r"dried|guajillo|morita|pasilla|ancho|árbol|arbol|japones", t) else 15.0
     return qty * piece * mult, True
 
 
@@ -377,13 +384,64 @@ def save_manual_prices(rows, path=MANUAL_PRICES_PATH):
     return len(out)
 
 
+_BONE_WORDS = re.compile(r"bone-in|with bones?\b|skin and bones|\bwings?\b|drumsticks?|chicken legs?|"
+                         r"\bshanks?\b|short ribs|spareribs|leg of pork|carcass", re.I)
+_BONELESS = re.compile(r"boneless|skinless(?!.*bone-in)|cutlets?|ground|fillets?|breast halves|shredded|"
+                       r"meat removed|stock|broth", re.I)
+
+
+def edible_factor(line: str, key) -> float:
+    """Kokia perkamo svorio dalis suvalgoma (kaulai neturi kalorijų). Naudojama tik maistinei vertei
+    ir pakaitalo kiekiui; kaina skaičiuojama nuo viso perkamo svorio.
+    Apytiksliai: visa višta / kalakutas ~0,7; dalys su kaulu ~0,75; sparneliai ~0,6; blauzdos, šonkauliai ~0,55;
+    moliuskai su kiautais ~0,25; gyvi omarai ~0,3; krevetės su kiautais ~0,85; ištisos žuvys ~0,5."""
+    t = line.lower()
+    # jūros gėrybės su kiautais ir ištisos žuvys
+    if key == "mussels" and re.search(r"clams|mussels|oysters", t) and not re.search(r"chopped|canned|cans?\b|juice|meat", t):
+        return 0.25
+    if key == "crab" and re.search(r"\blive\b|whole", t):
+        return 0.3
+    if key == "shrimp" and re.search(r"shell-on|unpeeled", t):
+        return 0.85
+    if key in ("salmon", "white_fish", "tuna") and re.search(r"\bwhole\b|sardines|gutted", t):
+        return 0.5
+    if key not in ("chicken", "chicken_breast", "turkey", "duck", "pork", "beef", "beef_ribs", "lamb"):
+        return 1.0
+    if _BONELESS.search(t) and not re.search(r"bone-in|with bones?\b|skin and bones", t):
+        return 1.0
+    if re.search(r"\bwings?\b", t):
+        return 0.6
+    if re.search(r"\bshanks?\b|short ribs|spareribs", t):
+        return 0.55
+    if _BONE_WORDS.search(t):
+        return 0.75
+    if key in ("chicken", "turkey") and not re.search(r"breast|thigh|cutlet|tender", t):
+        return 0.7   # visa paukštiena („1 (3 1/2–4-pound) chicken“, „1 (12–14-lb.) turkey“)
+    if key == "turkey" and "whole turkey breast" in t:
+        return 0.8
+    return 1.0
+
+
+# Džiovinti ankštiniai: žinių bazėje virtų verčių eilutė, o 100 g džiovintų ≈ 250 g išvirtų.
+DRIED_LEGUME_YIELD = 2.5
+
+
 def analyse_line(line, kb: KnowledgeBase, category: str):
-    """Viena ingrediento eilutė -> žodynas su atpažinimu, gramais ir maistine verte."""
+    """Viena ingrediento eilutė -> žodynas su atpažinimu, gramais ir maistine verte.
+    grams – perkamas kiekis (kainai ir rodymui); maistinė vertė skaičiuojama nuo suvalgomos dalies."""
     key = kb.match(line)
     row = kb.row(key) if key else None
     grams, has_qty = parse_quantity(line, row)
-    nut = kb.nutrients(key, grams) if key else {"kcal": 0, "protein": 0, "fat": 0, "carbs": 0, "price": 0}
-    return {"line": line, "key": key, "category": category, "grams": grams, "has_qty": has_qty, **nut}
+    if not key:
+        return {"line": line, "key": key, "category": category, "grams": grams, "has_qty": has_qty,
+                "edible": 1.0, "kcal": 0, "protein": 0, "fat": 0, "carbs": 0, "price": 0}
+    edible = edible_factor(line, key)
+    if key in ("beans", "chickpeas", "lentils") and re.search(r"\bdried\b", line, re.I):
+        edible = DRIED_LEGUME_YIELD
+    nut = kb.nutrients(key, grams * edible)
+    nut["price"] = kb.nutrients(key, grams)["price"]
+    return {"line": line, "key": key, "category": category, "grams": grams, "has_qty": has_qty,
+            "edible": edible, **nut}
 
 
 def substitute(item, kb: KnowledgeBase, mode: str):
@@ -400,7 +458,7 @@ def substitute(item, kb: KnowledgeBase, mode: str):
         sub, ratio = GENERIC_SUB[cat], 1.0
     if sub == item["key"]:
         return {**item, "new_key": item["key"], "changed": False}
-    g = item["grams"] * ratio
+    g = item["grams"] * item.get("edible", 1.0) * ratio   # pakaitalo tiek, kiek suvalgoma (be kaulų)
     return {**item, "new_key": sub, "changed": True, "new_grams": g, **{"new_" + k: v for k, v in kb.nutrients(sub, g).items()}}
 
 
@@ -480,11 +538,28 @@ def normalize_lines(lines, kb):
     return out, equipment
 
 
+# Programėlės lygio patikslinimai prieš klasifikavimą. Jie NEkeičia expert_label (juo anotuoti mokymo
+# duomenys ir apskaičiuotos ataskaitos metrikos), tik pašalina receptų tekste rastas klaidingas užuominas.
+_APP_FIXES = [
+    (re.compile(r"(?:seeds?,? and |center |stems?,? )?ribs?(?: and (?:stems?|seeds?))? (?:removed|discarded)", re.I), " "),
+    (re.compile(r"hamburger (?:or [a-z]+ )?(?:buns?|rolls?)", re.I), "buns"),
+    (re.compile(r"shiitake, oyster,", re.I), "shiitake,"),
+    (re.compile(r"quail eggs?", re.I), "eggs"),
+]
+
+
+def _app_clean(line: str) -> str:
+    for rx, rep in _APP_FIXES:
+        line = rx.sub(rep, line)
+    return line
+
+
 def classify_lines(lines, model, thr=HYBRID_THRESHOLD):
     """Grąžina sąrašą (kategorija, tikimybė, šaltinis).
     Jei ekspertinės taisyklės randa gyvūninį produktą – tikima taisyklėmis.
     Jei taisyklės nieko neranda, bet DI modelis ≥ thr tikimybe mato gyvūninį produktą
     (pvz. rašybos klaida „chiken“), naudojamas DI modelio sprendimas."""
+    lines = [_app_clean(str(l)) for l in lines]
     xs = [normalize_for_model(l) for l in lines]
     probs = model.predict_proba(xs)
     classes = list(model.classes_)
