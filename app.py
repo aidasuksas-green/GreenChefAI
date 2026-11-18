@@ -24,10 +24,13 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600&display=swap');
 html, body, [class*="css"], .stMarkdown, .stText { font-family: 'Source Sans 3', 'Segoe UI', Arial, sans-serif; }
 h1, h2, h3, .gc-title { font-family: 'Fraunces', Georgia, serif !important; color: #1F3B2C; }
-.gc-hero { padding: 0.4rem 0 1rem 0; }
+.gc-hero { padding: 0 0 1rem 0; }
+/* mažesnis tuščias tarpas virš logotipo (Streamlit numatytasis ~6rem) */
+.block-container, [data-testid="stMainBlockContainer"] { padding-top: 3rem !important; }
 .gc-title { font-size: 2.8rem !important; font-weight: 700; margin: 0; line-height: 1.1; }
 .gc-title span { color: #2E8B57; }
-.gc-tag { font-size: 1.1rem; color: #4A5A50; max-width: 760px; margin-top: .35rem; }
+.gc-tag { font-size: clamp(.95rem, 1.1vw, 1.1rem); color: #4A5A50; margin-top: .35rem; text-wrap: balance; }
+@media (min-width: 1400px) { .gc-tag { white-space: nowrap; } }  /* šūkis vienoje eilutėje plačiame ekrane */
 .gc-row { display: flex; align-items: center; gap: .6rem; padding: .42rem .7rem; border-radius: 8px;
           margin-bottom: .3rem; background: #F6F8F6; }
 .gc-pill { font-size: .78rem; font-weight: 600; color: #fff; padding: .12rem .55rem; border-radius: 999px;
@@ -45,6 +48,13 @@ h1, h2, h3, .gc-title { font-family: 'Fraunces', Georgia, serif !important; colo
 .gc-table th { text-align: left; color: #4A5A50; font-weight: 600; padding: .4rem .5rem; border-bottom: 2px solid #DDE5DF; }
 .gc-table td { padding: .45rem .5rem; border-bottom: 1px solid #E8EEE9; vertical-align: top; }
 .gc-arrow { color: #9AA3AB; }
+.gc-pick { font-size: 1.75rem; font-weight: 700; color: #1F3B2C; margin: .2rem 0 .3rem 0; line-height: 1.2; }
+.gc-h3 { font-family: 'Fraunces', Georgia, serif; font-size: 1.5rem; font-weight: 600; color: #1F3B2C;
+         margin: 0 0 .6rem 0; padding: 0; line-height: 1.2; }
+.gc-photo { text-align: center; }
+.gc-photo img { width: 274px; max-width: 100%; height: auto; border-radius: 8px; display: block; margin: 0 auto; }
+.gc-photo .gc-h3 { margin-top: .7rem; }
+.gc-photo .gc-orig { font-size: .85rem; color: #6B7A70; margin-top: -.3rem; }
 .gc-warn { background: #FFF4E5; border-radius: 8px; padding: .6rem .9rem; color: #6A4A12; font-size: .92rem; }
 </style>
 """, unsafe_allow_html=True)
@@ -85,10 +95,20 @@ def load_instructions(mtime):
     return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
 
 
+@st.cache_data
+def image_b64(path):
+    import base64
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode("ascii")
+
+
 def instructions_mtime():
     p = os.path.join(g.DATA_DIR, "recipe_instructions.json")
     return os.path.getmtime(p) if os.path.exists(p) else 0.0
 
+
+# receptas, kuris rodomas atidarius programėlę (graži, nenukirpta nuotrauka)
+DEFAULT_RECIPE = "Salmon with Snap Peas, Yellow Peppers, and Dill-Pistachio Pistou"
 
 ENGINE_NAME = {"opus": "OPUS-MT, Helsinki-NLP", "nllb": "NLLB-200, Meta",
                "llm": "Claude, Anthropic"}
@@ -238,8 +258,10 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([f"📖 {t['tab_library']}", f"✍️ {t[
 with tab1:
     titles = sorted(demo["Title"].tolist(), key=lambda x: tr_title(x).lower())
     st.caption(f"{len(titles)} {t['recipe_count']}")
+    st.markdown(f"<div class='gc-pick'>{html.escape(t['pick_recipe'])}</div>", unsafe_allow_html=True)
     title = st.selectbox(t["pick_recipe"], titles, format_func=tr_title, key=f"recipe_{lang}",
-                         index=titles.index("Orrechiette Carbonara") if "Orrechiette Carbonara" in titles else 0)
+                         index=titles.index(DEFAULT_RECIPE) if DEFAULT_RECIPE in titles else 0,
+                         label_visibility="collapsed")
     rec = demo[demo.Title == title].iloc[0]
     lines = json.loads(rec.ingredients)
     cls = g.classify_lines(lines, model)
@@ -247,12 +269,15 @@ with tab1:
 
     c_img, c_ing = st.columns([2, 3])
     with c_img:
+        # nuotrauka tikru dydžiu (274×169 px, ištempta tampa neryški), centruota virš pavadinimo;
+        # viršus sulygiuotas su antrašte „Ingredientai ir jų atpažinimas“ dešiniame stulpelyje
         img = os.path.join(g.BASE_DIR, "images", f"{rec.Image_Name}.jpg")
-        if os.path.exists(img):
-            st.image(img, width="stretch")
-        st.markdown(f"### {tr_title(title)}")
-        if lang != "en":
-            st.caption(f"{t['original_title']}: {title}")
+        img_html = (f"<img src='data:image/jpeg;base64,{image_b64(img)}' alt='{html.escape(tr_title(title))}'>"
+                    if os.path.exists(img) else "")
+        orig_html = (f"<div class='gc-orig'>{html.escape(t['original_title'])}: {html.escape(title)}</div>"
+                     if lang != "en" else "")
+        st.markdown(f"<div class='gc-photo'>{img_html}<div class='gc-h3'>{html.escape(tr_title(title))}</div>"
+                    f"{orig_html}</div>", unsafe_allow_html=True)
         tr_instr = INSTR.get(title, {}).get(lang) if lang != "en" else None
         if tr_instr:
             with st.expander(t["instructions_mt"]):
@@ -265,7 +290,7 @@ with tab1:
             with st.expander(t["instructions"]):
                 st.write(rec.Instructions)
     with c_ing:
-        st.subheader(t["ingredients"])
+        st.markdown(f"<div class='gc-h3'>{html.escape(t['ingredients'])}</div>", unsafe_allow_html=True)
         render_ingredients(items, [s for _, _, s in cls])
     st.markdown("---")
     render_results(items)
