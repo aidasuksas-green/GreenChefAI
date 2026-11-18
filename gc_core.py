@@ -165,9 +165,18 @@ def clean_text(line: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
+_WORDNUM = {"one": "1", "two": "2", "three": "3", "four": "4", "five": "5", "six": "6", "seven": "7",
+            "eight": "8", "nine": "9", "ten": "10", "eleven": "11", "twelve": "12", "half": "1/2"}
+
+
 def parse_quantity(line: str, kb_row=None):
     """Grąžina (gramai, ar_kiekis_nurodytas). Apytikslis skaičiavimas."""
     t = clean_text(line).lower()
+    # skaičiai žodžiais eilutės pradžioje: "One 8- to 9-pound leg", "Four 4-ounce fillets", "One and a half cups"
+    t = re.sub(r"^(\w+) and a half\b", lambda m: f"{_WORDNUM.get(m.group(1), m.group(1))} 1/2", t)
+    if re.match(r"^(" + "|".join(_WORDNUM) + r")\b", t):
+        t = re.sub(r"^(" + "|".join(_WORDNUM) + r")\b", lambda m: _WORDNUM[m.group(1)], t)
+        t = re.sub(r"^(\d+) (\d+/\d+-(?:ounce|oz|pound|lb))", r"\1 (\2)", t)  # "One 1/4-ounce package"
     dens = float(kb_row["density_g_ml"]) if kb_row is not None else 1.0
     piece = float(kb_row["piece_g"]) if kb_row is not None and float(kb_row["piece_g"]) > 0 else 50.0
     # a) metriniai kiekiai: "500 g ..." arba skliausteliuose "(180 g)"
@@ -184,13 +193,34 @@ def parse_quantity(line: str, kb_row=None):
     if m.group(2):
         qty = (qty + _num(m.group(2))) / 2
     rest = m.group(3)
-    # b) "2 (10-ounce) packages ..."
-    m2 = re.match(r"^\(\s*" + NUM + r"[- ]?(ounce|oz|pound|lb|gram|g)\.?\s*\)", rest)
+    # b) pakuotės dydis: "2 (10-ounce) packages", "1 (12–14-lb.) turkey", "1 14.5-ounce can", "1 32 oz box"
+    m2 = re.match(r"^\(?\s*" + NUM + r"(?:\s*(?:[-–]\s*to|[-–]|to)\s*" + NUM + r")?[- ]?(ounces?|oz|pounds?|lbs?|grams?|g)\b\.?\s*\)?",
+                  rest)
     if m2:
-        per = _num(m2.group(1)) * {"ounce": 28.35, "oz": 28.35, "pound": 454, "lb": 454, "gram": 1, "g": 1}[m2.group(2)]
+        size = _num(m2.group(1)) if not m2.group(2) else (_num(m2.group(1)) + _num(m2.group(2))) / 2
+        u = m2.group(3)
+        per = size * (454 if u.startswith(("pound", "lb")) else 28.35 if u.startswith(("ounce", "oz")) else 1)
         return qty * per, True
+    # c) bendras svoris skliausteliuose turi pirmenybę prieš apytikslius vienetus:
+    #    "8 chicken thighs (about 2 1/2 pounds)", "2 bunches broccoli (about 2 pounds)", "cashews (7 oz)"
+    m3 = re.search(r"\((?:about |approximately |)" + NUM + r"\s*(pounds?|lbs?|ounces?|oz)\.?(?: total)?\)", rest)
+    if m3:
+        u = m3.group(2)
+        return _num(m3.group(1)) * (454 if u.startswith(("pound", "lb")) else 28.35), True
     word = re.match(r"^([a-z\-]+)\.?", rest)
     w = word.group(1) if word else ""
+    key = getattr(kb_row, "name", None) if kb_row is not None else None
+    w2 = w
+    if w in SIZE:                      # "1 large head of iceberg lettuce" -> žiūrimas kitas žodis
+        nxt = re.match(r"^[a-z\-]+\s+([a-z]+)", rest)
+        w2 = nxt.group(1) if nxt else w
+    mult0 = SIZE.get(w, 1.0) if w2 != w else 1.0
+    if w2 in ("head", "heads"):        # česnako galva ~50 g, salotų / kopūsto galva ~500 g
+        return qty * mult0 * (50 if "garlic" in t else 500), True
+    if w2 in ("loaf", "loaves"):
+        return qty * mult0 * 400, True
+    if w2 in ("bunch", "bunches") and key == "vegetables":   # lapinių daržovių ryšelis (kale, mangoldas)
+        return qty * mult0 * 250, True
     if w in UNIT_ML:
         return qty * UNIT_ML[w] * dens, True
     if w in UNIT_G:
@@ -199,11 +229,6 @@ def parse_quantity(line: str, kb_row=None):
         return qty * 5, True
     if w in ("slice", "slices"):
         return qty * (piece if piece < 60 else 25), True
-    # c) "8 chicken thighs (about 2 1/2 pounds)" – bendras svoris skliausteliuose
-    m3 = re.search(r"\((?:about |approximately |)" + NUM + r"\s*(pounds?|lbs?|ounces?|oz)\.?(?: total)?\)", rest)
-    if m3:
-        u = m3.group(2)
-        return _num(m3.group(1)) * (454 if u.startswith(("pound", "lb")) else 28.35), True
     mult = SIZE.get(w, 1.0)
     return qty * piece * mult, True
 
@@ -377,6 +402,30 @@ def substitute(item, kb: KnowledgeBase, mode: str):
         return {**item, "new_key": item["key"], "changed": False}
     g = item["grams"] * ratio
     return {**item, "new_key": sub, "changed": True, "new_grams": g, **{"new_" + k: v for k, v in kb.nutrients(sub, g).items()}}
+
+
+# Epicurious rinkinyje porcijų skaičiaus nėra. Kiekvienam receptui jis nustatytas atskirai
+# (data/recipe_servings.csv: iš instrukcijų, pagal ingredientų vienetus arba pagal porcijų normas);
+# BASE_SERVINGS naudojamas tik tada, kai recepto faile nėra.
+BASE_SERVINGS = 4
+SERVINGS_PATH = os.path.join(DATA_DIR, "recipe_servings.csv")
+
+
+def load_servings(path=SERVINGS_PATH):
+    """{pavadinimas: (porcijos, metodas, pagrindimas)}"""
+    if not os.path.exists(path):
+        return {}
+    df = pd.read_csv(path, encoding="utf-8-sig")
+    return {r.title: (int(r.servings), r.method, r.reason) for r in df.itertuples(index=False)}
+
+
+def scale_item(item, factor):
+    """Perskaičiuoja ingrediento kiekį ir maistinę vertę kitam porcijų skaičiui (factor = norimos / bazinės)."""
+    out = dict(item)
+    for k in ("grams", "kcal", "protein", "fat", "carbs", "price"):
+        if k in out and out[k] is not None:
+            out[k] = out[k] * factor
+    return out
 
 
 def totals(items, prefix=""):

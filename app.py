@@ -12,7 +12,7 @@ import pandas as pd
 import streamlit as st
 
 import gc_core as g
-from i18n import LANGS, PRIVACY, T, TEAM
+from i18n import LANGS, PRIVACY, T, TEAM, servings_label
 
 st.set_page_config(page_title="GreenChef AI", page_icon="🌿", layout="wide")
 
@@ -122,6 +122,7 @@ ENGINE_NAME = {"opus": "OPUS-MT, Helsinki-NLP", "nllb": "NLLB-200, Meta",
 
 kb, model, demo, TITLES = load_kb(prices_mtime()), load_model(), load_demo(), load_titles()
 INSTR = load_instructions(instructions_mtime())
+SERVINGS = g.load_servings()
 _names_p = os.path.join(g.DATA_DIR, "ingredient_names.json")
 ING_NAMES = load_ingredient_names(os.path.getmtime(_names_p) if os.path.exists(_names_p) else 0.0)
 
@@ -131,7 +132,11 @@ with st.sidebar:
     t = T[lang]
     st.markdown("---")
     mode = st.radio(t["mode"], ["vegan", "vegetarian"], format_func=lambda m: ("🌱 " if m == "vegan" else "🧀 ") + t[m])
-    servings = st.number_input(t["servings"], min_value=1, max_value=50, value=4, step=1)
+    # numatytasis porcijų skaičius – kiek porcijų skirtas pasirinktas receptas; raktas priklauso nuo recepto,
+    # todėl perjungus receptą reikšmė vėl tampa to recepto porcijų skaičiumi
+    _cur = st.session_state.get(f"recipe_{lang}", DEFAULT_RECIPE)
+    _base = SERVINGS.get(_cur, (g.BASE_SERVINGS,))[0]
+    servings = st.number_input(t["servings"], min_value=1, max_value=50, value=_base, step=1, key=f"servings_{_cur}")
     show_orig = st.toggle(t["show_original"], value=False) if lang != "en" else True
     st.markdown("---")
     st.markdown(f"<div class='gc-warn'>⚠️ {t['disclaimer_short']}</div>", unsafe_allow_html=True)
@@ -199,7 +204,7 @@ def render_ingredients(items, sources):
     st.markdown("".join(rows), unsafe_allow_html=True)
 
 
-def card(col, label, unit, before, after, decimals=0):
+def card(col, label, unit, before, after, decimals=0, extra=""):
     if before > 0:
         d = (after - before) / before * 100
         cls = "gc-delta-down" if d <= 0 else "gc-delta-up"
@@ -208,7 +213,7 @@ def card(col, label, unit, before, after, decimals=0):
         delta = ""
     col.markdown(f"<div class='gc-card'><div class='lbl'>{label} · {t['per_serving']}</div>"
                  f"<div class='big' style='color:{MODE_COLOR[mode]}'>{after:.{decimals}f} {unit}</div>"
-                 f"<div class='old'>{t['before']}: {before:.{decimals}f} {unit} &nbsp; {delta}</div></div>",
+                 f"<div class='old'>{t['before']}: {before:.{decimals}f} {unit} &nbsp; {delta}</div>{extra}</div>",
                  unsafe_allow_html=True)
 
 
@@ -221,7 +226,9 @@ def render_results(items):
     card(c1, t["kcal"], "kcal", before["kcal"], after["kcal"])
     card(c2, t["protein"], "g", before["protein"], after["protein"], 1)
     card(c3, t["fat"], "g", before["fat"], after["fat"], 1)
-    card(c4, t["price"], "€", before["price"], after["price"], 2)
+    total_after = after["price"] * servings
+    card(c4, t["price"], "€", before["price"], after["price"], 2,
+         extra=f"<div class='old'>{t['total_for'].format(n=servings)}: <b>{total_after:.2f} €</b></div>")
     ps = kb.price_summary()
     if ps["live"]:
         src = ", ".join({"barbora": "Barbora.lt", "lastmile": "LastMile.lt"}.get(x, x) for x in ps["sources"]) or "—"
@@ -285,7 +292,10 @@ with tab1:
     rec = demo[demo.Title == title].iloc[0]
     lines, equipment = g.normalize_lines(json.loads(rec.ingredients), kb)
     cls = g.classify_lines(lines, model)
-    items = [g.analyse_line(l, kb, c) for l, (c, _, _) in zip(lines, cls)]
+    # kiekiai perskaičiuojami pasirinktam porcijų skaičiui (originalas – g.BASE_SERVINGS porcijos);
+    # todėl vienos porcijos kalorijos ir kaina nesikeičia, o keičiasi gramai ir bendra kaina
+    base, base_method, base_reason = SERVINGS.get(title, (g.BASE_SERVINGS, "", ""))
+    items = [g.scale_item(g.analyse_line(l, kb, c), servings / base) for l, (c, _, _) in zip(lines, cls)]
 
     c_img, c_ing = st.columns([2, 3])
     with c_img:
@@ -296,7 +306,8 @@ with tab1:
                     if os.path.exists(img) else "")
         orig_html = (f"<div class='gc-orig'>{html.escape(t['original_title'])}: {html.escape(title)}</div>"
                      if lang != "en" else "")
-        st.markdown(f"<div class='gc-photo'>{img_html}<div class='gc-h3'>{html.escape(tr_title(title))}</div>"
+        st.markdown(f"<div class='gc-photo'>{img_html}<div class='gc-h3'>{html.escape(tr_title(title))} "
+                    f"<span style='white-space:nowrap'>({servings_label(base, lang)})</span></div>"
                     f"{orig_html}</div>", unsafe_allow_html=True)
         tr_instr = INSTR.get(title, {}).get(lang) if lang != "en" else None
         if tr_instr:
@@ -311,6 +322,8 @@ with tab1:
                 st.write(rec.Instructions)
     with c_ing:
         st.markdown(f"<div class='gc-h3'>{html.escape(t['ingredients'])}</div>", unsafe_allow_html=True)
+        st.caption(t["qty_for"].format(n=servings, base=base),
+                   help=f"{t['servings_method'].get(base_method, '')}: {base_reason}" if base_reason else None)
         render_ingredients(items, [s for _, _, s in cls])
         if equipment:
             eq = [ING_NAMES.get(e, {}).get(lang, e) if lang != "en" else e for e in equipment]

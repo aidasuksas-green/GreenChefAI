@@ -36,6 +36,9 @@ T = {
         "before": "Originalas",
         "after": "Pritaikytas",
         "per_serving": "1 porcijai",
+        "qty_for": "Kiekiai {n} porc. (originalus receptas: {base} porc.)",
+        "servings_method": {"instrukcijos": "Nurodyta recepto instrukcijose", "ingredientai": "Pagal ingredientų vienetus", "norma": "Įvertinta pagal porcijų normas"},
+        "total_for": "Iš viso {n} porc.",
         "kcal": "Kalorijos",
         "protein": "Baltymai",
         "fat": "Riebalai",
@@ -134,6 +137,9 @@ T = {
         "before": "Original",
         "after": "Adapted",
         "per_serving": "per serving",
+        "qty_for": "Quantities for {n} servings (original recipe: {base} servings)",
+        "servings_method": {"instrukcijos": "Stated in the recipe instructions", "ingredientai": "From the ingredient units", "norma": "Estimated from portion standards"},
+        "total_for": "Total for {n} servings",
         "kcal": "Calories",
         "protein": "Protein",
         "fat": "Fat",
@@ -230,6 +236,9 @@ T = {
         "before": "Original",
         "after": "Angepasst",
         "per_serving": "pro Portion",
+        "qty_for": "Mengen für {n} Portionen (Originalrezept: {base} Portionen)",
+        "servings_method": {"instrukcijos": "Im Rezepttext angegeben", "ingredientai": "Aus den Zutateneinheiten", "norma": "Nach Portionsrichtwerten geschätzt"},
+        "total_for": "Gesamt für {n} Portionen",
         "kcal": "Kalorien",
         "protein": "Eiweiß",
         "fat": "Fett",
@@ -367,5 +376,22 @@ PRIVACY = {
 *Stand: November 2026.*
 """,
 }
+
+def servings_label(n: int, lang: str) -> str:
+    """„8 porcijos“, „1 porcija“, „12 porcijų“ / „4 servings“ / „4 Portionen“ (lietuvių k. linksniai)."""
+    n = int(n)
+    if lang == "lt":
+        if n % 10 == 1 and n % 100 != 11:
+            word = "porcija"
+        elif 2 <= n % 10 <= 9 and not 12 <= n % 100 <= 19:
+            word = "porcijos"
+        else:
+            word = "porcijų"
+    elif lang == "de":
+        word = "Portion" if n == 1 else "Portionen"
+    else:
+        word = "serving" if n == 1 else "servings"
+    return f"{n} {word}"
+
 
 TEAM = ["Indrė Rumšienė", "Andrėja Mickevičiūtė", "Irma Pilkienė", "Greta Sutkė", "Aidas Uksas"]

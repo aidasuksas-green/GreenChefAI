@@ -58,6 +58,33 @@ def test_every_recipe_line_has_lt_and_de_name():
     assert not unmatched, unmatched[:5]
 
 
+def test_every_recipe_has_servings():
+    sv = g.load_servings()
+    demo = pd.read_csv(os.path.join(g.DATA_DIR, "recipes_demo.csv"))
+    assert set(demo.Title) <= set(sv), set(demo.Title) - set(sv)
+    for title, (n, method, reason) in sv.items():
+        assert 1 <= n <= 20 and method in ("instrukcijos", "ingredientai", "norma") and reason, title
+
+
+def test_scaling_keeps_per_serving_constant():
+    it = {"grams": 400.0, "kcal": 800.0, "protein": 40.0, "fat": 20.0, "carbs": 10.0, "price": 4.0}
+    for n in (2, 4, 8):
+        s = g.scale_item(it, n / 4)
+        assert abs(s["kcal"] / n - 200.0) < 1e-9 and abs(s["grams"] - 100.0 * n) < 1e-9
+
+
+def test_quantity_parsing_of_packages_and_heads():
+    def grams(line):
+        k = KB.match(line)
+        return g.parse_quantity(line, KB.row(k) if k else None)[0]
+    assert abs(grams("2 bunches broccoli (about 2 pounds), cut into florets") - 908) < 1
+    assert abs(grams("1 14.5-ounce can diced tomatoes in juice") - 411) < 1
+    assert abs(grams("1 (14-ounces) can diced tomatoes in juice") - 397) < 1
+    assert abs(grams("1 (12–14-lb.) turkey") - 13 * 454) < 1
+    assert grams("1 head garlic, halved crosswise") == 50
+    assert grams("1 large head of iceberg lettuce, cut into 6 wedges") > 400
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:
