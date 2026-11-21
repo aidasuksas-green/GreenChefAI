@@ -181,6 +181,7 @@ Testai (be modelio): `python code/test_translate.py`.
 | `models/` | Apmokytas DI modelis |
 | `PRIVATUMO_POLITIKA.md` | Privatumo politika |
 | `NAUDOJIMOSI_INSTRUKCIJA.md` | Kaip naudotis programėle: skirtukai, porcijos, savo receptas, kainos |
+| `data/my_recipes.json` | Naudotojo išsaugoti receptai („Mano receptai“); kuriamas automatiškai, į GitHub nekeliamas |
 | `paleisti_GreenChef.bat`, `atnaujinti_kainas.bat` | Programėlės paleidimas ir kainų atnaujinimas dukart spustelėjus (Windows) |
 
 ## Pagrindiniai rezultatai

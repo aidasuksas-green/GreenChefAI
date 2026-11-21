@@ -358,6 +358,82 @@ class KnowledgeBase:
                 "carbs": float(r.carbs) * f, "price": float(r.price_eur_kg) * grams / 1000.0}
 
 
+# Tipinė vieno žmogaus porcija gramais („Mano receptas“ siūlo ją pasirinkus ingredientą).
+# Pagrindiniams komponentams – maitinimo įmonių normos (mėsa be kaulo 170–225 g, su kaulu ~340 g,
+# žuvis ~170 g, garnyras 150–250 g, sriuba ar sultinys ~250 ml); kitiems – įprastas kiekis recepte vienam žmogui.
+PORTION_NORM_G = {
+    "chicken_breast": 180, "chicken": 250, "ground_beef": 150, "beef": 180, "beef_ribs": 340, "pork": 180,
+    "pork_belly": 150, "bacon": 30, "sausage": 120, "cured_ham": 30, "lamb": 200, "turkey": 180, "duck": 200,
+    "meat_broth": 250, "gelatin": 3,
+    "salmon": 170, "white_fish": 170, "tuna": 150, "shrimp": 120, "scallops": 120, "mussels": 400, "crab": 100,
+    "anchovy": 10, "fish_sauce": 5, "oyster_sauce": 10, "worcestershire": 5,
+    "milk": 100, "cream": 50, "butter": 10, "parmesan": 15, "cheese": 40, "feta": 40, "ricotta": 60,
+    "cream_cheese": 30, "yogurt": 100, "sour_cream": 50, "buttermilk": 100, "ice_cream": 100,
+    "egg": 50, "egg_yolk": 18, "egg_white": 30, "mayonnaise": 20, "honey": 10,
+    "tofu_firm": 150, "smoked_tofu": 120, "tempeh": 120, "seitan": 150, "lentils": 150, "jackfruit": 150,
+    "plant_sausage": 120, "chickpeas": 120, "king_oyster": 120, "hearts_of_palm": 80, "capers": 5,
+    "soy_sauce": 10, "mushroom_sauce": 30, "veg_broth": 250, "agar": 1, "maple_syrup": 10, "oat_milk": 100,
+    "coconut_cream": 50, "plant_butter": 10, "nutritional_yeast": 8, "vegan_cheese": 40, "cashew_ricotta": 60,
+    "soy_yogurt": 100, "plant_ice_cream": 100, "flax_egg": 50, "aquafaba": 30, "vegan_mayo": 20,
+    "flour": 30, "sugar": 10, "olive_oil": 10, "veg_oil": 10, "salt": 2, "spices": 1, "garlic": 5, "onion": 50,
+    "scallion": 10, "tomato": 100, "tomato_paste": 15, "potato": 200, "vegetables": 150, "fruit": 100,
+    "avocado": 70, "rice": 75, "pasta": 90, "bread": 50, "beans": 120, "nuts": 20, "chocolate": 20,
+    "coconut_milk": 100, "oats": 40, "cornstarch": 5, "vinegar_wine": 15, "condiments": 15, "water": 100,
+}
+_NORM_BY_CATEGORY = {"MEAT": 180, "FISH": 170, "DAIRY": 30, "EGG": 50, "HONEY": 10, "PLANT": 50}
+
+
+def portion_norm(key, category=None):
+    """Tipinė vieno žmogaus porcija gramais."""
+    return PORTION_NORM_G.get(key, _NORM_BY_CATEGORY.get(category, 50))
+
+
+MY_RECIPES_PATH = os.path.join(DATA_DIR, "my_recipes.json")
+
+
+def load_my_recipes(path=MY_RECIPES_PATH):
+    """Vartotojo išsaugoti receptai (ruošiniai): {id: {"name", "base", "items": [[key, grams], ...], "updated"}}.
+    Saugoma tik šiame kompiuteryje (failas į GitHub nekeliamas, žr. .gitignore)."""
+    import json as _json
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = _json.load(f)
+        return data if isinstance(data, dict) else {}
+    except (ValueError, OSError):
+        return {}
+
+
+def save_my_recipe(name, base, items, rid=None, path=MY_RECIPES_PATH):
+    """Išsaugo (arba perrašo, jei nurodytas rid) receptą. items: [(key, grams), ...]. Grąžina recepto id."""
+    import datetime as _dt
+    import json as _json
+    import uuid as _uuid
+    data = load_my_recipes(path)
+    rid = rid if rid in data else _uuid.uuid4().hex[:8]
+    data[rid] = {"name": str(name).strip() or "—", "base": int(base),
+                 "items": [[str(k), float(gr)] for k, gr in items],
+                 "updated": _dt.datetime.now().strftime("%Y-%m-%d %H:%M")}
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        _json.dump(data, f, ensure_ascii=False, indent=1)
+    os.replace(tmp, path)
+    return rid
+
+
+def delete_my_recipe(rid, path=MY_RECIPES_PATH):
+    import json as _json
+    data = load_my_recipes(path)
+    if data.pop(rid, None) is None:
+        return False
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        _json.dump(data, f, ensure_ascii=False, indent=1)
+    os.replace(tmp, path)
+    return True
+
+
 def save_manual_prices(rows, path=MANUAL_PRICES_PATH):
     """rows: [{"key", "price_eur_kg", "note"}]; tuščios kainos neišsaugomos. Data pažymima automatiškai,
     jei kaina pasikeitė (seniems įrašams data išlaikoma)."""

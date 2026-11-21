@@ -67,20 +67,35 @@ medus – ruda, augaliniai produktai – žalia.
 
 ## 4. Mano receptas
 
-Čia galite įvesti savo restorano receptą.
+Čia galite įvesti savo restorano receptą, jį išsaugoti ir vėliau pakoreguoti.
+**Kiekiai visada įvedami vienai porcijai** – taip, kaip šefas galvoja apie porciją.
 
 1. Įrašykite **patiekalo pavadinimą**.
-2. Lentelėje kairėje kiekvienoje eilutėje **pasirinkite ingredientą** iš sąrašo (galima rašyti
-   pavadinimo pradžią) ir **įrašykite kiekį gramais visam receptui**.
-3. **Naują eilutę** pridėsite paspaudę lentelės apačioje esantį „+“. **Eilutę ištrinsite** ją pažymėję
-   (spustelėkite kairėje eilutės pusėje) ir paspaudę klaviatūros *Delete*.
-4. Šoninėje juostoje nustatykite **porcijų skaičių** – keliems žmonėms skirti įvesti kiekiai.
-   Pagal jį apskaičiuojamos vertės vienai porcijai.
-5. Dešinėje iškart matysite, kaip sistema atpažino kiekvieną ingredientą (spalvomis), o žemiau –
+2. **Naują eilutę** pridėsite spustelėję tuščią eilutę lentelės apačioje (arba „+“ virš lentelės) ir
+   pasirinkę **ingredientą** iš sąrašo (galima rašyti pavadinimo pradžią).
+3. Pasirinkus ingredientą, stulpelyje **„Kiekis 1 porcijai, g“** automatiškai įrašomas **tipinis kiekis
+   vienam žmogui** pagal porcijų normas (pvz., mėsa be kaulo 180 g, faršas 150 g, žuvis 170 g, bulvės 200 g,
+   grietinė 50 g, druska 2 g). Jei reikia, kiekį pataisykite.
+4. **Eilutes ištrinsite** pažymėję langelį stulpelyje **„Žymėti“** ir paspaudę **„🗑️ Ištrinti pažymėtas“**.
+5. Šoninės juostos **porcijų skaičius** nurodo, kiek porcijų gaminate. Jį pakeitus dešinėje perskaičiuojami
+   ingredientų gramai ir bendra kaina (pvz., „Kiekiai 10 porc. (įvesta 1 porcijai)“), o kalorijos,
+   baltymai ir kaina **vienai porcijai nesikeičia**.
+6. Dešinėje iškart matysite, kaip sistema atpažino kiekvieną ingredientą (spalvomis), o žemiau –
    tas pačias rezultatų korteles, pakaitalus ir diagramą kaip receptų bibliotekoje.
 
-Įvestas receptas niekur neišsaugomas ir niekur nesiunčiamas – jis matomas tik jūsų naršyklėje,
-kol programėlė atidaryta.
+**Receptų išsaugojimas („Mano receptai“)**
+
+- **„💾 Išsaugoti receptą“** – išsaugo receptą (pavadinimą, ingredientus ir kiekius vienai porcijai).
+  Išsaugoti receptai rodomi skilties apačioje, sąraše **„📒 Mano receptai“** – naujausi viršuje.
+- **„Atidaryti“** – įkelia receptą į lentelę, kur jį galima toliau taisyti. Viršuje tada matyti užrašas
+  „✏️ Redaguojamas išsaugotas receptas“. Pataisę spauskite „Išsaugoti receptą“ – bus atnaujintas tas
+  pats receptas. **„Išsaugoti kaip naują“** išsaugo pataisytą variantą atskirai, originalas lieka.
+- **„➕ Naujas receptas“** – išvalo lentelę naujam receptui.
+- **„Ištrinti“** – ištrina receptą iš sąrašo (programėlė dar kartą paklaus patvirtinimo).
+
+Receptai saugomi tik jūsų kompiuteryje, faile `data/my_recipes.json`, ir niekur nesiunčiami.
+Į GitHub šis failas nekeliamas. Norėdami receptus perkelti į kitą kompiuterį, nukopijuokite šį failą
+į to kompiuterio programėlės aplanką `data`.
 
 ## 5. DI ingredientų tikrintuvas
 

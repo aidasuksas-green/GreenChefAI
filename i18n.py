@@ -62,8 +62,10 @@ T = {
         "mt_note": "🤖 Mašininis vertimas ({engine}). Temperatūros ir matmenys perskaičiuoti į °C ir cm. Galimos netikslios frazės – abejodami žiūrėkite originalą.",
         "show_original_instr": "Rodyti originalą (anglų k.)",
         "compare_chart": "Palyginimas 1 porcijai",
-        "custom_intro": "Įveskite savo restorano receptą: pasirinkite ingredientą ir nurodykite kiekį gramais. Eilutes galite pridėti apačioje.",
+        "custom_intro": "Įveskite savo restorano receptą **vienai porcijai**: pasirinkite ingredientą – kiekis įrašomas pagal tipinę porcijos normą, jį galite pataisyti. Kiek porcijų gaminti, nustatykite kairėje.",
         "custom_name": "Patiekalo pavadinimas",
+        "grams_portion": "Kiekis 1 porcijai, g",
+        "custom_qty_for": "Kiekiai {n} porc. (įvesta 1 porcijai)",
         "custom_default_name": "Kiaulienos kotletai su grietinės padažu",
         "ingredient": "Ingredientas",
         "grams": "Kiekis, g",
@@ -102,7 +104,22 @@ T = {
         "made_by": "Kūrėjai",
         "show_original": "Rodyti originalų ingredientų aprašymą (anglų k.)",
         "original_title": "Originalus pavadinimas",
-        "add_row_hint": "Patarimas: pažymėkite eilutę ir paspauskite Delete, kad ją ištrintumėte.",
+        "add_row_hint": "Naują eilutę pridėsite paspaudę „+“ lentelės apačioje. Norėdami ištrinti, pažymėkite langelį stulpelyje „Žymėti“ ir spauskite „Ištrinti pažymėtas“.",
+        "col_select": "Žymėti",
+        "delete_selected": "🗑️ Ištrinti pažymėtas",
+        "save_recipe": "💾 Išsaugoti receptą",
+        "save_as_new": "Išsaugoti kaip naują",
+        "new_recipe": "➕ Naujas receptas",
+        "recipe_saved": "Receptas „{name}“ išsaugotas.",
+        "recipe_deleted": "Receptas „{name}“ ištrintas.",
+        "my_recipes": "Mano receptai",
+        "my_recipes_empty": "Išsaugotų receptų dar nėra. Sukurkite receptą ir spauskite „Išsaugoti receptą“.",
+        "my_recipes_note": "Receptai saugomi tik šiame kompiuteryje (failas data/my_recipes.json).",
+        "recipe_meta": "{n} ingr. · {d}",
+        "open": "Atidaryti",
+        "delete": "Ištrinti",
+        "editing": "Redaguojamas išsaugotas receptas",
+        "confirm_delete": "Tikrai ištrinti?",
     },
     "en": {
         "tagline": "Turn any dish into a vegan or vegetarian one and instantly see how calories, protein and cost change.",
@@ -163,8 +180,10 @@ T = {
         "mt_note": "🤖 Machine translation ({engine}).",
         "show_original_instr": "Show original",
         "compare_chart": "Comparison per serving",
-        "custom_intro": "Enter your restaurant's recipe: choose an ingredient and give the amount in grams. Add rows at the bottom.",
+        "custom_intro": "Enter your restaurant's recipe **for one serving**: choose an ingredient – the amount is filled in from a typical portion size and you can adjust it. Set how many servings to cook on the left.",
         "custom_name": "Dish name",
+        "grams_portion": "Amount per serving, g",
+        "custom_qty_for": "Quantities for {n} servings (entered per serving)",
         "custom_default_name": "Pork patties with sour cream sauce",
         "ingredient": "Ingredient",
         "grams": "Amount, g",
@@ -201,7 +220,22 @@ T = {
         "made_by": "Created by",
         "show_original": "Show original ingredient text",
         "original_title": "Original title",
-        "add_row_hint": "Tip: select a row and press Delete to remove it.",
+        "add_row_hint": "Add a row with “+” at the bottom of the table. To remove rows, tick them in the “Select” column and press “Delete selected”.",
+        "col_select": "Select",
+        "delete_selected": "🗑️ Delete selected",
+        "save_recipe": "💾 Save recipe",
+        "save_as_new": "Save as new",
+        "new_recipe": "➕ New recipe",
+        "recipe_saved": "Recipe “{name}” saved.",
+        "recipe_deleted": "Recipe “{name}” deleted.",
+        "my_recipes": "My recipes",
+        "my_recipes_empty": "No saved recipes yet. Create a recipe and press “Save recipe”.",
+        "my_recipes_note": "Recipes are stored only on this computer (file data/my_recipes.json).",
+        "recipe_meta": "{n} ingr. · {d}",
+        "open": "Open",
+        "delete": "Delete",
+        "editing": "Editing a saved recipe",
+        "confirm_delete": "Really delete?",
     },
     "de": {
         "tagline": "Verwandeln Sie jedes Gericht in ein veganes oder vegetarisches und sehen Sie sofort, wie sich Kalorien, Eiweiß und Kosten ändern.",
@@ -262,8 +296,10 @@ T = {
         "mt_note": "🤖 Maschinelle Übersetzung ({engine}). Temperaturen und Maße in °C und cm umgerechnet. Formulierungen können ungenau sein – im Zweifel Original prüfen.",
         "show_original_instr": "Original anzeigen (Englisch)",
         "compare_chart": "Vergleich pro Portion",
-        "custom_intro": "Geben Sie Ihr Restaurantrezept ein: Zutat wählen und Menge in Gramm angeben. Zeilen können unten hinzugefügt werden.",
+        "custom_intro": "Geben Sie Ihr Restaurantrezept **für eine Portion** ein: Zutat wählen – die Menge wird nach einer üblichen Portionsgröße vorgeschlagen und kann angepasst werden. Wie viele Portionen gekocht werden, stellen Sie links ein.",
         "custom_name": "Name des Gerichts",
+        "grams_portion": "Menge pro Portion, g",
+        "custom_qty_for": "Mengen für {n} Portionen (pro Portion eingegeben)",
         "custom_default_name": "Schweinefrikadellen mit Sauerrahmsoße",
         "ingredient": "Zutat",
         "grams": "Menge, g",
@@ -301,7 +337,22 @@ T = {
         "made_by": "Entwickelt von",
         "show_original": "Originalen Zutatentext anzeigen (Englisch)",
         "original_title": "Originaltitel",
-        "add_row_hint": "Tipp: Zeile markieren und Entf drücken, um sie zu löschen.",
+        "add_row_hint": "Neue Zeile mit „+“ unten in der Tabelle hinzufügen. Zum Löschen Zeilen in der Spalte „Auswählen“ ankreuzen und „Ausgewählte löschen“ drücken.",
+        "col_select": "Auswählen",
+        "delete_selected": "🗑️ Ausgewählte löschen",
+        "save_recipe": "💾 Rezept speichern",
+        "save_as_new": "Als neues speichern",
+        "new_recipe": "➕ Neues Rezept",
+        "recipe_saved": "Rezept „{name}“ gespeichert.",
+        "recipe_deleted": "Rezept „{name}“ gelöscht.",
+        "my_recipes": "Meine Rezepte",
+        "my_recipes_empty": "Noch keine gespeicherten Rezepte. Erstellen Sie ein Rezept und drücken Sie „Rezept speichern“.",
+        "my_recipes_note": "Rezepte werden nur auf diesem Computer gespeichert (Datei data/my_recipes.json).",
+        "recipe_meta": "{n} Zut. · {d}",
+        "open": "Öffnen",
+        "delete": "Löschen",
+        "editing": "Gespeichertes Rezept wird bearbeitet",
+        "confirm_delete": "Wirklich löschen?",
     },
 }
 
@@ -309,7 +360,7 @@ PRIVACY = {
     "lt": """
 **1. Kas mes esame.** GreenChef AI yra studentų semestro projektas (dirbtinio intelekto kursas). Tai demonstracinė programėlė, o ne komercinė paslauga.
 
-**2. Kokius duomenis tvarkome.** Programėlė **nerenka asmens duomenų**: nėra registracijos, paskyrų, vardų, el. pašto adresų ar vietos duomenų. Įvesti receptai apdorojami tik jūsų kompiuteryje veikiančioje programoje ir niekur nesaugomi bei nesiunčiami.
+**2. Kokius duomenis tvarkome.** Programėlė **nerenka asmens duomenų**: nėra registracijos, paskyrų, vardų, el. pašto adresų ar vietos duomenų. Įvesti receptai apdorojami tik jūsų kompiuteryje veikiančioje programoje ir niekur nesiunčiami. Jei paspaudžiate „Išsaugoti receptą“, receptas išsaugomas tik šiame kompiuteryje (faile data/my_recipes.json); jį galite bet kada ištrinti.
 
 **3. Trečiosios šalys.** Nenaudojame mokamų ar uždarų DI paslaugų (pvz., ChatGPT). DI modelis veikia jūsų kompiuteryje. Duomenys neperduodami trečiosioms šalims ir nenaudojami reklamai.
 
@@ -332,7 +383,7 @@ PRIVACY = {
     "en": """
 **1. Who we are.** GreenChef AI is a student semester project (Artificial Intelligence course). It is a demonstration app, not a commercial service.
 
-**2. What data we process.** The app **does not collect personal data**: no registration, accounts, names, e-mail addresses or location. Recipes you enter are processed only by the program running on your computer and are not stored or sent anywhere.
+**2. What data we process.** The app **does not collect personal data**: no registration, accounts, names, e-mail addresses or location. Recipes you enter are processed only by the program running on your computer and are never sent anywhere. If you press “Save recipe”, the recipe is stored only on this computer (file data/my_recipes.json); you can delete it at any time.
 
 **3. Third parties.** We do not use paid or closed AI services (e.g. ChatGPT). The AI model runs locally. No data is shared with third parties or used for advertising.
 
@@ -355,7 +406,7 @@ PRIVACY = {
     "de": """
 **1. Wer wir sind.** GreenChef AI ist ein studentisches Semesterprojekt (Kurs Künstliche Intelligenz). Es handelt sich um eine Demonstrations-App, nicht um einen kommerziellen Dienst.
 
-**2. Welche Daten wir verarbeiten.** Die App **erhebt keine personenbezogenen Daten**: keine Registrierung, keine Konten, keine Namen, E-Mail-Adressen oder Standortdaten. Eingegebene Rezepte werden nur vom Programm auf Ihrem Computer verarbeitet und weder gespeichert noch übertragen.
+**2. Welche Daten wir verarbeiten.** Die App **erhebt keine personenbezogenen Daten**: keine Registrierung, keine Konten, keine Namen, E-Mail-Adressen oder Standortdaten. Eingegebene Rezepte werden nur vom Programm auf Ihrem Computer verarbeitet und nie übertragen. Wenn Sie „Rezept speichern“ drücken, wird das Rezept nur auf diesem Computer gespeichert (Datei data/my_recipes.json); Sie können es jederzeit löschen.
 
 **3. Dritte.** Wir nutzen keine kostenpflichtigen oder geschlossenen KI-Dienste (z. B. ChatGPT). Das KI-Modell läuft lokal. Es werden keine Daten an Dritte weitergegeben oder für Werbung genutzt.
 

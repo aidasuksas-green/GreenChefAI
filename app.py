@@ -335,37 +335,123 @@ with tab2:
     st.write(t["custom_intro"])
     options = kb.df[f"name_{lang}"].tolist()
     key_by_name = dict(zip(kb.df[f"name_{lang}"], kb.df["key"]))
-    default = [("ground_beef", 500), ("egg", 50), ("onion", 120), ("bread", 60), ("milk", 100),
-               ("sour_cream", 200), ("butter", 30), ("scallion", 15), ("salt", 6), ("spices", 2)]
-    df0 = pd.DataFrame({t["ingredient"]: [kb.name(k, lang) for k, _ in default], t["grams"]: [v for _, v in default]})
+    ss = st.session_state
+    # redaguojamas receptas laikomas raktais (ne pavadinimais), todėl veikia visomis kalbomis;
+    # custom_ver padidinamas, kai receptas pakeičiamas iš kodo (atidarytas, išvalytas) – tada lentelė sukuriama iš naujo
+    # kiekiai visada vienai porcijai; šoninės juostos porcijų skaičius juos tik padaugina
+    ss.setdefault("custom_src", {"name": None,
+                                 "items": [("ground_beef", 150), ("egg", 15), ("onion", 30), ("bread", 15),
+                                           ("milk", 25), ("sour_cream", 50), ("butter", 8), ("scallion", 4),
+                                           ("salt", 2), ("spices", 1)]})
+    ss.setdefault("custom_ver", 0)
+    ss.setdefault("custom_id", None)
+
+    def load_custom(src, rid=None):
+        ss["custom_src"], ss["custom_id"] = src, rid
+        ss["custom_ver"] += 1
+
+    if "custom_msg" in ss:
+        st.success(ss.pop("custom_msg"))
+    src, ver = ss["custom_src"], ss["custom_ver"]
+    sel, ing, grm = t["col_select"], t["ingredient"], t["grams_portion"]
+    items0 = [(k, v) for k, v in src["items"] if k in kb.df.index]
+    df0 = pd.DataFrame({sel: pd.Series([False] * len(items0), dtype=bool),
+                        ing: pd.Series([kb.name(k, lang) for k, _ in items0], dtype=object),
+                        grm: pd.Series([float(v) for _, v in items0], dtype=float)})
     # kompaktiškas išdėstymas: kairėje – įvedimo lentelė, dešinėje – kaip atpažinta (spalvos)
     c_in, c_out = st.columns([1, 1], gap="large")
     with c_in:
-        name = st.text_input(t["custom_name"], t["custom_default_name"])
-        _st = st.session_state.get(f"editor_{lang}", {})
+        if ss["custom_id"]:
+            st.caption(f"✏️ {t['editing']}")
+        name = st.text_input(t["custom_name"], t["custom_default_name"] if src["name"] is None else src["name"],
+                             key=f"custom_name_{lang}_{ver}")
+        ekey = f"editor_{lang}_{ver}"
+        _st = ss.get(ekey, {})
         _rows = len(df0) + len(_st.get("added_rows", [])) - len(_st.get("deleted_rows", []))
         edited = st.data_editor(
-            df0, num_rows="dynamic", width="stretch", hide_index=True, key=f"editor_{lang}",
-            height=(_rows + 2) * 35 + 3,   # visos eilutės matomos be slinkties
-            column_config={t["ingredient"]: st.column_config.SelectboxColumn(options=options, required=True, width=240),
-                           t["grams"]: st.column_config.NumberColumn(min_value=0, max_value=20000, step=5, width=80,
-                                                                    format="%d g")})
+            df0, num_rows="add", width="stretch", hide_index=True, key=ekey,   # trinama tik stulpeliu „Žymėti“
+            height=(max(_rows, 1) + 2) * 35 + 3,   # visos eilutės matomos be slinkties
+            column_config={
+                sel: st.column_config.CheckboxColumn(sel, default=False, width=90, help=t["add_row_hint"]),
+                ing: st.column_config.SelectboxColumn(options=options, required=True, width=190),
+                grm: st.column_config.NumberColumn(min_value=0, max_value=5000, step=1, width=145, format="%d g")})
         st.caption(t["add_row_hint"])
-    citems = []
-    for _, r in edited.dropna().iterrows():
-        k = key_by_name.get(r[t["ingredient"]])
-        if not k:
-            continue
-        gr = float(r[t["grams"]])
-        citems.append({"line": kb.name(k, lang), "custom": True, "key": k, "category": kb.row(k).category, "grams": gr,
-                       "has_qty": True, **kb.nutrients(k, gr)})
+        edited = edited.copy()
+        edited[sel] = edited[sel].fillna(False).astype(bool)
+        # naujai eilutei pasirinkus ingredientą, kiekis užpildomas tipine porcijos norma
+        need = edited[ing].isin(key_by_name) & edited[grm].isna()
+        if need.any():
+            filled = edited[edited[ing].isin(key_by_name)]
+            load_custom({"name": name, "items": [
+                (key_by_name[r[ing]], float(r[grm]) if pd.notna(r[grm]) else
+                 float(g.portion_norm(key_by_name[r[ing]], kb.row(key_by_name[r[ing]]).category)))
+                for _, r in filled.iterrows()]}, ss["custom_id"])
+            st.rerun()
+        rows_ok = edited.dropna(subset=[ing, grm])
+        rows_ok = rows_ok[rows_ok[ing].isin(key_by_name)]
+        cur_items = [(key_by_name[r[ing]], float(r[grm])) for _, r in rows_ok.iterrows()]
+
+        r1, r2 = st.columns(2), st.columns(2)
+        bcols = [r1[0], r2[0], r2[1], r1[1]]   # [ištrinti, išsaugoti, išsaugoti kaip naują, naujas]
+        if bcols[0].button(t["delete_selected"], disabled=not bool(edited[sel].any()), width="stretch",
+                           key=f"del_rows_{ver}"):
+            keep = rows_ok[~rows_ok[sel]]
+            load_custom({"name": name, "items": [(key_by_name[r[ing]], float(r[grm])) for _, r in keep.iterrows()]},
+                        ss["custom_id"])
+            st.rerun()
+        if bcols[1].button(t["save_recipe"], type="primary", disabled=not cur_items, width="stretch",
+                           key=f"save_{ver}"):
+            rid = g.save_my_recipe(name, 1, cur_items, ss["custom_id"])
+            load_custom({"name": name, "items": cur_items}, rid)
+            ss["custom_msg"] = t["recipe_saved"].format(name=name)
+            st.rerun()
+        if ss["custom_id"] and bcols[2].button(t["save_as_new"], disabled=not cur_items, width="stretch",
+                                               key=f"save_new_{ver}"):
+            rid = g.save_my_recipe(name, 1, cur_items)
+            load_custom({"name": name, "items": cur_items}, rid)
+            ss["custom_msg"] = t["recipe_saved"].format(name=name)
+            st.rerun()
+        if bcols[3].button(t["new_recipe"], width="stretch", key=f"new_{ver}"):
+            load_custom({"name": "", "items": []})
+            st.rerun()
+
+    citems = [g.scale_item({"line": kb.name(k, lang), "custom": True, "key": k, "category": kb.row(k).category,
+                            "grams": gr, "has_qty": True, **kb.nutrients(k, gr)}, servings)
+              for k, gr in cur_items]
     with c_out:
         st.markdown(f"<div class='gc-h3'>{html.escape(name)}</div>", unsafe_allow_html=True)
+        st.caption(t["custom_qty_for"].format(n=servings))
         if citems:
             render_ingredients(citems, ["kb"] * len(citems))
     if citems:
         st.markdown("---")
         render_results(citems)
+
+    # --- išsaugoti receptai (ruošiniai) ---
+    st.markdown("---")
+    st.markdown(f"<div class='gc-h3'>📒 {html.escape(t['my_recipes'])}</div>", unsafe_allow_html=True)
+    saved = g.load_my_recipes()
+    if not saved:
+        st.info(t["my_recipes_empty"])
+    else:
+        for rid, r in sorted(saved.items(), key=lambda kv: kv[1].get("updated", ""), reverse=True):
+            a, b, c, d = st.columns([5, 3, 1.3, 1.3], vertical_alignment="center")
+            a.markdown(f"**{html.escape(r.get('name', '—'))}**" + (" ✏️" if rid == ss["custom_id"] else ""))
+            b.caption(t["recipe_meta"].format(n=len(r.get("items", [])), d=r.get("updated", "")))
+            if c.button(t["open"], key=f"open_{rid}", width="stretch"):
+                _b = max(int(r.get("base", 1) or 1), 1)   # seni įrašai galėjo būti visam receptui
+                load_custom({"name": r.get("name", ""), "items": [(k, float(v) / _b) for k, v in r.get("items", [])]},
+                            rid)
+                st.rerun()
+            with d.popover(t["delete"], width="stretch"):
+                st.write(t["confirm_delete"])
+                if st.button(t["delete"], key=f"del_{rid}", type="primary"):
+                    g.delete_my_recipe(rid)
+                    if ss["custom_id"] == rid:
+                        ss["custom_id"] = None
+                    ss["custom_msg"] = t["recipe_deleted"].format(name=r.get("name", ""))
+                    st.rerun()
+        st.caption(t["my_recipes_note"])
 
 with tab3:
     st.write(t["ai_intro"])

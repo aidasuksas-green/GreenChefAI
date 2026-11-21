@@ -111,6 +111,33 @@ def test_kb_energy_is_consistent():
         assert abs(calc - r.kcal) / r.kcal < 0.15, (r.key, r.kcal, calc)
 
 
+def test_my_recipes_save_open_delete():
+    import tempfile
+    path = os.path.join(tempfile.mkdtemp(), "my_recipes.json")
+    assert g.load_my_recipes(path) == {}
+    rid = g.save_my_recipe("Kotletai", 4, [("ground_beef", 500), ("egg", 50)], path=path)
+    r = g.load_my_recipes(path)[rid]
+    assert r["name"] == "Kotletai" and r["base"] == 4 and r["items"] == [["ground_beef", 500.0], ["egg", 50.0]]
+    # perrašymas tuo pačiu id, naujas – kitu id
+    assert g.save_my_recipe("Kotletai v2", 6, [("ground_beef", 750)], rid=rid, path=path) == rid
+    rid2 = g.save_my_recipe("Kitas", 2, [("onion", 100)], path=path)
+    data = g.load_my_recipes(path)
+    assert len(data) == 2 and data[rid]["name"] == "Kotletai v2" and rid2 != rid
+    assert g.delete_my_recipe(rid, path=path) and not g.delete_my_recipe(rid, path=path)
+    assert list(g.load_my_recipes(path)) == [rid2]
+    # sugadintas failas neturi nulaužti programėlės
+    open(path, "w").write("{netinkamas")
+    assert g.load_my_recipes(path) == {}
+
+
+def test_portion_norm_for_every_kb_ingredient():
+    df = pd.read_csv(os.path.join(g.DATA_DIR, "ingredients_kb.csv"))
+    missing = [k for k in df.key if k not in g.PORTION_NORM_G]
+    assert not missing, missing
+    assert 150 <= g.portion_norm("ground_beef") <= 225 and g.portion_norm("salt") <= 5
+    assert g.portion_norm("nezinomas", "MEAT") == 180
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:

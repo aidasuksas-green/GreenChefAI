@@ -2,7 +2,7 @@
 
 **1. Kas mes esame.** GreenChef AI yra studentų semestro projektas (dirbtinio intelekto kursas). Tai demonstracinė programėlė, o ne komercinė paslauga.
 
-**2. Kokius duomenis tvarkome.** Programėlė **nerenka asmens duomenų**: nėra registracijos, paskyrų, vardų, el. pašto adresų ar vietos duomenų. Įvesti receptai apdorojami tik jūsų kompiuteryje veikiančioje programoje ir niekur nesaugomi bei nesiunčiami.
+**2. Kokius duomenis tvarkome.** Programėlė **nerenka asmens duomenų**: nėra registracijos, paskyrų, vardų, el. pašto adresų ar vietos duomenų. Įvesti receptai apdorojami tik jūsų kompiuteryje veikiančioje programoje ir niekur nesiunčiami. Jei paspaudžiate „Išsaugoti receptą“, receptas išsaugomas tik šiame kompiuteryje (faile data/my_recipes.json); jį galite bet kada ištrinti.
 
 **3. Trečiosios šalys.** Nenaudojame mokamų ar uždarų DI paslaugų (pvz., ChatGPT). DI modelis veikia jūsų kompiuteryje. Duomenys neperduodami trečiosioms šalims ir nenaudojami reklamai.
 
@@ -28,7 +28,7 @@
 
 **1. Who we are.** GreenChef AI is a student semester project (Artificial Intelligence course). It is a demonstration app, not a commercial service.
 
-**2. What data we process.** The app **does not collect personal data**: no registration, accounts, names, e-mail addresses or location. Recipes you enter are processed only by the program running on your computer and are not stored or sent anywhere.
+**2. What data we process.** The app **does not collect personal data**: no registration, accounts, names, e-mail addresses or location. Recipes you enter are processed only by the program running on your computer and are never sent anywhere. If you press “Save recipe”, the recipe is stored only on this computer (file data/my_recipes.json); you can delete it at any time.
 
 **3. Third parties.** We do not use paid or closed AI services (e.g. ChatGPT). The AI model runs locally. No data is shared with third parties or used for advertising.
 
@@ -54,7 +54,7 @@
 
 **1. Wer wir sind.** GreenChef AI ist ein studentisches Semesterprojekt (Kurs Künstliche Intelligenz). Es handelt sich um eine Demonstrations-App, nicht um einen kommerziellen Dienst.
 
-**2. Welche Daten wir verarbeiten.** Die App **erhebt keine personenbezogenen Daten**: keine Registrierung, keine Konten, keine Namen, E-Mail-Adressen oder Standortdaten. Eingegebene Rezepte werden nur vom Programm auf Ihrem Computer verarbeitet und weder gespeichert noch übertragen.
+**2. Welche Daten wir verarbeiten.** Die App **erhebt keine personenbezogenen Daten**: keine Registrierung, keine Konten, keine Namen, E-Mail-Adressen oder Standortdaten. Eingegebene Rezepte werden nur vom Programm auf Ihrem Computer verarbeitet und nie übertragen. Wenn Sie „Rezept speichern“ drücken, wird das Rezept nur auf diesem Computer gespeichert (Datei data/my_recipes.json); Sie können es jederzeit löschen.
 
 **3. Dritte.** Wir nutzen keine kostenpflichtigen oder geschlossenen KI-Dienste (z. B. ChatGPT). Das KI-Modell läuft lokal. Es werden keine Daten an Dritte weitergegeben oder für Werbung genutzt.
 

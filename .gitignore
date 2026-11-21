@@ -8,3 +8,4 @@ data/prices_history.csv
 .streamlit/secrets.toml
 *.tmp
 .ipynb_checkpoints/
+data/my_recipes.json
