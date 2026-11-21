@@ -232,11 +232,13 @@ def render_results(items):
     ps = kb.price_summary()
     if ps["live"]:
         src = ", ".join({"barbora": "Barbora.lt", "lastmile": "LastMile.lt"}.get(x, x) for x in ps["sources"]) or "—"
-        cap = t["price_live"].format(live=ps["live"], total=ps["total"], src=src, newest=ps["newest"])
+        man = ps.get("manual", 0)
+        cap = t["price_live"].format(live=ps["live"], total=ps["total"], src=src, newest=ps["newest"],
+                                     manual=man, base=ps["total"] - ps["live"] - man)
     else:
         cap = t["price_static"]
-    if ps.get("manual"):
-        cap += t["price_manual"].format(n=ps["manual"])
+        if ps.get("manual"):
+            cap += t["price_manual"].format(n=ps["manual"])
     st.caption("🏷️ " + cap)
     st.markdown("")
 
