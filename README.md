@@ -10,23 +10,58 @@ Komanda: Indrė Rumšienė, Andrėja Mickevičiūtė, Irma Pilkienė, Greta Sutk
 
 ## Kaip paleisti (žingsnis po žingsnio, programavimo patirties nereikia)
 
-1. **Įdiekite Python 3.11 ar naujesnį** iš https://www.python.org/downloads/ (scikit-learn 1.9.1, su kuriuo išsaugotas modelis, veikia tik su Python 3.11+)
-   (Windows: diegimo lange **būtinai** pažymėkite „Add Python to PATH“).
-2. **Atsisiųskite kodą** iš GitHub: https://github.com/aidasuksas-green/GreenChefAI/archive/refs/heads/main.zip ir išarchyvuokite. Atsiras aplankas `GreenChefAI-main` (jei Windows sukuria dvigubą aplanką, eikite į vidinį, kuriame matosi `app.py`).
-3. **Atidarykite komandų eilutę tame aplanke:**
-   - Windows: aplanke spustelėkite adreso juostą, įrašykite `cmd` ir paspauskite Enter.
-   - Mac: dešinys pelės klavišas ant aplanko → „New Terminal at Folder“.
-4. **Įdiekite bibliotekas** (tik pirmą kartą, užtrunka kelias minutes):
-   ```
-   pip install -r requirements.txt
-   ```
-5. **Paleiskite programėlę:**
-   ```
-   streamlit run app.py
-   ```
-   Naršyklėje automatiškai atsidarys http://localhost:8501 . Norėdami sustabdyti – komandų eilutėje `Ctrl + C`.
+Kaip naudotis jau paleista programėle (skirtukai, porcijos, savo receptas, kainos), aprašyta
+**[NAUDOJIMOSI_INSTRUKCIJA.md](NAUDOJIMOSI_INSTRUKCIJA.md)**.
 
-> DI modelis jau apmokytas (`models/ingredient_classifier.joblib`), todėl 4–5 žingsnių pakanka.
+1. **Atsisiųskite kodą:** https://github.com/aidasuksas-green/GreenChefAI/archive/refs/heads/main.zip →
+   dešinys pelės klavišas → „Extract All“. Atsiras aplankas `GreenChefAI-main`
+   (jei viduje yra dar vienas toks pat aplankas, eikite į jį – reikia to, kuriame matosi `app.py`).
+2. **Patikrinkite Python – reikia 3.11 ar naujesnio** (scikit-learn 1.9.1, su kuriuo išsaugotas modelis,
+   su senesniu Python neįsidiegia). Windows Start meniu parašykite „Anaconda“:
+   - **A. Randa „Anaconda Prompt“** – atidarykite jį ir įrašykite `python --version`.
+     Jei rodo 3.11 ar daugiau, eikite į 3B; jei mažiau – įdiekite Python kaip B punkte.
+   - **B. Neranda** – įdiekite Python iš https://www.python.org/downloads/. Diegimo lango apačioje
+     **būtinai** pažymėkite „Add python.exe to PATH“. Tada eikite į 3A.
+3. **Įdiekite bibliotekas** (tik pirmą kartą, užtrunka 2–5 min.):
+   - **3A. Be Anacondos:** atidarykite aplanką `GreenChefAI-main`, adreso juostoje įrašykite `cmd` ir
+     paspauskite Enter. Juodame lange:
+     ```
+     py -m pip install -r requirements.txt
+     ```
+   - **3B. Su Anaconda:** „Anaconda Prompt“ lange (vietoj `...` įklijuokite aplanko kelią iš adreso juostos,
+     kabutės būtinos):
+     ```
+     cd /d "...\GreenChefAI-main"
+     python -m pip install -r requirements.txt
+     ```
+   - **Mac / Linux:** terminale aplanke `GreenChefAI-main` – `python3 -m pip install -r requirements.txt`.
+4. **Paleiskite programėlę:** dukart spustelėkite **`paleisti_GreenChef.bat`** – jis pats suras Anaconda
+   arba įprastą Python. Programėlė atsidarys naršyklėje adresu http://localhost:8501.
+   - Jei Windows rašo „Windows protected your PC“ – *More info* → *Run anyway*.
+   - Jei pirmą kartą klausia el. pašto – nieko nerašykite, tiesiog Enter.
+   - Juodo lango neuždarykite, kol naudojatės programėle.
+   - Be `.bat` failo (arba Mac / Linux): komandų eilutėje tame aplanke `python -m streamlit run app.py`;
+     sustabdyti – `Ctrl + C`.
+
+   Kitą kartą užteks tik 4 žingsnio.
+5. **Kainos (nebūtina).** Repozitorijoje jau yra parduotuvės kainos (`data/prices_live.csv`). Jos naudojamos
+   14 dienų nuo surinkimo, vėliau – bazinės kainos. Norėdami atnaujinti, dukart spustelėkite
+   **`atnaujinti_kainas.bat`** (≈ 5 min., žr. skyrių „Gyvos kainos iš parduotuvių“).
+
+> DI modelis jau apmokytas (`models/ingredient_classifier.joblib`), todėl mokyti nieko nereikia.
+
+### Jei neveikia
+
+| Pranešimas | Ką daryti |
+|---|---|
+| `'py' is not recognized…` | Vietoj `py` rašykite `python` |
+| `Python was not found; run without arguments to install from the Microsoft Store…` | Naudokite „Anaconda Prompt“ arba įdiekite Python iš python.org (2B) |
+| `No matching distribution found for scikit-learn==1.9.1` | Python per senas – įdiekite 3.11 ar naujesnį |
+| `KLAIDA: nerastas Python su idiegtomis bibliotekomis` (paleidžiant `.bat`) | Dar neįdiegtos bibliotekos – atlikite 3 žingsnį |
+| Naršyklė neatsidaro | Naršyklėje įrašykite `localhost:8501` |
+| Visos kainos rodomos kaip bazinės | Kainos senesnės nei 14 dienų – paleiskite `atnaujinti_kainas.bat` |
+
+Kitais atvejais parašykite mums per [GitHub Issues](https://github.com/aidasuksas-green/GreenChefAI/issues).
 
 ## Kaip pakartoti visą mokymą (nebūtina)
 
@@ -42,11 +77,13 @@ Komanda: Indrė Rumšienė, Andrėja Mickevičiūtė, Irma Pilkienė, Greta Sutk
 
 ## Gyvos kainos iš parduotuvių (nebūtina)
 
-Be šio žingsnio programėlė naudoja bazines kainas iš `ingredients_kb.csv`. Kad kainos būtų
-dabartinės, kartą per dieną paleiskite **`atnaujinti_kainas.bat`** (arba `python code/update_prices.py`).
-Skriptas paima kainas iš **Barbora.lt** (paieška) ir **LastMile.lt** (IKI, PROMO Cash&Carry – konkretūs
-produktai) ir įrašo jas į `data/prices_live.csv`. Programėlė naujas kainas pasiima pati, perkrauti
-jos nereikia. Po kainos kortele rodoma, kiek ingredientų turi gyvą kainą ir kada ji atnaujinta.
+Repozitorijoje jau yra paskutinį kartą surinktos kainos (`data/prices_live.csv`). Jos naudojamos 14 dienų,
+vėliau – bazinės kainos iš `ingredients_kb.csv`. Kad kainos būtų dabartinės, paleiskite
+**`atnaujinti_kainas.bat`** (arba `python code/update_prices.py`) – rankiniu būdu arba kasdien per Windows
+užduočių planuoklį (žr. žemiau). Skriptas paima kainas iš **Barbora.lt** (paieška) ir įrašo jas į
+`data/prices_live.csv`. Programėlė naujas kainas pasiima pati, perkrauti jos nereikia. Po kainos kortele rodoma, kiek ingredientų turi gyvą kainą ir kada ji atnaujinta.
+**LastMile.lt** (IKI, PROMO Cash&Carry – konkretūs produktai) kode palaikomas (`source = lastmile`
+faile `data/price_map.csv`), bet šiuo metu nė vienam ingredientui nenaudojamas.
 
 **Kaip tai veikia ir kodėl saugu:**
 - Programėlė pati į parduotuves nesikreipia: ji skaito tik paruoštą failą, todėl lėta ar
@@ -134,7 +171,7 @@ Testai (be modelio): `python code/test_translate.py`.
 | `code/test_translate.py` | Vertimo testai (be modelio) |
 | `requirements-translate.txt` | Papildomos bibliotekos tik vertimo skriptui |
 | `data/price_map.csv` | Kur ir kaip ieškoti kiekvieno ingrediento kainos |
-| `code/build_kb.py` | Ingredientų žinių bazė (95 ingredientai) – **čia atnaujinamos kainos** |
+| `code/build_kb.py` | Ingredientų žinių bazė (97 ingredientai) – **čia atnaujinamos kainos** |
 | `code/prepare_data.py` | Duomenų valymas, anotavimas, demonstracinių receptų atranka |
 | `code/train_model.py` | Bazinis vs patobulintas modelis, metrikos, atsparumo testai |
 | `code/make_figures.py` | 9 grafikai |
@@ -143,6 +180,8 @@ Testai (be modelio): `python code/test_translate.py`.
 | `images/` | 120 receptų nuotraukų |
 | `models/` | Apmokytas DI modelis |
 | `PRIVATUMO_POLITIKA.md` | Privatumo politika |
+| `NAUDOJIMOSI_INSTRUKCIJA.md` | Kaip naudotis programėle: skirtukai, porcijos, savo receptas, kainos |
+| `paleisti_GreenChef.bat`, `atnaujinti_kainas.bat` | Programėlės paleidimas ir kainų atnaujinimas dukart spustelėjus (Windows) |
 
 ## Pagrindiniai rezultatai
 

@@ -3,7 +3,7 @@ chcp 65001 >nul
 title GreenChef AI - kainu atnaujinimas
 cd /d "%~dp0"
 echo.
-echo  Atnaujinamos ingredientu kainos is Barbora.lt ir LastMile.lt (uztrunka kelias minutes)...
+echo  Atnaujinamos ingredientu kainos is Barbora.lt (uztrunka kelias minutes)...
 echo.
 
 set "ARGS=%*"
